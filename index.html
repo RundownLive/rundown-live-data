@@ -1,3 +1,14 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rundown Live Test</title>
+</head>
+<body>
+
+<h1>Rundown Live Test</h1>
+<div id="feed">Loading feed...</div>
+
 <script>
 fetch('https://rundownlive.github.io/rundown-live-data/feed.json?cache=' + Date.now())
   .then(response => response.json())
@@ -7,6 +18,9 @@ fetch('https://rundownlive.github.io/rundown-live-data/feed.json?cache=' + Date.
     `;
   })
   .catch(error => {
-    document.getElementById('feed').innerHTML = error.message;
+    document.getElementById('feed').innerHTML = 'ERROR: ' + error.message;
   });
 </script>
+
+</body>
+</html>
