@@ -69,7 +69,7 @@
 <div id="feed">Loading feed...</div>
 
 <script>
-fetch('https://rundownlive.github.io/rundown-live-data/feed.json?cache=' + Date.now())
+fetch('./feed.json?cache=' + Date.now())
   .then(response => {
     if (!response.ok) {
       throw new Error('Feed file not found or not loading.');
