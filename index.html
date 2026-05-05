@@ -1,167 +1,385 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <title>Rundown Live</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      margin: 0;
-      padding: 24px;
-      background: #ffffff;
-      color: #111;
-    }
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Rundown Live - TalkLPnews</title>
+<style>
+  :root {
+    --ink: #111;
+    --ink-soft: #555;
+    --line: #e3e0d8;
+    --paper: #fafaf7;
+    --card: #ffffff;
+    --accent: #b91c1c;
+    --bar-bg: #efece4;
 
-    .rundown-wrap {
-      max-width: 1100px;
-      margin: 0 auto;
-    }
+    --m-orc: #1f2a44;
+    --m-armed: #c0392b;
+    --m-smash: #e08e2b;
+    --m-wpv: #7e57c2;
+    --m-officer: #2a8a6a;
+    --m-cargo: #7a4f2c;
+    --m-cyber: #1a6fa6;
+    --m-fraud: #c0398a;
+  }
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; background: var(--paper); color: var(--ink); font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif; }
+  .wrap { max-width: 980px; margin: 0 auto; padding: 24px 18px 60px; }
+  .kicker { font-size: 12px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--accent); font-weight: 700; }
+  h1 { font-family: Georgia, "Times New Roman", serif; font-size: 38px; margin: 4px 0 18px; letter-spacing: -0.01em; }
+  .panel { background: var(--card); border: 1px solid var(--line); padding: 22px 22px 18px; margin-bottom: 22px; }
+  .panel-head { display: flex; align-items: baseline; justify-content: space-between; border-bottom: 1px solid var(--ink); padding-bottom: 10px; margin-bottom: 18px; }
+  .panel-title { font-size: 13px; letter-spacing: 0.2em; text-transform: uppercase; font-weight: 700; }
+  .panel-hint { font-size: 11px; color: var(--ink-soft); letter-spacing: 0.05em; }
 
-    .eyebrow {
-      color: #b30000;
-      font-weight: bold;
-      text-transform: uppercase;
-      letter-spacing: 1px;
-      font-size: 13px;
-      margin-bottom: 8px;
-    }
+  .stats { display: grid; grid-template-columns: repeat(4, 1fr); gap: 10px; margin-bottom: 18px; }
+  .stat { background: var(--bar-bg); padding: 14px 16px; border-radius: 2px; cursor: default; }
+  .stat-label { font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft); }
+  .stat-value { font-family: Georgia, "Times New Roman", serif; font-size: 30px; font-weight: 700; margin-top: 4px; }
 
-    h1 {
-      font-size: 36px;
-      margin: 0 0 18px;
-    }
+  .sort-row { display: flex; align-items: center; gap: 8px; margin-bottom: 14px; }
+  .sort-row .lbl { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft); margin-right: 4px; }
+  .pill { font-size: 12px; padding: 6px 12px; border: 1px solid var(--line); background: white; cursor: pointer; letter-spacing: 0.04em; }
+  .pill.on { background: var(--ink); color: white; border-color: var(--ink); }
 
-    .brief {
-      background: #f5f5f5;
-      border-left: 6px solid #b30000;
-      padding: 22px;
-      margin-bottom: 28px;
-    }
+  .charts { display: grid; grid-template-columns: 1fr 1fr; gap: 24px; }
+  .chart-block .ttl { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 10px; }
+  .row { display: grid; grid-template-columns: 110px 1fr 28px; align-items: center; gap: 8px; margin-bottom: 6px; cursor: pointer; user-select: none; }
+  .row .name { font-size: 13px; color: var(--ink); }
+  .row .count { font-size: 13px; color: var(--ink); text-align: right; }
+  .bar { background: var(--bar-bg); height: 18px; position: relative; overflow: hidden; }
+  .bar .seg { display: inline-block; height: 100%; vertical-align: top; }
+  .row.dim { opacity: 0.35; }
 
-    .brief h2 {
-      margin: 0 0 12px;
-      font-size: 26px;
-    }
+  .legend { display: flex; flex-wrap: wrap; gap: 14px 22px; margin-top: 16px; padding-top: 14px; border-top: 1px solid var(--line); }
+  .legend-item { display: flex; align-items: center; gap: 6px; font-size: 12px; color: var(--ink); }
+  .legend-swatch { width: 12px; height: 12px; display: inline-block; }
 
-    .brief p {
-      font-size: 17px;
-      line-height: 1.55;
-      margin: 0;
-    }
+  .tophits { margin-top: 22px; padding-top: 16px; border-top: 1px solid var(--line); }
+  .tophits-ttl { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft); margin-bottom: 12px; }
+  .hit { display: grid; grid-template-columns: 30px 100px 1fr; align-items: center; gap: 14px; padding: 10px 0; border-bottom: 1px dotted var(--line); }
+  .hit:last-child { border-bottom: 0; }
+  .hit .rank { font-family: Georgia, serif; font-size: 22px; font-weight: 700; color: var(--accent); }
+  .hit .amt { font-family: Georgia, serif; font-size: 16px; font-weight: 700; }
+  .hit .desc { font-size: 13px; color: var(--ink); }
 
-    .callouts {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
-      gap: 14px;
-      margin: 22px 0 32px;
-    }
+  .filterbar { display: flex; align-items: center; gap: 16px; padding: 14px 22px; background: white; border: 1px solid var(--line); margin-bottom: 22px; }
+  .filterbar .lbl { font-size: 11px; letter-spacing: 0.18em; text-transform: uppercase; color: var(--ink-soft); }
+  .filterbar select { font-size: 13px; padding: 6px 10px; border: 1px solid var(--line); background: white; min-width: 130px; }
+  .filterbar .clear { font-size: 11px; letter-spacing: 0.12em; padding: 7px 16px; background: white; border: 1px solid var(--line); cursor: pointer; text-transform: uppercase; }
+  .filterbar .right { margin-left: auto; font-size: 12px; color: var(--ink-soft); }
+  .filterbar .right b { color: var(--ink); font-weight: 700; }
 
-    .callout {
-      border: 1px solid #ddd;
-      padding: 16px;
-      background: #fafafa;
-    }
+  .brief { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--accent); padding: 22px 24px; margin-bottom: 22px; }
+  .brief h2 { font-family: Georgia, serif; font-size: 22px; margin: 0 0 10px; }
+  .brief p { font-size: 14px; line-height: 1.55; color: #222; margin: 0; }
 
-    .callout strong {
-      display: block;
-      margin-bottom: 8px;
-      color: #b30000;
-    }
+  .callouts { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-bottom: 24px; }
+  .callout { background: var(--card); border: 1px solid var(--line); padding: 16px 18px; }
+  .callout .clbl { color: var(--accent); font-weight: 700; font-size: 13px; margin-bottom: 8px; }
+  .callout .ctxt { font-size: 13px; line-height: 1.5; color: #333; }
 
-    .incident {
-      border-bottom: 1px solid #ddd;
-      padding: 22px 0;
-    }
+  .incidents { margin-top: 8px; }
+  .incident { background: var(--card); border-bottom: 1px solid var(--line); padding: 18px 22px; }
+  .incident:first-child { border-top: 1px solid var(--line); }
+  .incident.hidden { display: none; }
+  .tag { display: inline-block; background: var(--ink); color: white; font-size: 10px; letter-spacing: 0.18em; text-transform: uppercase; padding: 4px 9px; font-weight: 700; }
+  .incident h3 { font-family: Georgia, serif; font-size: 19px; margin: 8px 0 4px; line-height: 1.25; }
+  .meta { font-size: 12px; color: var(--ink-soft); margin-bottom: 8px; }
+  .meta .sep { margin: 0 6px; }
+  .summ { font-size: 14px; line-height: 1.5; color: #222; margin-bottom: 10px; }
+  .srcs { font-size: 12px; color: var(--ink-soft); }
+  .srcs a { color: var(--accent); text-decoration: none; margin-right: 12px; }
+  .srcs a:hover { text-decoration: underline; }
 
-    .tag {
-      display: inline-block;
-      background: #111;
-      color: #fff;
-      font-size: 12px;
-      padding: 4px 8px;
-      margin-bottom: 8px;
-      text-transform: uppercase;
-      letter-spacing: .5px;
-    }
+  .foot { margin-top: 28px; font-size: 11px; color: var(--ink-soft); text-align: center; letter-spacing: 0.05em; }
 
-    .incident h3 {
-      margin: 0 0 8px;
-      font-size: 22px;
-      line-height: 1.25;
-    }
-
-    .incident h3 a {
-      color: #111;
-      text-decoration: none;
-    }
-
-    .incident h3 a:hover {
-      text-decoration: underline;
-    }
-
-    .meta {
-      font-size: 14px;
-      color: #666;
-      margin-bottom: 10px;
-    }
-
-    .summary {
-      font-size: 16px;
-      line-height: 1.5;
-    }
-  </style>
+  @media (max-width: 760px) {
+    .charts { grid-template-columns: 1fr; }
+    .stats { grid-template-columns: repeat(2, 1fr); }
+    .callouts { grid-template-columns: 1fr; }
+    h1 { font-size: 30px; }
+    .row { grid-template-columns: 92px 1fr 24px; }
+  }
+</style>
 </head>
-
 <body>
-  <div class="rundown-wrap">
-    <div class="eyebrow">TalkLPnews</div>
-    <h1>Rundown Live</h1>
+<div class="wrap">
 
-    <div id="brief">Loading brief...</div>
-    <div id="callouts"></div>
-    <div id="feed">Loading feed...</div>
+  <div class="kicker">TalkLPnews</div>
+  <h1>Rundown Live</h1>
+
+  <div class="panel" id="dashboard">
+    <div class="panel-head">
+      <div class="panel-title">Activity overview</div>
+      <div class="panel-hint">Click any bar to filter</div>
+    </div>
+
+    <div class="stats">
+      <div class="stat"><div class="stat-label">Incidents</div><div class="stat-value" id="stat-incidents">0</div></div>
+      <div class="stat"><div class="stat-label">Reported impact</div><div class="stat-value" id="stat-impact">$0</div></div>
+      <div class="stat"><div class="stat-label">Methods</div><div class="stat-value" id="stat-methods">0</div></div>
+      <div class="stat"><div class="stat-label">Regions</div><div class="stat-value" id="stat-regions">0</div></div>
+    </div>
+
+    <div class="sort-row">
+      <span class="lbl">Sort by</span>
+      <button class="pill on" id="sort-vol" data-sort="volume">Volume</button>
+      <button class="pill" id="sort-imp" data-sort="impact">$ Impact</button>
+    </div>
+
+    <div class="charts">
+      <div class="chart-block">
+        <div class="ttl">By method</div>
+        <div id="method-rows"></div>
+      </div>
+      <div class="chart-block">
+        <div class="ttl">By region</div>
+        <div id="region-rows"></div>
+      </div>
+    </div>
+
+    <div class="legend" id="legend"></div>
+
+    <div class="tophits">
+      <div class="tophits-ttl">Top hits, 72 hours</div>
+      <div id="tophits"></div>
+    </div>
   </div>
 
+  <div class="filterbar">
+    <span class="lbl">Method</span>
+    <select id="filter-method"><option value="">All</option></select>
+    <span class="lbl">Region</span>
+    <select id="filter-region"><option value="">All</option></select>
+    <button class="clear" id="filter-clear">Clear</button>
+    <span class="right"><b id="visible-count">0</b> incidents</span>
+  </div>
+
+  <div class="brief" id="brief">
+    <h2 id="brief-headline"></h2>
+    <p id="brief-body"></p>
+  </div>
+
+  <div class="callouts" id="callouts"></div>
+
+  <div class="incidents" id="incidents"></div>
+
+  <div class="foot">Pulled from feed.json. Refresh to update.</div>
+</div>
+
 <script>
-fetch('https://rundownlive.github.io/rundown-live-data/feed.json?cache=' + Date.now())
-  .then(response => response.json())
-  .then(data => {
-    const brief = document.getElementById('brief');
-    const callouts = document.getElementById('callouts');
-    const feed = document.getElementById('feed');
+const COLORS = {
+  "ORC": "var(--m-orc)",
+  "Armed Robbery": "var(--m-armed)",
+  "Smash-and-Grab": "var(--m-smash)",
+  "Workplace Violence": "var(--m-wpv)",
+  "Officer-Involved": "var(--m-officer)",
+  "Cargo": "var(--m-cargo)",
+  "Cyber": "var(--m-cyber)",
+  "Fraud": "var(--m-fraud)"
+};
+const METHODS_ORDER = ["ORC","Armed Robbery","Smash-and-Grab","Workplace Violence","Officer-Involved","Cargo","Cyber","Fraud"];
+const REGIONS_ORDER = ["Northeast","Southeast","South","Midwest","West"];
 
-    brief.innerHTML = `
-      <div class="brief">
-        <h2>${data.brief.headline}</h2>
-        <p>${data.brief.body}</p>
-      </div>
-    `;
+const state = { feed: null, sort: "volume", filter: { method: "", region: "" } };
 
-    callouts.className = 'callouts';
-    callouts.innerHTML = data.brief.callouts.map(callout => `
-      <div class="callout">
-        <strong>${callout.label}</strong>
-        <div>${callout.text}</div>
-      </div>
-    `).join('');
+function fmtMoney(n) {
+  if (!n) return "$0";
+  if (n >= 1_000_000) return "$" + (n/1_000_000).toFixed(2).replace(/\.00$/,"") + "M";
+  if (n >= 1_000) return "$" + Math.round(n/1000) + "K";
+  return "$" + n.toLocaleString();
+}
 
-    feed.innerHTML = data.incidents.map(item => {
-      const sourceUrl = item.sources && item.sources.length ? item.sources[0].url : '#';
+async function load() {
+  const res = await fetch("feed.json", { cache: "no-store" });
+  state.feed = await res.json();
+  render();
+}
 
-      return `
-        <div class="incident">
-          <div class="tag">${item.method}</div>
-          <h3><a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${item.headline}</a></h3>
-          <div class="meta">${item.city} | ${item.region} | ${item.date} | ${item.dollar_display || ''}</div>
-          <div class="summary">${item.summary}</div>
-        </div>
-      `;
-    }).join('');
-  })
-  .catch(error => {
-    document.getElementById('feed').innerHTML = 'Error loading Rundown Live feed.';
+function activeIncidents() {
+  return state.feed.incidents.filter(i =>
+    (!state.filter.method || i.method === state.filter.method) &&
+    (!state.filter.region || i.region === state.filter.region)
+  );
+}
+
+function aggregate(incidents, key) {
+  const out = {};
+  incidents.forEach(i => {
+    const k = i[key];
+    if (!out[k]) out[k] = { count: 0, impact: 0, byMethod: {} };
+    out[k].count += 1;
+    out[k].impact += (i.amount || 0);
+    out[k].byMethod[i.method] = (out[k].byMethod[i.method] || 0) + 1;
   });
-</script>
+  return out;
+}
 
+function renderStats(incs) {
+  const total = incs.reduce((s,i) => s + (i.amount||0), 0);
+  const methods = new Set(incs.map(i => i.method));
+  const regions = new Set(incs.map(i => i.region));
+  document.getElementById("stat-incidents").textContent = incs.length;
+  document.getElementById("stat-impact").textContent = fmtMoney(total);
+  document.getElementById("stat-methods").textContent = methods.size;
+  document.getElementById("stat-regions").textContent = regions.size;
+  document.getElementById("visible-count").textContent = incs.length;
+}
+
+function renderMethodRows(allIncs, activeIncs) {
+  const agg = aggregate(allIncs, "method");
+  const max = Math.max(...METHODS_ORDER.map(m => state.sort === "impact" ? (agg[m]?.impact||0) : (agg[m]?.count||0)));
+  const sorted = METHODS_ORDER
+    .filter(m => agg[m])
+    .sort((a,b) => {
+      const av = state.sort === "impact" ? agg[a].impact : agg[a].count;
+      const bv = state.sort === "impact" ? agg[b].impact : agg[b].count;
+      return bv - av;
+    });
+  const host = document.getElementById("method-rows");
+  host.innerHTML = "";
+  sorted.forEach(m => {
+    const v = state.sort === "impact" ? agg[m].impact : agg[m].count;
+    const pct = max > 0 ? (v/max*100) : 0;
+    const dim = state.filter.method && state.filter.method !== m;
+    const display = state.sort === "impact" ? fmtMoney(v) : v;
+    const row = document.createElement("div");
+    row.className = "row" + (dim ? " dim" : "");
+    row.innerHTML = `
+      <div class="name">${m}</div>
+      <div class="bar"><span class="seg" style="width:${pct}%; background:${COLORS[m]}"></span></div>
+      <div class="count">${display}</div>`;
+    row.addEventListener("click", () => {
+      state.filter.method = state.filter.method === m ? "" : m;
+      document.getElementById("filter-method").value = state.filter.method;
+      render();
+    });
+    host.appendChild(row);
+  });
+}
+
+function renderRegionRows(allIncs) {
+  const agg = aggregate(allIncs, "region");
+  const totals = REGIONS_ORDER.map(r => state.sort === "impact" ? (agg[r]?.impact||0) : (agg[r]?.count||0));
+  const max = Math.max(...totals);
+  const sorted = REGIONS_ORDER
+    .filter(r => agg[r])
+    .sort((a,b) => {
+      const av = state.sort === "impact" ? agg[a].impact : agg[a].count;
+      const bv = state.sort === "impact" ? agg[b].impact : agg[b].count;
+      return bv - av;
+    });
+  const host = document.getElementById("region-rows");
+  host.innerHTML = "";
+  sorted.forEach(r => {
+    const total = state.sort === "impact" ? agg[r].impact : agg[r].count;
+    const pct = max > 0 ? (total/max*100) : 0;
+    const dim = state.filter.region && state.filter.region !== r;
+    const segs = METHODS_ORDER
+      .filter(m => agg[r].byMethod[m])
+      .map(m => {
+        const portion = state.sort === "impact" ? 0 : (agg[r].byMethod[m] / total * pct);
+        const w = state.sort === "impact" ? pct : portion;
+        return `<span class="seg" style="width:${w}%; background:${COLORS[m]}" title="${m}: ${agg[r].byMethod[m]}"></span>`;
+      }).join("");
+    const display = state.sort === "impact" ? fmtMoney(total) : total;
+    const segHtml = state.sort === "impact"
+      ? `<span class="seg" style="width:${pct}%; background:#444"></span>`
+      : segs;
+    const row = document.createElement("div");
+    row.className = "row" + (dim ? " dim" : "");
+    row.innerHTML = `
+      <div class="name">${r}</div>
+      <div class="bar">${segHtml}</div>
+      <div class="count">${display}</div>`;
+    row.addEventListener("click", () => {
+      state.filter.region = state.filter.region === r ? "" : r;
+      document.getElementById("filter-region").value = state.filter.region;
+      render();
+    });
+    host.appendChild(row);
+  });
+}
+
+function renderLegend() {
+  const host = document.getElementById("legend");
+  host.innerHTML = METHODS_ORDER.map(m =>
+    `<div class="legend-item"><span class="legend-swatch" style="background:${COLORS[m]}"></span>${m}</div>`
+  ).join("");
+}
+
+function renderTopHits(incs) {
+  const sorted = [...incs].filter(i => i.amount > 0).sort((a,b) => b.amount - a.amount).slice(0,3);
+  const host = document.getElementById("tophits");
+  if (sorted.length === 0) {
+    host.innerHTML = `<div style="font-size:13px; color:var(--ink-soft); padding: 6px 0;">No dollar-tagged incidents in the current view.</div>`;
+    return;
+  }
+  host.innerHTML = sorted.map((i,n) => `
+    <div class="hit">
+      <div class="rank">${n+1}</div>
+      <div class="amt">${fmtMoney(i.amount)}</div>
+      <div class="desc">${i.city} &middot; ${i.retailer}</div>
+    </div>`).join("");
+}
+
+function renderBriefAndCallouts() {
+  const b = state.feed.brief || {};
+  document.getElementById("brief-headline").textContent = b.headline || "";
+  document.getElementById("brief-body").textContent = b.body || "";
+  const host = document.getElementById("callouts");
+  host.innerHTML = (b.callouts || []).map(c =>
+    `<div class="callout"><div class="clbl">${c.label}</div><div class="ctxt">${c.text}</div></div>`
+  ).join("");
+}
+
+function renderIncidents(incs) {
+  const host = document.getElementById("incidents");
+  host.innerHTML = incs.map(i => `
+    <div class="incident">
+      <span class="tag" style="background:${COLORS[i.method]||'var(--ink)'}">${i.method}</span>
+      <h3>${i.headline}</h3>
+      <div class="meta">${i.city}<span class="sep">|</span>${i.region}<span class="sep">|</span>${i.date}${i.dollar_display ? `<span class="sep">|</span>${i.dollar_display}` : ""}</div>
+      <div class="summ">${i.summary}</div>
+      <div class="srcs">${(i.sources||[]).map(s => `<a href="${s.url}" target="_blank" rel="noopener">${s.name}</a>`).join("")}</div>
+    </div>`).join("");
+}
+
+function renderFilters() {
+  const mSel = document.getElementById("filter-method");
+  const rSel = document.getElementById("filter-region");
+  const allMethods = [...new Set(state.feed.incidents.map(i => i.method))];
+  const allRegions = [...new Set(state.feed.incidents.map(i => i.region))];
+  mSel.innerHTML = `<option value="">All</option>` + allMethods.sort().map(m => `<option value="${m}" ${state.filter.method===m?"selected":""}>${m}</option>`).join("");
+  rSel.innerHTML = `<option value="">All</option>` + allRegions.sort().map(r => `<option value="${r}" ${state.filter.region===r?"selected":""}>${r}</option>`).join("");
+}
+
+function render() {
+  const all = state.feed.incidents;
+  const active = activeIncidents();
+  renderStats(active);
+  renderMethodRows(all, active);
+  renderRegionRows(all);
+  renderLegend();
+  renderTopHits(active);
+  renderBriefAndCallouts();
+  renderIncidents(active);
+  renderFilters();
+  document.getElementById("sort-vol").classList.toggle("on", state.sort === "volume");
+  document.getElementById("sort-imp").classList.toggle("on", state.sort === "impact");
+}
+
+document.getElementById("sort-vol").addEventListener("click", () => { state.sort = "volume"; render(); });
+document.getElementById("sort-imp").addEventListener("click", () => { state.sort = "impact"; render(); });
+document.getElementById("filter-method").addEventListener("change", e => { state.filter.method = e.target.value; render(); });
+document.getElementById("filter-region").addEventListener("change", e => { state.filter.region = e.target.value; render(); });
+document.getElementById("filter-clear").addEventListener("click", () => { state.filter = { method: "", region: "" }; render(); });
+
+load().catch(err => {
+  document.getElementById("dashboard").innerHTML = `<div style="padding:30px; color:#a00;">Could not load feed.json: ${err.message}</div>`;
+});
+</script>
 </body>
 </html>

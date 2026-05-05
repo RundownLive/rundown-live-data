@@ -1,8 +1,12 @@
 {
-  "generated_at": "2026-05-05T11:56:14Z",
+  "generated_at": "2026-05-05T19:30:00Z",
+  "window_hours": 72,
+  "schema_version": "2.0",
+  "regions_allowed": ["Northeast", "Southeast", "South", "Midwest", "West"],
+  "methods_allowed": ["ORC", "Armed Robbery", "Smash-and-Grab", "Workplace Violence", "Officer-Involved", "Cargo", "Cyber", "Fraud"],
   "brief": {
     "headline": "When the LP problem moves past the store walls",
-    "body": "Four stories from Sunday and Monday, all pointing the same direction. Walgreens is not closing Chatham over shoplifting numbers. It is making a real estate call about what a store costs to keep open in a high-violence corridor. CHP did not bust the boosters who walked 600K of tools out of Home Depot. They busted the swap meet that bought the goods back. Everest did not ransomware a retailer. They hit the payment processor that thousands of merchants run on. And the Shreveport shooter was not a booster. He was an employee. The store walls are not where the perimeter sits anymore. AP teams who still organize around the four walls are reading from a map that does not match the territory.",
+    "body": "Three days of incidents and the pattern keeps showing up. Walgreens is not closing Chatham over shoplifting numbers. It is making a real estate call about what a store costs to keep open in a high-violence corridor. CHP did not bust the boosters who walked 600K of tools out of Home Depot. They busted the swap meet that bought the goods back. Everest did not ransomware a retailer. They hit the payment processor that thousands of merchants run on. And the Shreveport shooter was not a booster. He was an employee. The store walls are not where the perimeter sits anymore. AP teams who still organize around the four walls are reading from a map that does not match the territory.",
     "callouts": [
       {
         "label": "Closure economics, South Side Chicago",
@@ -29,20 +33,11 @@
       "amount": 0,
       "dollar_display": "Store closure",
       "headline": "Walgreens shutters Chatham store at 86th and Cottage Grove, blames theft and violence",
-      "summary": "Walgreens told CBS Chicago the Chatham location ran significantly higher theft and violent incidents than peers, and it closes June 4. Alderman William Hall is pushing for modifications instead of closure.",
+      "summary": "Walgreens told CBS Chicago the Chatham location ran significantly higher theft and violent incidents than peers, and it closes June 4. Alderman William Hall (6th Ward) is pushing for modifications instead of closure.",
       "sources": [
-        {
-          "name": "CBS Chicago",
-          "url": "https://www.cbsnews.com/chicago/news/walgreens-closing-chatham-store-due-to-violence-theft/"
-        },
-        {
-          "name": "Chicago Sun-Times",
-          "url": "https://chicago.suntimes.com/money/2026/05/04/walgreens-close-chatham-store-theft-violence"
-        },
-        {
-          "name": "Block Club Chicago",
-          "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/"
-        }
+        { "name": "CBS Chicago", "url": "https://www.cbsnews.com/chicago/news/walgreens-closing-chatham-store-due-to-violence-theft/" },
+        { "name": "Chicago Sun-Times", "url": "https://chicago.suntimes.com/money/2026/05/04/walgreens-close-chatham-store-theft-violence" },
+        { "name": "Block Club Chicago", "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/" }
       ]
     },
     {
@@ -53,18 +48,12 @@
       "city": "Los Angeles, CA",
       "retailer": "Home Depot",
       "amount": 600000,
-      "dollar_display": "600K recovered",
-      "headline": "600K Home Depot fencing ring busted at SoCal swap meet",
-      "summary": "California Highway Patrol served warrants on two suspects and recovered 600K in stolen Home Depot tools. The pair bought from boosters and resold through a Los Angeles County swap meet that CHP also shut down.",
+      "dollar_display": "$600K recovered",
+      "headline": "$600K Home Depot fencing ring busted at SoCal swap meet",
+      "summary": "California Highway Patrol's Southern Division ORC Task Force served warrants April 28 on two suspects and recovered $600,000 in stolen Home Depot tools. The pair bought from boosters and resold through a Los Angeles County swap meet that CHP also shut down.",
       "sources": [
-        {
-          "name": "Detroit News",
-          "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/"
-        },
-        {
-          "name": "FOX 11 LA",
-          "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles"
-        }
+        { "name": "Detroit News", "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/" },
+        { "name": "FOX 11 LA", "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles" }
       ]
     },
     {
@@ -77,39 +66,100 @@
       "amount": 0,
       "dollar_display": "",
       "headline": "Everest ransomware crew claims Fiserv, the payment plumbing for US retailers",
-      "summary": "Fiserv was listed on the Everest leak site May 3. The company runs payment processing, merchant acquiring, and core banking software used by retailers and banks across the country.",
+      "summary": "Ransomware.live confirmed Fiserv on the Everest leak site May 3. Fiserv runs payment processing, merchant acquiring, and core banking software used by retailers and banks across the country, with no public timeline yet on data exfiltration or ransom demand.",
       "sources": [
-        {
-          "name": "Ransomware.live",
-          "url": "https://www.ransomware.live/id/RmlzZXJ2QGV2ZXJlc3Q"
-        },
-        {
-          "name": "RedPacket Security",
-          "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"
-        }
+        { "name": "Ransomware.live", "url": "https://www.ransomware.live/id/RmlzZXJ2QGV2ZXJlc3Q" },
+        { "name": "RedPacket Security", "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/" }
       ]
     },
     {
       "id": "2026-05-04-shreveport-consumers-grocery-shooting",
       "date": "May 4, 2026",
       "method": "Workplace Violence",
-      "region": "South",
+      "region": "Southeast",
       "city": "Shreveport, LA",
       "retailer": "Consumers Grocery",
       "amount": 0,
       "dollar_display": "Critically injured",
       "headline": "Shreveport grocery employee charged with attempted murder after shooting customer",
-      "summary": "An employee at Consumers Grocery was arrested after surveillance confirmed he shot a customer inside the store during a dispute. The victim was found across the street with a life-threatening injury.",
+      "summary": "Malik Ahmad Omar, 21, an employee at Consumers Grocery on Hollywood Avenue, was arrested after surveillance confirmed he shot a customer inside the store during a dispute. The victim was found across the street with a life-threatening abdominal gunshot wound.",
       "sources": [
-        {
-          "name": "KSLA",
-          "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/"
-        },
-        {
-          "name": "KTAL",
-          "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/"
-        }
+        { "name": "KSLA", "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/" },
+        { "name": "KTAL", "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/" }
       ]
-    }
-  ]
-}
+    },
+    {
+      "id": "2026-05-02-newark-de-shore-stop-knife-robbery",
+      "date": "May 2, 2026",
+      "method": "Armed Robbery",
+      "region": "Northeast",
+      "city": "Newark, DE",
+      "retailer": "Shore Stop",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Masked knife robbery at Newark Shore Stop in broad daylight",
+      "summary": "A masked suspect with a knife held up the Shore Stop on Old Baltimore Pike in Newark, DE at 8:15 a.m. Saturday and walked out with cash from the register. No injuries. Delaware State Police Troop 2 working it.",
+      "sources": [
+        { "name": "Delaware State Police", "url": "https://dsp.delaware.gov/2026/05/03/state-police-investigating-armed-robbery-at-newark-convenience-store/" },
+        { "name": "First State Update", "url": "https://firststateupdate.com/2026/05/brazen-daytime-robbery-reported-at-newark-store/" }
+      ]
+    },
+    {
+      "id": "2026-05-02-bennington-vt-99-cents-armed-robbery",
+      "date": "May 2, 2026",
+      "method": "Armed Robbery",
+      "region": "Northeast",
+      "city": "Bennington, VT",
+      "retailer": "Beshara's 99 Cents & Up",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Bennington 99 Cents store held up at gunpoint Saturday morning",
+      "summary": "Beshara's 99 Cents & Up Store on Park Street in Bennington, VT was held up at gunpoint at 10:43 a.m. Saturday. Suspect fled on foot toward Pleasant and Valentine. Bennington PD asking for video and tips.",
+      "sources": [
+        { "name": "WCAX", "url": "https://www.wcax.com/2026/05/03/armed-robbery-reported-bennington-store/" },
+        { "name": "Bennington Banner", "url": "https://www.benningtonbanner.com/local-news/bennington-police-investigate-armed-robbery-of-park-street-business/article_0b0f8f41-5d2e-4b4b-a990-7aa052e83e1c.html" }
+      ]
+    },
+    {
+      "id": "2026-05-01-wv-lincoln-county-shell-camera-shot",
+      "date": "May 1, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Lincoln County, WV",
+      "retailer": "Shell c-store",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "West Virginia Shell clerk's surveillance video goes national after shooter fires at counter and at the camera",
+      "summary": "Rebecca Peterson, 42, of Oceana walked into a Lincoln County Shell around 4 a.m. Friday, told the clerk she wanted to rob the store, then fired at the back wall behind him and put another round into the surveillance camera. State troopers stopped her in Kanawha County.",
+      "sources": [
+        { "name": "WCHS-TV", "url": "https://wchstv.com/news/local/woman-in-custody-after-shots-fire-inside-lincoln-county-gas-station-troopers-say" },
+        { "name": "WV MetroNews", "url": "https://wvmetronews.com/2026/05/01/woman-arrested-after-attempted-armed-robbery-shots-fired-at-lincoln-county-convenience-store/" }
+      ]
+    },
+    {
+      "id": "2026-05-01-lagrange-ga-dollar-tree-register-grab",
+      "date": "May 1, 2026",
+      "method": "Smash-and-Grab",
+      "region": "Southeast",
+      "city": "LaGrange, GA",
+      "retailer": "Dollar Tree",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Traffic stop closes LaGrange Dollar Tree register grab inside 24 hours",
+      "summary": "Ricky Pierce snatched cash from a Dollar Tree register on Commerce Avenue around 9:30 p.m. Friday after the clerk opened the drawer for him. LaGrange officers pulled Pierce over Saturday on a plate match from store cameras. He's charged with robbery.",
+      "sources": [
+        { "name": "Atlanta News First", "url": "https://www.atlantanewsfirst.com/2026/05/03/man-charged-robbery-dollar-store-lagrange-police-say/" },
+        { "name": "FOX 5 Atlanta", "url": "https://www.fox5atlanta.com/news/man-caught-after-snatching-cash-from-lagrange-dollar-tree" }
+      ]
+    },
+    {
+      "id": "2026-05-01-chicago-albany-park-dollar-store",
+      "date": "May 1, 2026",
+      "method": "Officer-Involved",
+      "region": "Midwest",
+      "city": "Chicago, IL",
+      "retailer": "Dollar store (Albany Park)",
+      "amount": 0,
+      "dollar_display": "Officer killed",
+      "headline": "Chicago facial recognition tags Albany Park dollar store robber, same crew killed CPD officer four hours later",
+      "summary": "Detectives ran Friday-night surveillance through facial recognition and identified Jeron Tate, 18, as the gunman's accomplice in an armed robbery of an Al
