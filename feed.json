@@ -110,11 +110,11 @@
       "method": "Armed Robbery",
       "region": "Northeast",
       "city": "Bennington, VT",
-      "retailer": "Beshara's 99 Cents & Up",
+      "retailer": "Beshara 99 Cents and Up",
       "amount": 0,
       "dollar_display": "",
       "headline": "Bennington 99 Cents store held up at gunpoint Saturday morning",
-      "summary": "Beshara's 99 Cents & Up Store on Park Street in Bennington, VT was held up at gunpoint at 10:43 a.m. Saturday. Suspect fled on foot toward Pleasant and Valentine. Bennington PD asking for video and tips.",
+      "summary": "Beshara 99 Cents and Up Store on Park Street in Bennington, VT was held up at gunpoint at 10:43 a.m. Saturday. Suspect fled on foot toward Pleasant and Valentine. Bennington PD asking for video and tips.",
       "sources": [
         { "name": "WCAX", "url": "https://www.wcax.com/2026/05/03/armed-robbery-reported-bennington-store/" },
         { "name": "Bennington Banner", "url": "https://www.benningtonbanner.com/local-news/bennington-police-investigate-armed-robbery-of-park-street-business/article_0b0f8f41-5d2e-4b4b-a990-7aa052e83e1c.html" }
@@ -129,7 +129,7 @@
       "retailer": "Shell c-store",
       "amount": 0,
       "dollar_display": "",
-      "headline": "West Virginia Shell clerk's surveillance video goes national after shooter fires at counter and at the camera",
+      "headline": "West Virginia Shell clerk surveillance video goes national after shooter fires at counter and at the camera",
       "summary": "Rebecca Peterson, 42, of Oceana walked into a Lincoln County Shell around 4 a.m. Friday, told the clerk she wanted to rob the store, then fired at the back wall behind him and put another round into the surveillance camera. State troopers stopped her in Kanawha County.",
       "sources": [
         { "name": "WCHS-TV", "url": "https://wchstv.com/news/local/woman-in-custody-after-shots-fire-inside-lincoln-county-gas-station-troopers-say" },
@@ -146,7 +146,7 @@
       "amount": 0,
       "dollar_display": "",
       "headline": "Traffic stop closes LaGrange Dollar Tree register grab inside 24 hours",
-      "summary": "Ricky Pierce snatched cash from a Dollar Tree register on Commerce Avenue around 9:30 p.m. Friday after the clerk opened the drawer for him. LaGrange officers pulled Pierce over Saturday on a plate match from store cameras. He's charged with robbery.",
+      "summary": "Ricky Pierce snatched cash from a Dollar Tree register on Commerce Avenue around 9:30 p.m. Friday after the clerk opened the drawer for him. LaGrange officers pulled Pierce over Saturday on a plate match from store cameras. He is charged with robbery.",
       "sources": [
         { "name": "Atlanta News First", "url": "https://www.atlantanewsfirst.com/2026/05/03/man-charged-robbery-dollar-store-lagrange-police-say/" },
         { "name": "FOX 5 Atlanta", "url": "https://www.fox5atlanta.com/news/man-caught-after-snatching-cash-from-lagrange-dollar-tree" }
@@ -162,4 +162,43 @@
       "amount": 0,
       "dollar_display": "Officer killed",
       "headline": "Chicago facial recognition tags Albany Park dollar store robber, same crew killed CPD officer four hours later",
-      "summary": "Detectives ran Friday-night surveillance through facial recognition and identified Jeron Tate, 18, as the gunman's accomplice in an armed robbery of an Al
+      "summary": "Detectives ran Friday-night surveillance through facial recognition and identified Jeron Tate, 18, as the gunman accomplice in an armed robbery of an Albany Park dollar store. About four hours later, co-defendant Alphanso Talley shot two CPD officers at Swedish Hospital and killed Officer John Bartholomew.",
+      "sources": [
+        { "name": "CWB Chicago", "url": "https://cwbchicago.com/2026/05/facial-recognition-helped-id-cop-killers-robbery-accomplice-prosecutors-say.html" },
+        { "name": "NBC Chicago", "url": "https://www.nbcchicago.com/news/local/suspected-accomplice-of-alleged-cop-killer-arrested-for-part-in-armed-robbery-sources/3930375/" }
+      ]
+    },
+    {
+      "id": "2026-05-01-strongsville-costco-bond-hearing",
+      "date": "May 1, 2026",
+      "method": "Workplace Violence",
+      "region": "Midwest",
+      "city": "Strongsville, OH",
+      "retailer": "Costco",
+      "amount": 0,
+      "dollar_display": "Fatal",
+      "headline": "Strongsville Costco shooter $5M bond stands as self-defense claim heads to grand jury",
+      "summary": "Christian Bryant, 22, of Irving, TX faces a murder charge for shooting Costco employee Randy Corrigan, 61, outside the store entrance after Corrigan tried to block him from carrying a handgun with a 50-round drum magazine into the store. Cuyahoga County Common Pleas kept the $5M bond Friday.",
+      "sources": [
+        { "name": "Cleveland 19", "url": "https://www.cleveland19.com/2026/05/01/texas-man-court-deadly-shooting-strongsville-costco/" },
+        { "name": "WKYC", "url": "https://www.wkyc.com/article/news/local/cuyahoga-county/strongsville-costco-shooting-christian-bryant-randy-corrigan-cuyahoga-county-common-pleas-court/95-972c2a3c-c598-4ab3-8535-27f2e4571a71" }
+      ]
+    },
+    {
+      "id": "2026-04-29-oshkosh-kwik-trip-hobbs-act-sentence",
+      "date": "May 1, 2026",
+      "method": "Armed Robbery",
+      "region": "Midwest",
+      "city": "Oshkosh, WI",
+      "retailer": "Kwik Trip",
+      "amount": 170,
+      "dollar_display": "$170 taken",
+      "headline": "Oshkosh man gets 15 years federal for Highway 41 Kwik Trip armed robbery",
+      "summary": "Lorenzo Wood Jr., 59, of Oshkosh got 15 years federal for a Hobbs Act armed robbery at a Highway 41 Kwik Trip in October 2025. $170 from the register at gunpoint. Felon-in-possession enhancement attached. Sentencing landed Wednesday.",
+      "sources": [
+        { "name": "DOJ EDWI", "url": "https://www.justice.gov/usao-edwi/pr/oshkosh-resident-receives-15-years-federal-prison-kwik-trip-robbery" },
+        { "name": "Wisconsin Law Journal", "url": "https://wislawjournal.com/2026/05/01/oshkosh-man-gets-15-years-for-kwik-trip-armed-robbery/" }
+      ]
+    }
+  ]
+}
