@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Rundown Live</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 20px;
+      background: #fff;
+    }
+    h1 {
+      color: #cc0000;
+    }
+    .item {
+      margin-bottom: 20px;
+      padding-bottom: 10px;
+      border-bottom: 1px solid #ddd;
+    }
+    .title {
+      font-weight: bold;
+      font-size: 18px;
+    }
+    .title a {
+      text-decoration: none;
+      color: black;
+    }
+    .title a:hover {
+      text-decoration: underline;
+    }
+  </style>
+</head>
+<body>
+
+<h1>Rundown Live</h1>
+
+<div id="feed"></div>
+
+<script>
+fetch('feed.json')
+  .then(response => response.json())
+  .then(data => {
+    const container = document.getElementById('feed');
+
+    data.articles.forEach(item => {
+      const div = document.createElement('div');
+      div.className = 'item';
+
+      div.innerHTML = `
+        <div class="title">
+          <a href="${item.url}" target="_blank">${item.title}</a>
+        </div>
+        <div>${item.summary || ''}</div>
+      `;
+
+      container.appendChild(div);
+    });
+  })
+  .catch(error => {
+    document.getElementById('feed').innerHTML = "Error loading feed.";
+  });
+</script>
+
+</body>
+</html>
