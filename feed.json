@@ -1,0 +1,145 @@
+{
+  "generated_at": "2026-05-04T12:30:00Z",
+  "brief": {
+    "headline": "Two test cases for retail AP, plus the weekend pattern nobody added up",
+    "body": "Chicago facial recognition tagged a dollar store armed-robbery accomplice Friday night, and four hours later his co-defendant killed a CPD officer at Swedish Hospital. Same weekend in Cuyahoga County, the Strongsville Costco employee fatality stayed at $5M bond as the defense planted a self-defense claim ahead of the grand jury. And three frontline retail workers across Newark, Bennington, and LaGrange were held at gunpoint or knifepoint inside 36 hours with no wire picking it up. Watch the Strongsville hearing schedule and the IC3 cargo PSA — both reshape policy this week.",
+    "callouts": [
+      { "label": "Facial recognition — Chicago", "text": "Albany Park dollar store match named 18-year-old Jeron Tate; co-defendant killed CPD Officer John Bartholomew four hours later. Illinois lawmakers drafting restrictions are now arguing against the headline." },
+      { "label": "Workplace violence — Cuyahoga County", "text": "Strongsville Costco bond stays at $5M as Bryant's self-defense claim heads to grand jury. Every greeter, receipt-checker, and front-door weapons policy is implicated in this case." },
+      { "label": "Cargo — FBI PSA still rippling", "text": "IC3's April 30 alert on cyber-enabled cargo theft anchored on $725M in U.S./Canada losses in 2025 and a 60% YoY surge. Spoofed brokers and fake load board posts are the new vector." }
+    ]
+  },
+  "incidents": [
+    {
+      "id": "2026-05-01-chicago-albany-park-dollar-store",
+      "date": "May 1, 2026",
+      "method": "Armed Robbery",
+      "region": "Midwest",
+      "city": "Chicago, IL",
+      "retailer": "Dollar store (Albany Park)",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Chicago facial recognition tags Albany Park dollar store robber; same crew shot two CPD officers four hours later",
+      "summary": "Detectives ran Friday-night surveillance through facial recognition and identified Jeron Tate, 18, as the gunman's accomplice in an armed robbery of an Albany Park dollar store. About four hours after the robbery, co-defendant Alphanso Talley shot two CPD officers at Swedish Hospital and killed Officer John Bartholomew. Officers who'd previously arrested Tate confirmed the FR match.",
+      "sources": [
+        { "name": "CWB Chicago", "url": "https://cwbchicago.com/2026/05/facial-recognition-helped-id-cop-killers-robbery-accomplice-prosecutors-say.html" },
+        { "name": "NBC Chicago", "url": "https://www.nbcchicago.com/news/local/suspected-accomplice-of-alleged-cop-killer-arrested-for-part-in-armed-robbery-sources/3930375/" }
+      ]
+    },
+    {
+      "id": "2026-04-25-strongsville-costco-fatal-shooting",
+      "date": "Apr 25, 2026",
+      "method": "Workplace Violence",
+      "region": "Midwest",
+      "city": "Strongsville, OH",
+      "retailer": "Costco",
+      "amount": 0,
+      "dollar_display": "Fatal",
+      "headline": "Strongsville Costco shooter's $5M bond stands as self-defense claim heads to grand jury",
+      "summary": "Christian Bryant, 22, of Irving, TX faces a murder charge for shooting Costco employee Randy Corrigan, 61, outside the store entrance after Corrigan tried to block him from carrying a handgun with a 50-round drum magazine into the store. Cuyahoga County Common Pleas kept the $5M bond Friday. Bryant's defense claims self-defense.",
+      "sources": [
+        { "name": "Cleveland 19", "url": "https://www.cleveland19.com/2026/05/01/texas-man-court-deadly-shooting-strongsville-costco/" },
+        { "name": "WKYC", "url": "https://www.wkyc.com/article/news/local/cuyahoga-county/strongsville-costco-shooting-christian-bryant-randy-corrigan-cuyahoga-county-common-pleas-court/95-972c2a3c-c598-4ab3-8535-27f2e4571a71" },
+        { "name": "Fox 8", "url": "https://fox8.com/news/alleged-shooter-at-strongsville-costco-set-to-face-cuyahoga-county-judge-friday/" }
+      ]
+    },
+    {
+      "id": "2026-05-01-wv-lincoln-county-shell-camera-shot",
+      "date": "May 1, 2026",
+      "method": "Armed Robbery",
+      "region": "South",
+      "city": "Lincoln County, WV",
+      "retailer": "Shell c-store",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "West Virginia Shell clerk's surveillance video goes national after shooter fires at counter and at the camera",
+      "summary": "Rebecca Peterson, 42, of Oceana walked into a Lincoln County Shell around 4 a.m. Friday, told the clerk she wanted to rob the store, then fired at the back wall behind him and put another round into the surveillance camera. State troopers stopped her in Kanawha County. The clip ran on the NY Post Sunday.",
+      "sources": [
+        { "name": "WCHS-TV", "url": "https://wchstv.com/news/local/woman-in-custody-after-shots-fire-inside-lincoln-county-gas-station-troopers-say" },
+        { "name": "WV MetroNews", "url": "https://wvmetronews.com/2026/05/01/woman-arrested-after-attempted-armed-robbery-shots-fired-at-lincoln-county-convenience-store/" },
+        { "name": "NY Post via DNyuz", "url": "https://dnyuz.com/2026/05/03/wild-video-shows-woman-shoot-gun-at-gas-station-clerk-oh-my-god/" }
+      ]
+    },
+    {
+      "id": "2026-05-01-lagrange-ga-dollar-tree-register-grab",
+      "date": "May 1, 2026",
+      "method": "Smash-and-Grab",
+      "region": "South",
+      "city": "LaGrange, GA",
+      "retailer": "Dollar Tree",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Traffic stop closes LaGrange Dollar Tree register grab inside 24 hours",
+      "summary": "Ricky Pierce snatched cash from a Dollar Tree register on Commerce Avenue around 9:30 p.m. Friday after the clerk opened the drawer for him. LaGrange officers pulled Pierce over Saturday on a plate match from store cameras. He's charged with robbery. Store stayed open through the weekend.",
+      "sources": [
+        { "name": "Atlanta News First", "url": "https://www.atlantanewsfirst.com/2026/05/03/man-charged-robbery-dollar-store-lagrange-police-say/" },
+        { "name": "FOX 5 Atlanta", "url": "https://www.fox5atlanta.com/news/man-caught-after-snatching-cash-from-lagrange-dollar-tree" },
+        { "name": "11Alive", "url": "https://www.11alive.com/article/news/crime/man-arrested-for-robbing-dollar-tree-in-lagrange-police-say/85-3fc17661-f3f4-464b-88c4-87103e1e4061" }
+      ]
+    },
+    {
+      "id": "2026-04-29-oshkosh-kwik-trip-hobbs-act-sentence",
+      "date": "Apr 29, 2026",
+      "method": "Armed Robbery",
+      "region": "Midwest",
+      "city": "Oshkosh, WI",
+      "retailer": "Kwik Trip",
+      "amount": 170,
+      "dollar_display": "$170 taken",
+      "headline": "Oshkosh man gets 15 years federal for Highway 41 Kwik Trip armed robbery",
+      "summary": "Lorenzo Wood Jr., 59, of Oshkosh got 15 years federal for a Hobbs Act armed robbery at a Highway 41 Kwik Trip in October 2025 — $170 from the register at gunpoint. Felon-in-possession enhancement attached. Sentencing landed Wednesday and ran in trade and local press through the weekend.",
+      "sources": [
+        { "name": "DOJ EDWI", "url": "https://www.justice.gov/usao-edwi/pr/oshkosh-resident-receives-15-years-federal-prison-kwik-trip-robbery" },
+        { "name": "Wisconsin Law Journal", "url": "https://wislawjournal.com/2026/05/01/oshkosh-man-gets-15-years-for-kwik-trip-armed-robbery/" }
+      ]
+    },
+    {
+      "id": "2026-05-02-newark-de-shore-stop-knife-robbery",
+      "date": "May 2, 2026",
+      "method": "Armed Robbery",
+      "region": "Northeast",
+      "city": "Newark, DE",
+      "retailer": "Shore Stop",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Masked knife robbery at Newark Shore Stop in broad daylight",
+      "summary": "A masked suspect with a knife held up the Shore Stop on Old Baltimore Pike in Newark, DE at 8:15 a.m. Saturday and walked out with cash from the register. No injuries. Delaware State Police Troop 2 working it.",
+      "sources": [
+        { "name": "Delaware State Police", "url": "https://dsp.delaware.gov/2026/05/03/state-police-investigating-armed-robbery-at-newark-convenience-store/" },
+        { "name": "First State Update", "url": "https://firststateupdate.com/2026/05/brazen-daytime-robbery-reported-at-newark-store/" }
+      ]
+    },
+    {
+      "id": "2026-05-02-bennington-vt-99-cents-armed-robbery",
+      "date": "May 2, 2026",
+      "method": "Armed Robbery",
+      "region": "Northeast",
+      "city": "Bennington, VT",
+      "retailer": "Beshara's 99 Cents & Up Store",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Bennington 99 Cents store held up at gunpoint Saturday morning",
+      "summary": "Beshara's 99 Cents & Up Store on Park Street in Bennington, VT was held up at gunpoint at 10:43 a.m. Saturday. Suspect fled on foot toward Pleasant and Valentine. Bennington PD asking for video and tips.",
+      "sources": [
+        { "name": "WCAX", "url": "https://www.wcax.com/2026/05/03/armed-robbery-reported-bennington-store/" },
+        { "name": "Bennington Banner", "url": "https://www.benningtonbanner.com/local-news/bennington-police-investigate-armed-robbery-of-park-street-business/article_0b0f8f41-5d2e-4b4b-a990-7aa052e83e1c.html" }
+      ]
+    },
+    {
+      "id": "2026-04-30-socal-home-depot-orc-fencing",
+      "date": "Apr 30, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Los Angeles County, CA",
+      "retailer": "Home Depot",
+      "amount": 600000,
+      "dollar_display": "$600K stolen tools recovered",
+      "headline": "CHP Southern Division ORC Task Force widens $600K Home Depot fencing case",
+      "summary": "Two suspects bought stolen tools off boosters and ran them through an LA County swap meet. Coverage widened over the weekend after the original April 30 disclosure. Names still not released. Investigation open on the upstream booster network.",
+      "sources": [
+        { "name": "Yahoo News (LA Times)", "url": "https://www.yahoo.com/news/articles/socal-authorities-disrupt-scheme-resell-182335643.html" },
+        { "name": "Rolling Out", "url": "https://rollingout.com/2026/05/03/arrested-after-600k-in-stolen-home-depot/" }
+      ]
+    }
+  ]
+}
