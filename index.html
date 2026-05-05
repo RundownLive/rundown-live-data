@@ -2,23 +2,164 @@
 <html>
 <head>
   <meta charset="UTF-8">
-  <title>Rundown Live Test</title>
-</head>
-<body>
+  <title>Rundown Live</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 24px;
+      background: #ffffff;
+      color: #111;
+    }
 
-<h1>Rundown Live Test</h1>
-<div id="feed">Loading feed...</div>
+    .rundown-wrap {
+      max-width: 1100px;
+      margin: 0 auto;
+    }
+
+    .eyebrow {
+      color: #b30000;
+      font-weight: bold;
+      text-transform: uppercase;
+      letter-spacing: 1px;
+      font-size: 13px;
+      margin-bottom: 8px;
+    }
+
+    h1 {
+      font-size: 36px;
+      margin: 0 0 18px;
+    }
+
+    .brief {
+      background: #f5f5f5;
+      border-left: 6px solid #b30000;
+      padding: 22px;
+      margin-bottom: 28px;
+    }
+
+    .brief h2 {
+      margin: 0 0 12px;
+      font-size: 26px;
+    }
+
+    .brief p {
+      font-size: 17px;
+      line-height: 1.55;
+      margin: 0;
+    }
+
+    .callouts {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+      gap: 14px;
+      margin: 22px 0 32px;
+    }
+
+    .callout {
+      border: 1px solid #ddd;
+      padding: 16px;
+      background: #fafafa;
+    }
+
+    .callout strong {
+      display: block;
+      margin-bottom: 8px;
+      color: #b30000;
+    }
+
+    .incident {
+      border-bottom: 1px solid #ddd;
+      padding: 22px 0;
+    }
+
+    .tag {
+      display: inline-block;
+      background: #111;
+      color: #fff;
+      font-size: 12px;
+      padding: 4px 8px;
+      margin-bottom: 8px;
+      text-transform: uppercase;
+      letter-spacing: .5px;
+    }
+
+    .incident h3 {
+      margin: 0 0 8px;
+      font-size: 22px;
+      line-height: 1.25;
+    }
+
+    .incident h3 a {
+      color: #111;
+      text-decoration: none;
+    }
+
+    .incident h3 a:hover {
+      text-decoration: underline;
+    }
+
+    .meta {
+      font-size: 14px;
+      color: #666;
+      margin-bottom: 10px;
+    }
+
+    .summary {
+      font-size: 16px;
+      line-height: 1.5;
+    }
+  </style>
+</head>
+
+<body>
+  <div class="rundown-wrap">
+    <div class="eyebrow">TalkLPnews</div>
+    <h1>Rundown Live</h1>
+
+    <div id="brief">Loading brief...</div>
+    <div id="callouts"></div>
+    <div id="feed">Loading feed...</div>
+  </div>
 
 <script>
 fetch('https://rundownlive.github.io/rundown-live-data/feed.json?cache=' + Date.now())
   .then(response => response.json())
   .then(data => {
-    document.getElementById('feed').innerHTML = `
-      <pre>${JSON.stringify(data, null, 2)}</pre>
+    const brief = document.getElementById('brief');
+    const callouts = document.getElementById('callouts');
+    const feed = document.getElementById('feed');
+
+    brief.innerHTML = `
+      <div class="brief">
+        <h2>${data.brief.headline}</h2>
+        <p>${data.brief.body}</p>
+      </div>
     `;
+
+    callouts.className = 'callouts';
+    callouts.innerHTML = data.brief.callouts.map(callout => `
+      <div class="callout">
+        <strong>${callout.label}</strong>
+        <div>${callout.text}</div>
+      </div>
+    `).join('');
+
+    feed.innerHTML = data.incidents.map(item => {
+      const sourceUrl = item.sources && item.sources.length ? item.sources[0].url : '#';
+
+      return `
+        <div class="incident">
+          <div class="tag">${item.method}</div>
+          <h3><a href="${sourceUrl}" target="_blank" rel="noopener noreferrer">${item.headline}</a></h3>
+          <div class="meta">${item.city} | ${item.region} | ${item.date} | ${item.dollar_display || ''}</div>
+          <div class="summary">${item.summary}</div>
+        </div>
+      `;
+    }).join('');
   })
   .catch(error => {
-    document.getElementById('feed').innerHTML = 'ERROR: ' + error.message;
+    document.getElementById('feed').innerHTML = 'Error loading Rundown Live feed.';
   });
 </script>
 
