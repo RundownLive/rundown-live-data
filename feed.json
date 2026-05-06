@@ -1,16 +1,41 @@
 {
   "generated_at": "2026-05-06T16:00:00Z",
   "window_hours": 72,
+  "incidents_window_hours": 720,
   "schema_version": "2.0",
-  "regions_allowed": ["Northeast", "Southeast", "South", "Midwest", "West"],
-  "methods_allowed": ["ORC", "Armed Robbery", "Smash-and-Grab", "Workplace Violence", "Officer-Involved", "Cargo", "Cyber", "Fraud"],
+  "regions_allowed": [
+    "Northeast",
+    "Southeast",
+    "South",
+    "Midwest",
+    "West"
+  ],
+  "methods_allowed": [
+    "ORC",
+    "Armed Robbery",
+    "Smash-and-Grab",
+    "Workplace Violence",
+    "Officer-Involved",
+    "Cargo",
+    "Cyber",
+    "Fraud"
+  ],
   "brief": {
     "headline": "When the threat shows up wearing legitimate ID",
     "body": "Three days into May and the pattern keeps showing up. The Carrollton shooter walked into Gwangjang Market for what looked like a normal business meeting and killed two people before the staff knew what they were watching. Highway dropped its Q1 Freight Fraud Index the same morning and told AP teams that about half of cargo theft this quarter came from carriers with legitimate MC numbers and previously clean operating histories. Both stories share the same uncomfortable read. The intruder is not in a ski mask. It is using a real identity, on a real schedule, with a real reason to be where it is. The vetting playbook designed to keep strangers out was not built for that.",
     "callouts": [
-      { "label": "Carrollton, TX retail violence", "text": "A 69-year-old shooter killed two and wounded three at a Korean grocery in K Towne Plaza Tuesday over a business dispute, then drove four miles to a second scene. AP plans built around store-on-customer or customer-on-store do not cover the venue case." },
-      { "label": "Clean-record carrier fraud, National", "text": "Highway Q1 2026 Freight Fraud Index out May 5 says about half of theft incidents tied to carriers with legitimate MC numbers and clean histories. Change-of-ownership fraud up 169.6 percent. The qualified-carrier-list approach is reading from the wrong map." },
-      { "label": "Pleasanton, CA smash crew", "text": "A hammer-and-pepper-spray crew cleaned out two cases at Zales inside Stoneridge Shopping Center at 11:30 a.m. Monday and walked. No arrests, no public count, no public dollar figure. The daylight smash on a Bay Area mall is becoming routine." }
+      {
+        "label": "Carrollton, TX retail violence",
+        "text": "A 69-year-old shooter killed two and wounded three at a Korean grocery in K Towne Plaza Tuesday over a business dispute, then drove four miles to a second scene. AP plans built around store-on-customer or customer-on-store do not cover the venue case."
+      },
+      {
+        "label": "Clean-record carrier fraud, National",
+        "text": "Highway Q1 2026 Freight Fraud Index out May 5 says about half of theft incidents tied to carriers with legitimate MC numbers and clean histories. Change-of-ownership fraud up 169.6 percent. The qualified-carrier-list approach is reading from the wrong map."
+      },
+      {
+        "label": "Pleasanton, CA smash crew",
+        "text": "A hammer-and-pepper-spray crew cleaned out two cases at Zales inside Stoneridge Shopping Center at 11:30 a.m. Monday and walked. No arrests, no public count, no public dollar figure. The daylight smash on a Bay Area mall is becoming routine."
+      }
     ]
   },
   "incidents": [
@@ -26,10 +51,22 @@
       "headline": "Two killed, three wounded in Carrollton Korean grocery shooting; suspect caught at H Mart",
       "summary": "Sung Ho Han, 69, opened fire on business associates at Gwangjang Market in K Towne Plaza on Tuesday morning, then killed a man at an apartment four miles south. Carrollton officers grabbed him on foot at the Old Denton Road H Mart by noon and he confessed to a financial dispute.",
       "sources": [
-        { "name": "WFAA", "url": "https://www.wfaa.com/article/news/crime/carrollton-koreatown-k-town-police-respond-shooting-possible/287-a2bf2ce8-e7bc-4db2-a284-ee59ff19a223" },
-        { "name": "NBC DFW", "url": "https://www.nbcdfw.com/news/local/carrollton-investigation-korean-market/4020555/" },
-        { "name": "CBS Texas", "url": "https://www.cbsnews.com/texas/news/large-police-presence-in-carrollton-after-reports-of-shooting/" },
-        { "name": "Texas Tribune", "url": "https://www.texastribune.org/2026/05/05/texas-carrollton-fatal-shooting-shopping-center/" }
+        {
+          "name": "WFAA",
+          "url": "https://www.wfaa.com/article/news/crime/carrollton-koreatown-k-town-police-respond-shooting-possible/287-a2bf2ce8-e7bc-4db2-a284-ee59ff19a223"
+        },
+        {
+          "name": "NBC DFW",
+          "url": "https://www.nbcdfw.com/news/local/carrollton-investigation-korean-market/4020555/"
+        },
+        {
+          "name": "CBS Texas",
+          "url": "https://www.cbsnews.com/texas/news/large-police-presence-in-carrollton-after-reports-of-shooting/"
+        },
+        {
+          "name": "Texas Tribune",
+          "url": "https://www.texastribune.org/2026/05/05/texas-carrollton-fatal-shooting-shopping-center/"
+        }
       ]
     },
     {
@@ -44,9 +81,18 @@
       "headline": "Hammer-wielding crew cleans out Zales at Pleasanton's Stoneridge mall in broad daylight",
       "summary": "A crew with hammers and pepper spray smashed two cases at Zales inside Stoneridge Shopping Center around 11:30 a.m. Monday and emptied them. Workers and shoppers ran. Pleasanton PD has not said how many were in the crew, what was taken, or whether anyone is in custody.",
       "sources": [
-        { "name": "ABC7 San Francisco", "url": "https://abc7news.com/post/zales-jewelers-robbed-hammers-pepper-spray-smash-grab-stoneridge-shopping-center-pleasanton/19041429/" },
-        { "name": "KRON4", "url": "https://www.kron4.com/news/only-on-kron4-crowd-of-criminals-armed-with-hammers-storm-pleasanton-jewelry-store-in-smash-and-grab-attempt/" },
-        { "name": "Patch Pleasanton", "url": "https://patch.com/california/pleasanton/suspects-use-pepper-spray-during-pleasanton-jewelry-store-robbery" }
+        {
+          "name": "ABC7 San Francisco",
+          "url": "https://abc7news.com/post/zales-jewelers-robbed-hammers-pepper-spray-smash-grab-stoneridge-shopping-center-pleasanton/19041429/"
+        },
+        {
+          "name": "KRON4",
+          "url": "https://www.kron4.com/news/only-on-kron4-crowd-of-criminals-armed-with-hammers-storm-pleasanton-jewelry-store-in-smash-and-grab-attempt/"
+        },
+        {
+          "name": "Patch Pleasanton",
+          "url": "https://patch.com/california/pleasanton/suspects-use-pepper-spray-during-pleasanton-jewelry-store-robbery"
+        }
       ]
     },
     {
@@ -61,7 +107,10 @@
       "headline": "Suspects walked merchandise out of Waipahu Town Center store, then assaulted security",
       "summary": "A man and a woman selected merchandise inside a Waipahu Town Center store at 10:56 a.m. Sunday and walked out without paying. When a security guard confronted them in the parking lot, the male suspect assaulted him and the pair fled east on foot. Honolulu PD released suspect images Tuesday.",
       "sources": [
-        { "name": "Hawaii News Now", "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/" }
+        {
+          "name": "Hawaii News Now",
+          "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/"
+        }
       ]
     },
     {
@@ -76,9 +125,18 @@
       "headline": "Walgreens shutters Chatham store at 86th and Cottage Grove, blames theft and violence",
       "summary": "Walgreens told CBS Chicago the Chatham location ran significantly higher theft and violent incidents than peers, and it closes June 4. Alderman William Hall (6th Ward) is pushing for modifications instead of closure.",
       "sources": [
-        { "name": "CBS Chicago", "url": "https://www.cbsnews.com/chicago/news/walgreens-closing-chatham-store-due-to-violence-theft/" },
-        { "name": "Chicago Sun-Times", "url": "https://chicago.suntimes.com/money/2026/05/04/walgreens-close-chatham-store-theft-violence" },
-        { "name": "Block Club Chicago", "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/" }
+        {
+          "name": "CBS Chicago",
+          "url": "https://www.cbsnews.com/chicago/news/walgreens-closing-chatham-store-due-to-violence-theft/"
+        },
+        {
+          "name": "Chicago Sun-Times",
+          "url": "https://chicago.suntimes.com/money/2026/05/04/walgreens-close-chatham-store-theft-violence"
+        },
+        {
+          "name": "Block Club Chicago",
+          "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/"
+        }
       ]
     },
     {
@@ -93,8 +151,14 @@
       "headline": "$600K Home Depot fencing ring busted at SoCal swap meet",
       "summary": "California Highway Patrol's Southern Division ORC Task Force served warrants April 28 on two suspects and recovered $600,000 in stolen Home Depot tools. The pair bought from boosters and resold through a Los Angeles County swap meet that CHP also shut down.",
       "sources": [
-        { "name": "Detroit News", "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/" },
-        { "name": "FOX 11 LA", "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles" }
+        {
+          "name": "Detroit News",
+          "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/"
+        },
+        {
+          "name": "FOX 11 LA",
+          "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles"
+        }
       ]
     },
     {
@@ -109,8 +173,14 @@
       "headline": "Everest ransomware crew claims Fiserv, the payment plumbing for US retailers",
       "summary": "Ransomware.live confirmed Fiserv on the Everest leak site May 3. Fiserv runs payment processing, merchant acquiring, and core banking software used by retailers and banks across the country, with no public timeline yet on data exfiltration or ransom demand.",
       "sources": [
-        { "name": "Ransomware.live", "url": "https://www.ransomware.live/id/RmlzZXJ2QGV2ZXJlc3Q" },
-        { "name": "RedPacket Security", "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/" }
+        {
+          "name": "Ransomware.live",
+          "url": "https://www.ransomware.live/id/RmlzZXJ2QGV2ZXJlc3Q"
+        },
+        {
+          "name": "RedPacket Security",
+          "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"
+        }
       ]
     },
     {
@@ -125,8 +195,14 @@
       "headline": "Shreveport grocery employee charged with attempted murder after shooting customer",
       "summary": "Malik Ahmad Omar, 21, an employee at Consumers Grocery on Hollywood Avenue, was arrested after surveillance confirmed he shot a customer inside the store during a dispute. The victim was found across the street with a life-threatening abdominal gunshot wound.",
       "sources": [
-        { "name": "KSLA", "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/" },
-        { "name": "KTAL", "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/" }
+        {
+          "name": "KSLA",
+          "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/"
+        },
+        {
+          "name": "KTAL",
+          "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/"
+        }
       ]
     }
   ]

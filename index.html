@@ -112,7 +112,7 @@
 
   <div class="panel" id="dashboard">
     <div class="panel-head">
-      <div class="panel-title">Activity overview</div>
+      <div class="panel-title">Activity overview <span style="color:var(--ink-soft); font-weight:400; letter-spacing:0.05em; text-transform:none;">— last 72 hours</span></div>
       <div class="panel-hint">Click any bar to filter</div>
     </div>
 
@@ -164,6 +164,10 @@
 
   <div class="callouts" id="callouts"></div>
 
+  <div class="panel-head" style="margin-bottom:0; border-bottom:1px solid var(--ink); padding-bottom:10px;">
+    <div class="panel-title">Stories <span style="color:var(--ink-soft); font-weight:400; letter-spacing:0.05em; text-transform:none;">— last 30 days</span></div>
+    <div class="panel-hint">Use filters above to narrow</div>
+  </div>
   <div class="incidents" id="incidents"></div>
 
   <div class="foot">Pulled from feed.json. Refresh to update.</div>
@@ -198,8 +202,18 @@ async function load() {
   render();
 }
 
-function activeIncidents() {
-  return state.feed.incidents.filter(i =>
+function withinHours(incs, hours) {
+  if (!hours) return incs;
+  const cutoff = Date.now() - hours * 3600 * 1000;
+  return incs.filter(i => {
+    // Treat YYYY-MM-DD style date as end of day so a story dated 3 days ago still falls inside the 72h window.
+    const t = Date.parse(i.date + " 23:59:59");
+    return !isNaN(t) && t >= cutoff;
+  });
+}
+
+function applyUserFilter(incs) {
+  return incs.filter(i =>
     (!state.filter.method || i.method === state.filter.method) &&
     (!state.filter.region || i.region === state.filter.region)
   );
@@ -217,15 +231,16 @@ function aggregate(incidents, key) {
   return out;
 }
 
-function renderStats(incs) {
-  const total = incs.reduce((s,i) => s + (i.amount||0), 0);
-  const methods = new Set(incs.map(i => i.method));
-  const regions = new Set(incs.map(i => i.region));
-  document.getElementById("stat-incidents").textContent = incs.length;
+function renderStats(recentIncs, allIncs) {
+  const total = recentIncs.reduce((s,i) => s + (i.amount||0), 0);
+  const methods = new Set(recentIncs.map(i => i.method));
+  const regions = new Set(recentIncs.map(i => i.region));
+  document.getElementById("stat-incidents").textContent = recentIncs.length;
   document.getElementById("stat-impact").textContent = fmtMoney(total);
   document.getElementById("stat-methods").textContent = methods.size;
   document.getElementById("stat-regions").textContent = regions.size;
-  document.getElementById("visible-count").textContent = incs.length;
+  // Filter-bar count reflects the longer-window list at the bottom of the page.
+  document.getElementById("visible-count").textContent = (allIncs || recentIncs).length;
 }
 
 function renderMethodRows(allIncs, activeIncs) {
@@ -357,15 +372,19 @@ function renderFilters() {
 }
 
 function render() {
-  const all = state.feed.incidents;
-  const active = activeIncidents();
-  renderStats(active);
-  renderMethodRows(all, active);
-  renderRegionRows(all);
+  const allIncs = state.feed.incidents || [];
+  const recentHours = state.feed.window_hours || 72;
+  const recent = withinHours(allIncs, recentHours);
+  const recentActive = applyUserFilter(recent);
+  const allActive = applyUserFilter(allIncs);
+
+  renderStats(recentActive, allActive);
+  renderMethodRows(recent, recentActive);
+  renderRegionRows(recent);
   renderLegend();
-  renderTopHits(active);
+  renderTopHits(recentActive);
   renderBriefAndCallouts();
-  renderIncidents(active);
+  renderIncidents(allActive);
   renderFilters();
   document.getElementById("sort-vol").classList.toggle("on", state.sort === "volume");
   document.getElementById("sort-imp").classList.toggle("on", state.sort === "impact");
