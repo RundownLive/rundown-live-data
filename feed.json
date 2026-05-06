@@ -1,28 +1,69 @@
 {
-  "generated_at": "2026-05-05T19:30:00Z",
+  "generated_at": "2026-05-06T16:00:00Z",
   "window_hours": 72,
   "schema_version": "2.0",
   "regions_allowed": ["Northeast", "Southeast", "South", "Midwest", "West"],
   "methods_allowed": ["ORC", "Armed Robbery", "Smash-and-Grab", "Workplace Violence", "Officer-Involved", "Cargo", "Cyber", "Fraud"],
   "brief": {
-    "headline": "When the LP problem moves past the store walls",
-    "body": "Three days of incidents and the pattern keeps showing up. Walgreens is not closing Chatham over shoplifting numbers. It is making a real estate call about what a store costs to keep open in a high-violence corridor. CHP did not bust the boosters who walked 600K of tools out of Home Depot. They busted the swap meet that bought the goods back. Everest did not ransomware a retailer. They hit the payment processor that thousands of merchants run on. And the Shreveport shooter was not a booster. He was an employee. The store walls are not where the perimeter sits anymore. AP teams who still organize around the four walls are reading from a map that does not match the territory.",
+    "headline": "When the threat shows up wearing legitimate ID",
+    "body": "Three days into May and the pattern keeps showing up. The Carrollton shooter walked into Gwangjang Market for what looked like a normal business meeting and killed two people before the staff knew what they were watching. Highway dropped its Q1 Freight Fraud Index the same morning and told AP teams that about half of cargo theft this quarter came from carriers with legitimate MC numbers and previously clean operating histories. Both stories share the same uncomfortable read. The intruder is not in a ski mask. It is using a real identity, on a real schedule, with a real reason to be where it is. The vetting playbook designed to keep strangers out was not built for that.",
     "callouts": [
-      {
-        "label": "Closure economics, South Side Chicago",
-        "text": "Walgreens is shutting a decades-old Chatham pharmacy June 4. The Alderman wants modifications, not exit. Nobody is answering who pays for the fortified store."
-      },
-      {
-        "label": "Fence-first enforcement, Southern California",
-        "text": "CHP recovered 600K in Home Depot tools by going after the swap meet, not the boosters. The resale channel was the choke point. Worth modeling."
-      },
-      {
-        "label": "Third-party payment risk, National",
-        "text": "Everest ransomware listed Fiserv on its leak site May 3. Payment processing, merchant acquiring, core banking software for retailers. AP needs to call finance."
-      }
+      { "label": "Carrollton, TX retail violence", "text": "A 69-year-old shooter killed two and wounded three at a Korean grocery in K Towne Plaza Tuesday over a business dispute, then drove four miles to a second scene. AP plans built around store-on-customer or customer-on-store do not cover the venue case." },
+      { "label": "Clean-record carrier fraud, National", "text": "Highway Q1 2026 Freight Fraud Index out May 5 says about half of theft incidents tied to carriers with legitimate MC numbers and clean histories. Change-of-ownership fraud up 169.6 percent. The qualified-carrier-list approach is reading from the wrong map." },
+      { "label": "Pleasanton, CA smash crew", "text": "A hammer-and-pepper-spray crew cleaned out two cases at Zales inside Stoneridge Shopping Center at 11:30 a.m. Monday and walked. No arrests, no public count, no public dollar figure. The daylight smash on a Bay Area mall is becoming routine." }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-05-carrollton-tx-gwangjang-market-shooting",
+      "date": "May 5, 2026",
+      "method": "Workplace Violence",
+      "region": "South",
+      "city": "Carrollton, TX",
+      "retailer": "Gwangjang Korean Market",
+      "amount": 0,
+      "dollar_display": "2 fatal, 3 wounded",
+      "headline": "Two killed, three wounded in Carrollton Korean grocery shooting; suspect caught at H Mart",
+      "summary": "Sung Ho Han, 69, opened fire on business associates at Gwangjang Market in K Towne Plaza on Tuesday morning, then killed a man at an apartment four miles south. Carrollton officers grabbed him on foot at the Old Denton Road H Mart by noon and he confessed to a financial dispute.",
+      "sources": [
+        { "name": "WFAA", "url": "https://www.wfaa.com/article/news/crime/carrollton-koreatown-k-town-police-respond-shooting-possible/287-a2bf2ce8-e7bc-4db2-a284-ee59ff19a223" },
+        { "name": "NBC DFW", "url": "https://www.nbcdfw.com/news/local/carrollton-investigation-korean-market/4020555/" },
+        { "name": "CBS Texas", "url": "https://www.cbsnews.com/texas/news/large-police-presence-in-carrollton-after-reports-of-shooting/" },
+        { "name": "Texas Tribune", "url": "https://www.texastribune.org/2026/05/05/texas-carrollton-fatal-shooting-shopping-center/" }
+      ]
+    },
+    {
+      "id": "2026-05-04-pleasanton-ca-zales-stoneridge-smashgrab",
+      "date": "May 4, 2026",
+      "method": "Smash-and-Grab",
+      "region": "West",
+      "city": "Pleasanton, CA",
+      "retailer": "Zales Jewelers",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Hammer-wielding crew cleans out Zales at Pleasanton's Stoneridge mall in broad daylight",
+      "summary": "A crew with hammers and pepper spray smashed two cases at Zales inside Stoneridge Shopping Center around 11:30 a.m. Monday and emptied them. Workers and shoppers ran. Pleasanton PD has not said how many were in the crew, what was taken, or whether anyone is in custody.",
+      "sources": [
+        { "name": "ABC7 San Francisco", "url": "https://abc7news.com/post/zales-jewelers-robbed-hammers-pepper-spray-smash-grab-stoneridge-shopping-center-pleasanton/19041429/" },
+        { "name": "KRON4", "url": "https://www.kron4.com/news/only-on-kron4-crowd-of-criminals-armed-with-hammers-storm-pleasanton-jewelry-store-in-smash-and-grab-attempt/" },
+        { "name": "Patch Pleasanton", "url": "https://patch.com/california/pleasanton/suspects-use-pepper-spray-during-pleasanton-jewelry-store-robbery" }
+      ]
+    },
+    {
+      "id": "2026-05-03-waipahu-hi-town-center-security-assault",
+      "date": "May 3, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Waipahu, HI",
+      "retailer": "Unnamed retailer (Waipahu Town Center)",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Suspects walked merchandise out of Waipahu Town Center store, then assaulted security",
+      "summary": "A man and a woman selected merchandise inside a Waipahu Town Center store at 10:56 a.m. Sunday and walked out without paying. When a security guard confronted them in the parking lot, the male suspect assaulted him and the pair fled east on foot. Honolulu PD released suspect images Tuesday.",
+      "sources": [
+        { "name": "Hawaii News Now", "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/" }
+      ]
+    },
     {
       "id": "2026-05-04-chicago-walgreens-chatham-closure",
       "date": "May 4, 2026",
@@ -86,118 +127,6 @@
       "sources": [
         { "name": "KSLA", "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/" },
         { "name": "KTAL", "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/" }
-      ]
-    },
-    {
-      "id": "2026-05-02-newark-de-shore-stop-knife-robbery",
-      "date": "May 2, 2026",
-      "method": "Armed Robbery",
-      "region": "Northeast",
-      "city": "Newark, DE",
-      "retailer": "Shore Stop",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Masked knife robbery at Newark Shore Stop in broad daylight",
-      "summary": "A masked suspect with a knife held up the Shore Stop on Old Baltimore Pike in Newark, DE at 8:15 a.m. Saturday and walked out with cash from the register. No injuries. Delaware State Police Troop 2 working it.",
-      "sources": [
-        { "name": "Delaware State Police", "url": "https://dsp.delaware.gov/2026/05/03/state-police-investigating-armed-robbery-at-newark-convenience-store/" },
-        { "name": "First State Update", "url": "https://firststateupdate.com/2026/05/brazen-daytime-robbery-reported-at-newark-store/" }
-      ]
-    },
-    {
-      "id": "2026-05-02-bennington-vt-99-cents-armed-robbery",
-      "date": "May 2, 2026",
-      "method": "Armed Robbery",
-      "region": "Northeast",
-      "city": "Bennington, VT",
-      "retailer": "Beshara 99 Cents and Up",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Bennington 99 Cents store held up at gunpoint Saturday morning",
-      "summary": "Beshara 99 Cents and Up Store on Park Street in Bennington, VT was held up at gunpoint at 10:43 a.m. Saturday. Suspect fled on foot toward Pleasant and Valentine. Bennington PD asking for video and tips.",
-      "sources": [
-        { "name": "WCAX", "url": "https://www.wcax.com/2026/05/03/armed-robbery-reported-bennington-store/" },
-        { "name": "Bennington Banner", "url": "https://www.benningtonbanner.com/local-news/bennington-police-investigate-armed-robbery-of-park-street-business/article_0b0f8f41-5d2e-4b4b-a990-7aa052e83e1c.html" }
-      ]
-    },
-    {
-      "id": "2026-05-01-wv-lincoln-county-shell-camera-shot",
-      "date": "May 1, 2026",
-      "method": "Armed Robbery",
-      "region": "Southeast",
-      "city": "Lincoln County, WV",
-      "retailer": "Shell c-store",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "West Virginia Shell clerk surveillance video goes national after shooter fires at counter and at the camera",
-      "summary": "Rebecca Peterson, 42, of Oceana walked into a Lincoln County Shell around 4 a.m. Friday, told the clerk she wanted to rob the store, then fired at the back wall behind him and put another round into the surveillance camera. State troopers stopped her in Kanawha County.",
-      "sources": [
-        { "name": "WCHS-TV", "url": "https://wchstv.com/news/local/woman-in-custody-after-shots-fire-inside-lincoln-county-gas-station-troopers-say" },
-        { "name": "WV MetroNews", "url": "https://wvmetronews.com/2026/05/01/woman-arrested-after-attempted-armed-robbery-shots-fired-at-lincoln-county-convenience-store/" }
-      ]
-    },
-    {
-      "id": "2026-05-01-lagrange-ga-dollar-tree-register-grab",
-      "date": "May 1, 2026",
-      "method": "Smash-and-Grab",
-      "region": "Southeast",
-      "city": "LaGrange, GA",
-      "retailer": "Dollar Tree",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Traffic stop closes LaGrange Dollar Tree register grab inside 24 hours",
-      "summary": "Ricky Pierce snatched cash from a Dollar Tree register on Commerce Avenue around 9:30 p.m. Friday after the clerk opened the drawer for him. LaGrange officers pulled Pierce over Saturday on a plate match from store cameras. He is charged with robbery.",
-      "sources": [
-        { "name": "Atlanta News First", "url": "https://www.atlantanewsfirst.com/2026/05/03/man-charged-robbery-dollar-store-lagrange-police-say/" },
-        { "name": "FOX 5 Atlanta", "url": "https://www.fox5atlanta.com/news/man-caught-after-snatching-cash-from-lagrange-dollar-tree" }
-      ]
-    },
-    {
-      "id": "2026-05-01-chicago-albany-park-dollar-store",
-      "date": "May 1, 2026",
-      "method": "Officer-Involved",
-      "region": "Midwest",
-      "city": "Chicago, IL",
-      "retailer": "Dollar store (Albany Park)",
-      "amount": 0,
-      "dollar_display": "Officer killed",
-      "headline": "Chicago facial recognition tags Albany Park dollar store robber, same crew killed CPD officer four hours later",
-      "summary": "Detectives ran Friday-night surveillance through facial recognition and identified Jeron Tate, 18, as the gunman accomplice in an armed robbery of an Albany Park dollar store. About four hours later, co-defendant Alphanso Talley shot two CPD officers at Swedish Hospital and killed Officer John Bartholomew.",
-      "sources": [
-        { "name": "CWB Chicago", "url": "https://cwbchicago.com/2026/05/facial-recognition-helped-id-cop-killers-robbery-accomplice-prosecutors-say.html" },
-        { "name": "NBC Chicago", "url": "https://www.nbcchicago.com/news/local/suspected-accomplice-of-alleged-cop-killer-arrested-for-part-in-armed-robbery-sources/3930375/" }
-      ]
-    },
-    {
-      "id": "2026-05-01-strongsville-costco-bond-hearing",
-      "date": "May 1, 2026",
-      "method": "Workplace Violence",
-      "region": "Midwest",
-      "city": "Strongsville, OH",
-      "retailer": "Costco",
-      "amount": 0,
-      "dollar_display": "Fatal",
-      "headline": "Strongsville Costco shooter $5M bond stands as self-defense claim heads to grand jury",
-      "summary": "Christian Bryant, 22, of Irving, TX faces a murder charge for shooting Costco employee Randy Corrigan, 61, outside the store entrance after Corrigan tried to block him from carrying a handgun with a 50-round drum magazine into the store. Cuyahoga County Common Pleas kept the $5M bond Friday.",
-      "sources": [
-        { "name": "Cleveland 19", "url": "https://www.cleveland19.com/2026/05/01/texas-man-court-deadly-shooting-strongsville-costco/" },
-        { "name": "WKYC", "url": "https://www.wkyc.com/article/news/local/cuyahoga-county/strongsville-costco-shooting-christian-bryant-randy-corrigan-cuyahoga-county-common-pleas-court/95-972c2a3c-c598-4ab3-8535-27f2e4571a71" }
-      ]
-    },
-    {
-      "id": "2026-04-29-oshkosh-kwik-trip-hobbs-act-sentence",
-      "date": "May 1, 2026",
-      "method": "Armed Robbery",
-      "region": "Midwest",
-      "city": "Oshkosh, WI",
-      "retailer": "Kwik Trip",
-      "amount": 170,
-      "dollar_display": "$170 taken",
-      "headline": "Oshkosh man gets 15 years federal for Highway 41 Kwik Trip armed robbery",
-      "summary": "Lorenzo Wood Jr., 59, of Oshkosh got 15 years federal for a Hobbs Act armed robbery at a Highway 41 Kwik Trip in October 2025. $170 from the register at gunpoint. Felon-in-possession enhancement attached. Sentencing landed Wednesday.",
-      "sources": [
-        { "name": "DOJ EDWI", "url": "https://www.justice.gov/usao-edwi/pr/oshkosh-resident-receives-15-years-federal-prison-kwik-trip-robbery" },
-        { "name": "Wisconsin Law Journal", "url": "https://wislawjournal.com/2026/05/01/oshkosh-man-gets-15-years-for-kwik-trip-armed-robbery/" }
       ]
     }
   ]
