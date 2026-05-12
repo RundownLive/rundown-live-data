@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-08T17:00:00Z",
+  "generated_at": "2026-05-12T02:55:53Z",
   "window_hours": 72,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,20 +21,20 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Three cases this week, one repeat offender pattern",
-    "body": "Three threads tighten this week. North Charleston booked Marquell Holmes, a convicted felon, for a five-store rifle robbery spree that ran from April 15 to May 2, with a loaded AR-15 in his car. New Illinois numbers covered Wednesday and Thursday put the top 10 percent of offenders at 63 percent of all reported retail incidents and 39 percent of weapon cases involving firearms. Pleasanton PD still has not made an arrest in Monday's Zales smash-and-grab. Different channels, different windows, the same math. The volume is concentrated in a small group, and the LP teams that know who is who are the ones cutting it.",
+    "headline": "Mother's Day weekend lit up the threat-instrument column, CORCA finally moves to the House floor",
+    "body": "Four incident reports across Saturday and Sunday from Visalia, Gloucester County, downtown Baltimore, and Ocala. Different weapons, same store response. A knife at a Circle K beer run. A gel-ball blaster passed off as a rifle at a North Charles Street convenience store. A jewelry store grab that ended with a multi-county chase. A firearm brandished inside a Florida mall on its busiest spring weekend. None needed a real firearm to take a register offline. On policy, RILA pressed Monday for a House CORCA vote this week with 197 co-sponsors signed on and Home Depot's enterprise AP lead on the record.",
     "callouts": [
       {
-        "label": "Repeat offender math, Illinois",
-        "text": "New Illinois Organized Retail Crime Association numbers covered by CBS Chicago and Illinois Business Journal this week tag the top 10 percent of offenders for 63 percent of reported retail incidents last year. Firearms appeared in 39 percent of weapon cases. Violent incidents rose 7 percent year over year."
+        "label": "Threat instruments",
+        "text": "Gel-ball blasters and knives pulled the same store-level response this weekend that real firearms did last week. The exposure question is about repeat offenders, not the weapon in the moment."
       },
       {
-        "label": "Lowcountry rifle spree, AR-15 recovered",
-        "text": "North Charleston PD arrested Marquell Holmes, a convicted felon, after a five-store armed robbery run at Family Dollar and Dollar General locations from April 15 to May 2. Officers found a loaded AR-15 with a 30-round magazine in his vehicle."
+        "label": "Mother's Day mall closures",
+        "text": "Paddock Mall in Ocala shut early Sunday after a firearm brandish. No shots fired, no arrests overnight. Police have released photos of persons of interest."
       },
       {
-        "label": "Pleasanton Zales, still no arrests",
-        "text": "Pleasanton PD has not made an arrest in the May 4 Stoneridge mall smash-and-grab. Four masked suspects with hammers and pepper spray cleared two display cases in under two minutes at 11:30 a.m. Stoneridge has been hit twice in 18 months."
+        "label": "CORCA on the floor this week",
+        "text": "H.R. 2853 would stand up an Organized Retail and Supply Chain Crime Coordination Center inside HSI. RILA out Monday with bipartisan praise and 197 House co-sponsors on the bill."
       }
     ]
   },
@@ -328,6 +328,90 @@
         {
           "name": "KTAL",
           "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-10-baltimore-north-charles-convenience-gel-blaster",
+      "date": "May 10, 2026",
+      "method": "Armed Robbery",
+      "region": "Northeast",
+      "city": "Baltimore, MD",
+      "retailer": "Unnamed convenience store",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Three Baltimore teens arrested after downtown convenience store thefts, gel-ball blaster recovered",
+      "summary": "Three boys ages 14, 17, and 18 hit a North Charles Street convenience store repeatedly Sunday around 6 p.m., taking items each trip. On the final pass, the oldest brandished what officers thought was a rifle and knocked over equipment before fleeing. BPD tracked the group four blocks to Light Street and recovered an Orbeez gel-ball blaster.",
+      "sources": [
+        {
+          "name": "Fox Baltimore",
+          "url": "https://foxbaltimore.com/news/local/three-teens-arrested-rifle-displayed-repeated-downtown-convenience-store-thefts"
+        },
+        {
+          "name": "Baltimore Sun",
+          "url": "https://www.baltimoresun.com/2026/05/11/teens-arrested-inner-harbor-toy-gun/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-11-visalia-circle-k-knife-beer-mothers-day",
+      "date": "May 11, 2026",
+      "method": "Armed Robbery",
+      "region": "West",
+      "city": "Visalia, CA",
+      "retailer": "Circle K",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Visalia man pulls knife on Circle K clerk over Mother's Day beer run",
+      "summary": "Gerardo Guzman, 30, walked into the McAuliff Street Circle K just after 3 p.m. Sunday, grabbed two six packs, and threatened to cut the clerk who tried to stop him. He fled on a bicycle and was caught blocks away with a knife, under the influence. Booked on robbery and bicycle DUI.",
+      "sources": [
+        {
+          "name": "GV Wire",
+          "url": "https://gvwire.com/2026/05/11/visalia-police-arrest-knife-wielding-beer-theft-suspect-after-bicycle-getaway/"
+        },
+        {
+          "name": "Your Central Valley",
+          "url": "https://www.yourcentralvalley.com/news/crime/beer-theft-visalia-arrest/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-09-gloucester-va-kay-jewelers-chase-arrest",
+      "date": "May 9, 2026",
+      "method": "Smash-and-Grab",
+      "region": "Southeast",
+      "city": "Gloucester, VA",
+      "retailer": "Kay Jewelers",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Gloucester County deputies arrest Kay Jewelers larceny suspect after multi-county chase",
+      "summary": "Deputies got the call to Kay Jewelers at 6738 Fox Center Parkway around 5:15 Saturday afternoon. Gabriele Randazzo, 27, took off as officers arrived. York-Poquoson Sheriff and Virginia State Police joined the pursuit, which ended in York County. Randazzo faces grand larceny, statutory burglary, felony evade and elude, and reckless driving. Held without bond.",
+      "sources": [
+        {
+          "name": "WAVY",
+          "url": "https://www.wavy.com/news/local-news/man-accused-of-jewelry-store-larceny-police-pursuit-in-gloucester/"
+        },
+        {
+          "name": "13NewsNow",
+          "url": "https://www.13newsnow.com/article/news/local/gloucester-county/jewelry-store-robbery-leads-to-police-chase-ending-in-york-county-sheriff-reports/291-0bce6d24-2079-4793-8c6e-c817ad98f254"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-10-ocala-paddock-mall-firearm-brandish",
+      "date": "May 10, 2026",
+      "method": "Workplace Violence",
+      "region": "Southeast",
+      "city": "Ocala, FL",
+      "retailer": "Paddock Mall",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Ocala's Paddock Mall closes early Mother's Day after firearm brandish",
+      "summary": "An altercation inside Paddock Mall Sunday afternoon ended with someone displaying a firearm. No shots were fired, no injuries reported, no arrests as of Sunday night. Mall security cleared the building and shut early on a Mother's Day. Ocala PD released photos of persons of interest.",
+      "sources": [
+        {
+          "name": "WCJB",
+          "url": "https://www.wcjb.com/2026/05/10/paddock-mall-closed-mothers-day-after-person-brandishes-firearm/"
         }
       ]
     }
