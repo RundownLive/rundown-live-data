@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T18:30:00Z",
+  "generated_at": "2026-05-13T18:00:00Z",
   "window_hours": 72,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,43 +21,43 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "House passes CORCA the same day a Las Vegas grocery shooter kills two",
-    "body": "The week's biggest LP headlines collided on Tuesday. The House passed the Combating Organized Retail Crime Act with 197 co-sponsors, putting HSI in charge of a federal coordination center for ORC and cargo theft. Hours later, a man walked into a Smith's Food and Drug in south Las Vegas and shot his ex and her partner dead. Three customers wrestled the gun away before police arrived. Connecticut got a softer version of the same problem: two Nordstrom LP associates at Westfarms hit with pepper spray for following thieves to the parking lot. San Antonio investigators used facial recognition to identify the four-woman Ulta crew that picked four stores clean for $16,400.",
+    "headline": "Las Vegas custody dispute lands inside a Smith's, CORCA clears the House, Oklahoma rewrites its ORC statute",
+    "body": "Two fatalities at a south Las Vegas Smith's on Tuesday after a custody fight followed a couple into the store. Shoppers tackled the gunman before LVMPD got there. On the policy side, the House sent CORCA to the Senate 348-60 and Oklahoma Gov. Stitt signed HB 3244, which expands what counts as organized retail crime when crews cross municipal lines or pair theft with online and phone fraud. In San Antonio, four women bonded out on third-degree felony charges tied to $16K across four Ulta locations, identified by facial recognition. Chicago police are still working a 3:40 a.m. smash-and-grab at a South Loop cannabis store.",
     "callouts": [
       {
-        "label": "Store-level intervention",
-        "text": "Three Las Vegas Smith's customers grabbed the gun off Alejandro Estrada Tuesday morning. Two Westfarms Nordstrom LP associates caught pepper spray for the same instinct. The week is asking who is supposed to step in."
+        "label": "Domestic violence on the retail floor",
+        "text": "The Las Vegas shooting was a custody dispute that walked into a grocery store. Civilians intervened. AP teams are absorbing what is functionally domestic violence response with no budget line for it."
       },
       {
-        "label": "CORCA on the move",
-        "text": "H.R. 2853 passed the House Tuesday with 197 co-sponsors. The bill stands up an Organized Retail and Supply Chain Crime Coordination Center inside HSI. Senate version still in play."
+        "label": "CORCA passes the House",
+        "text": "H.R. 2853 cleared 348-60 Tuesday with 197 co-sponsors. The bill stands up an Organized Retail and Supply Chain Crime Coordination Center inside HSI. The Senate companion is still pending and the operational question is intake structure on day one."
       },
       {
-        "label": "Facial recognition gets a federal cousin",
-        "text": "Bexar County investigators used face-match software to identify the four-woman crew that hit four San Antonio Ulta stores for $16,400. The same week CORCA cleared the House. Tech and policy moving in parallel."
+        "label": "Oklahoma HB 3244 signed",
+        "text": "New law adds fingerprints, PINs, DNA, and login credentials to the state identity theft definition and treats multi-municipality crews as ORC. Penalties run 10 to 20 years and up to $100K. Effective Nov. 1."
       }
     ]
   },
   "incidents": [
     {
-      "id": "2026-05-12-las-vegas-smiths-grocery-shooting",
+      "id": "2026-05-12-las-vegas-smiths-fatal-shooting",
       "date": "May 12, 2026",
       "method": "Workplace Violence",
       "region": "West",
       "city": "Las Vegas, NV",
       "retailer": "Smith's Food and Drug",
       "amount": 0,
-      "dollar_display": "2 fatal",
-      "headline": "Two dead at Las Vegas Smith's, shoppers tackle gunman before police arrive",
-      "summary": "Alejandro Estrada shot and killed his ex and her current partner inside the Smith's Food and Drug on S. Maryland Parkway around 11:24 a.m. Tuesday. Three customers wrestled the gun away from him before LVMPD arrived. He is charged with murder.",
+      "dollar_display": "2 fatal, shoppers subdued suspect",
+      "headline": "Husband and wife killed inside south Las Vegas Smith's; shoppers tackled the gunman",
+      "summary": "Alejandro Alfonso Estrada walked into the Smith's at 9700 S. Maryland Parkway around 11:30 a.m. Tuesday and shot a woman in her mid-40s and her current husband. LVMPD says Estrada had children with the woman and the two were in a custody fight. At least three bystanders subdued him at the scene.",
       "sources": [
         {
           "name": "Las Vegas Review-Journal",
           "url": "https://www.reviewjournal.com/crime/homicides/2-shot-inside-las-vegas-grocery-store-3823110/"
         },
         {
-          "name": "Fox5 Vegas",
-          "url": "https://www.fox5vegas.com/2026/05/12/two-injured-one-custody-following-shooting-near-silverado-ranch-maryland/"
+          "name": "Fox 5 Vegas",
+          "url": "https://www.fox5vegas.com/2026/05/13/im-just-shock-shoppers-staff-react-husband-wife-killed-deadly-las-vegas-shooting/"
         },
         {
           "name": "8 News Now",
@@ -66,7 +66,7 @@
       ]
     },
     {
-      "id": "2026-05-12-bexar-county-ulta-facial-recognition",
+      "id": "2026-05-12-san-antonio-ulta-four-women-charged",
       "date": "May 12, 2026",
       "method": "ORC",
       "region": "South",
@@ -74,8 +74,8 @@
       "retailer": "Ulta Beauty",
       "amount": 16400,
       "dollar_display": "$16,400 stolen",
-      "headline": "San Antonio facial recognition busts four-woman crew in $16K Ulta theft ring",
-      "summary": "Estrella Beltran, Roxanne Isaac, and sisters Virginia and Blanca Maldonado were charged with organized retail theft for hitting four Ulta Beauty stores in Bexar County over the past year. Investigators identified them with facial recognition software and surveillance video. All four bonded out.",
+      "headline": "Bexar County investigators charge four women in $16K Ulta theft ring",
+      "summary": "Estrella Beltran, Roxanne Isaac, and sisters Virginia and Blanca Maldonado were arrested in connection with a nearly year-long run across four San Antonio Ulta locations. Affidavit puts the take above $16,400 in fragrance and skincare. Facial recognition and surveillance identified all four. Each was charged with organized retail theft and bonded out.",
       "sources": [
         {
           "name": "KSAT",
@@ -88,50 +88,20 @@
       ]
     },
     {
-      "id": "2026-05-11-farmington-westfarms-nordstrom-pepper-spray",
+      "id": "2026-05-11-chicago-south-loop-cannabis-smashgrab",
       "date": "May 11, 2026",
-      "method": "Workplace Violence",
-      "region": "Northeast",
-      "city": "Farmington, CT",
-      "retailer": "Nordstrom",
+      "method": "Smash-and-Grab",
+      "region": "Midwest",
+      "city": "Chicago, IL",
+      "retailer": "Grasshopper Club (cannabis)",
       "amount": 0,
-      "dollar_display": "2 LP staff sprayed",
-      "headline": "Westfarms Nordstrom thieves pepper-sprayed two LP associates before fleeing",
-      "summary": "Two women hit the Nordstrom inside Westfarms Mall in Farmington Monday night and sprayed two LP associates with what police believe was pepper spray when the team followed them out of the store. They fled in a brown Ford Edge with misused Connecticut plates.",
+      "dollar_display": "",
+      "headline": "Pre-dawn smash-and-grab cleans out South Loop cannabis store, white SUV the getaway",
+      "summary": "Three to four suspects broke the front glass at Grasshopper Club on East Roosevelt Road around 3:40 a.m. Monday. One went inside and passed product through the broken window to others who loaded a white SUV. Chicago PD has no one in custody and has not released a dollar figure.",
       "sources": [
         {
-          "name": "WFSB",
-          "url": "https://www.wfsb.com/2026/05/12/suspects-pepper-sprayed-loss-prevention-staff-during-theft-attempt-westfarms-police-say/"
-        },
-        {
-          "name": "FOX61",
-          "url": "https://www.fox61.com/article/news/local/hartford-county/pepper-spray-used-during-attempted-theft-westfarms-mall-nordstrom-farmington-police-investigating/520-18be8387-108f-4634-9d4d-23af26d4022d"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-08-manhasset-apple-truck-fed-indictment",
-      "date": "May 8, 2026",
-      "method": "Cargo",
-      "region": "Northeast",
-      "city": "Manhasset, NY",
-      "retailer": "Apple",
-      "amount": 1200000,
-      "dollar_display": "$1.2M stolen",
-      "headline": "Federal indictment in $1.2M Apple delivery truck hijacking at Americana Manhasset",
-      "summary": "Alan Christhofer Cedeno-Ferrer, 27, Michael Mejia-Nunez, 29, and Ennait Alexis Sirett-Padilla, 24, were indicted on Hobbs Act robbery charges over a January armed hijacking that netted iPhones, MacBooks, and iPads. Cedeno-Ferrer rented the getaway truck with a fake Pennsylvania license.",
-      "sources": [
-        {
-          "name": "9to5Mac",
-          "url": "https://9to5mac.com/2026/05/08/three-men-charged-in-armed-hijacking-of-truck-carrying-1-2-million-in-apple-gear/"
-        },
-        {
-          "name": "AppleInsider",
-          "url": "https://appleinsider.com/articles/26/05/08/federal-prosecutors-bust-suspects-in-million-dollar-apple-delivery-truck-heist"
-        },
-        {
-          "name": "Paterson Times",
-          "url": "https://patersontimes.com/2026/05/08/paterson-storage-unit-used-in-1-2-million-apple-products-robbery/"
+          "name": "FOX 32 Chicago",
+          "url": "https://www.fox32chicago.com/news/smash-and-grab-caught-on-camera-at-chicago-cannabis-store-suspects-on-the-run"
         }
       ]
     },
