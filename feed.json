@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-12T02:55:53Z",
+  "generated_at": "2026-05-12T18:30:00Z",
   "window_hours": 72,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,120 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Mother's Day weekend lit up the threat-instrument column, CORCA finally moves to the House floor",
-    "body": "Four incident reports across Saturday and Sunday from Visalia, Gloucester County, downtown Baltimore, and Ocala. Different weapons, same store response. A knife at a Circle K beer run. A gel-ball blaster passed off as a rifle at a North Charles Street convenience store. A jewelry store grab that ended with a multi-county chase. A firearm brandished inside a Florida mall on its busiest spring weekend. None needed a real firearm to take a register offline. On policy, RILA pressed Monday for a House CORCA vote this week with 197 co-sponsors signed on and Home Depot's enterprise AP lead on the record.",
+    "headline": "House passes CORCA the same day a Las Vegas grocery shooter kills two",
+    "body": "The week's biggest LP headlines collided on Tuesday. The House passed the Combating Organized Retail Crime Act with 197 co-sponsors, putting HSI in charge of a federal coordination center for ORC and cargo theft. Hours later, a man walked into a Smith's Food and Drug in south Las Vegas and shot his ex and her partner dead. Three customers wrestled the gun away before police arrived. Connecticut got a softer version of the same problem: two Nordstrom LP associates at Westfarms hit with pepper spray for following thieves to the parking lot. San Antonio investigators used facial recognition to identify the four-woman Ulta crew that picked four stores clean for $16,400.",
     "callouts": [
       {
-        "label": "Threat instruments",
-        "text": "Gel-ball blasters and knives pulled the same store-level response this weekend that real firearms did last week. The exposure question is about repeat offenders, not the weapon in the moment."
+        "label": "Store-level intervention",
+        "text": "Three Las Vegas Smith's customers grabbed the gun off Alejandro Estrada Tuesday morning. Two Westfarms Nordstrom LP associates caught pepper spray for the same instinct. The week is asking who is supposed to step in."
       },
       {
-        "label": "Mother's Day mall closures",
-        "text": "Paddock Mall in Ocala shut early Sunday after a firearm brandish. No shots fired, no arrests overnight. Police have released photos of persons of interest."
+        "label": "CORCA on the move",
+        "text": "H.R. 2853 passed the House Tuesday with 197 co-sponsors. The bill stands up an Organized Retail and Supply Chain Crime Coordination Center inside HSI. Senate version still in play."
       },
       {
-        "label": "CORCA on the floor this week",
-        "text": "H.R. 2853 would stand up an Organized Retail and Supply Chain Crime Coordination Center inside HSI. RILA out Monday with bipartisan praise and 197 House co-sponsors on the bill."
+        "label": "Facial recognition gets a federal cousin",
+        "text": "Bexar County investigators used face-match software to identify the four-woman crew that hit four San Antonio Ulta stores for $16,400. The same week CORCA cleared the House. Tech and policy moving in parallel."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-12-las-vegas-smiths-grocery-shooting",
+      "date": "May 12, 2026",
+      "method": "Workplace Violence",
+      "region": "West",
+      "city": "Las Vegas, NV",
+      "retailer": "Smith's Food and Drug",
+      "amount": 0,
+      "dollar_display": "2 fatal",
+      "headline": "Two dead at Las Vegas Smith's, shoppers tackle gunman before police arrive",
+      "summary": "Alejandro Estrada shot and killed his ex and her current partner inside the Smith's Food and Drug on S. Maryland Parkway around 11:24 a.m. Tuesday. Three customers wrestled the gun away from him before LVMPD arrived. He is charged with murder.",
+      "sources": [
+        {
+          "name": "Las Vegas Review-Journal",
+          "url": "https://www.reviewjournal.com/crime/homicides/2-shot-inside-las-vegas-grocery-store-3823110/"
+        },
+        {
+          "name": "Fox5 Vegas",
+          "url": "https://www.fox5vegas.com/2026/05/12/two-injured-one-custody-following-shooting-near-silverado-ranch-maryland/"
+        },
+        {
+          "name": "8 News Now",
+          "url": "https://www.8newsnow.com/news/local-news/2-people-shot-at-las-vegas-shopping-center-near-maryland-silverado-ranch/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-12-bexar-county-ulta-facial-recognition",
+      "date": "May 12, 2026",
+      "method": "ORC",
+      "region": "South",
+      "city": "San Antonio, TX",
+      "retailer": "Ulta Beauty",
+      "amount": 16400,
+      "dollar_display": "$16,400 stolen",
+      "headline": "San Antonio facial recognition busts four-woman crew in $16K Ulta theft ring",
+      "summary": "Estrella Beltran, Roxanne Isaac, and sisters Virginia and Blanca Maldonado were charged with organized retail theft for hitting four Ulta Beauty stores in Bexar County over the past year. Investigators identified them with facial recognition software and surveillance video. All four bonded out.",
+      "sources": [
+        {
+          "name": "KSAT",
+          "url": "https://www.ksat.com/news/local/2026/05/12/affidavit-4-accused-of-stealing-16k-worth-of-items-at-ulta-beauty-stores-across-bexar-county/"
+        },
+        {
+          "name": "KENS5",
+          "url": "https://www.kens5.com/article/news/local/san-antonio-texas-satx-theft-spree-arrests-women-accused-stealing-ulta-merchandise-estrella-beltran-roxanne-isaac-virginia-blanco-maldonado-may-2026/273-2bd562ef-b311-4826-aaae-a885ec00107f"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-11-farmington-westfarms-nordstrom-pepper-spray",
+      "date": "May 11, 2026",
+      "method": "Workplace Violence",
+      "region": "Northeast",
+      "city": "Farmington, CT",
+      "retailer": "Nordstrom",
+      "amount": 0,
+      "dollar_display": "2 LP staff sprayed",
+      "headline": "Westfarms Nordstrom thieves pepper-sprayed two LP associates before fleeing",
+      "summary": "Two women hit the Nordstrom inside Westfarms Mall in Farmington Monday night and sprayed two LP associates with what police believe was pepper spray when the team followed them out of the store. They fled in a brown Ford Edge with misused Connecticut plates.",
+      "sources": [
+        {
+          "name": "WFSB",
+          "url": "https://www.wfsb.com/2026/05/12/suspects-pepper-sprayed-loss-prevention-staff-during-theft-attempt-westfarms-police-say/"
+        },
+        {
+          "name": "FOX61",
+          "url": "https://www.fox61.com/article/news/local/hartford-county/pepper-spray-used-during-attempted-theft-westfarms-mall-nordstrom-farmington-police-investigating/520-18be8387-108f-4634-9d4d-23af26d4022d"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-08-manhasset-apple-truck-fed-indictment",
+      "date": "May 8, 2026",
+      "method": "Cargo",
+      "region": "Northeast",
+      "city": "Manhasset, NY",
+      "retailer": "Apple",
+      "amount": 1200000,
+      "dollar_display": "$1.2M stolen",
+      "headline": "Federal indictment in $1.2M Apple delivery truck hijacking at Americana Manhasset",
+      "summary": "Alan Christhofer Cedeno-Ferrer, 27, Michael Mejia-Nunez, 29, and Ennait Alexis Sirett-Padilla, 24, were indicted on Hobbs Act robbery charges over a January armed hijacking that netted iPhones, MacBooks, and iPads. Cedeno-Ferrer rented the getaway truck with a fake Pennsylvania license.",
+      "sources": [
+        {
+          "name": "9to5Mac",
+          "url": "https://9to5mac.com/2026/05/08/three-men-charged-in-armed-hijacking-of-truck-carrying-1-2-million-in-apple-gear/"
+        },
+        {
+          "name": "AppleInsider",
+          "url": "https://appleinsider.com/articles/26/05/08/federal-prosecutors-bust-suspects-in-million-dollar-apple-delivery-truck-heist"
+        },
+        {
+          "name": "Paterson Times",
+          "url": "https://patersontimes.com/2026/05/08/paterson-storage-unit-used-in-1-2-million-apple-products-robbery/"
+        }
+      ]
+    },
     {
       "id": "2026-05-07-north-charleston-family-dollar-rifle-arrest",
       "date": "May 7, 2026",
