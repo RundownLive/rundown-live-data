@@ -1,44 +1,101 @@
 {
-  "generated_at": "2026-05-13T18:00:00Z",
+  "generated_at": "2026-05-14T18:00:00Z",
   "window_hours": 72,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
-  "regions_allowed": [
-    "Northeast",
-    "Southeast",
-    "South",
-    "Midwest",
-    "West"
-  ],
-  "methods_allowed": [
-    "ORC",
-    "Armed Robbery",
-    "Smash-and-Grab",
-    "Workplace Violence",
-    "Officer-Involved",
-    "Cargo",
-    "Cyber",
-    "Fraud"
-  ],
+  "regions_allowed": ["Northeast", "Southeast", "South", "Midwest", "West"],
+  "methods_allowed": ["ORC", "Armed Robbery", "Smash-and-Grab", "Workplace Violence", "Officer-Involved", "Cargo", "Cyber", "Fraud"],
   "brief": {
-    "headline": "Las Vegas custody dispute lands inside a Smith's, CORCA clears the House, Oklahoma rewrites its ORC statute",
-    "body": "Two fatalities at a south Las Vegas Smith's on Tuesday after a custody fight followed a couple into the store. Shoppers tackled the gunman before LVMPD got there. On the policy side, the House sent CORCA to the Senate 348-60 and Oklahoma Gov. Stitt signed HB 3244, which expands what counts as organized retail crime when crews cross municipal lines or pair theft with online and phone fraud. In San Antonio, four women bonded out on third-degree felony charges tied to $16K across four Ulta locations, identified by facial recognition. Chicago police are still working a 3:40 a.m. smash-and-grab at a South Loop cannabis store.",
+    "headline": "California spikes the football on $75M recovery, Walmart Global runs down a Virginia Beach $1.6M ring, and a Vegas fence had 900 items in a tract home",
+    "body": "Gov. Newsom announced Tuesday that CHP's ORC Task Force has cleared $74.6M in recovered goods across more than 4,500 investigations and 5,100 arrests, with FBI 2025 numbers showing statewide crime down across the board. Virginia Beach PD and Walmart Global Investigations took down a tri-state Walmart ring, with three indicted including the Hampton-based fence. LVMPD seized 900-plus items from Roberto Fuentes, an online-marketplace fence who bought from boosters and resold through web platforms. All of it lands the same week the Senate is being lobbied to pass CORCA after Tuesday's 348-60 House vote.",
     "callouts": [
-      {
-        "label": "Domestic violence on the retail floor",
-        "text": "The Las Vegas shooting was a custody dispute that walked into a grocery store. Civilians intervened. AP teams are absorbing what is functionally domestic violence response with no budget line for it."
-      },
-      {
-        "label": "CORCA passes the House",
-        "text": "H.R. 2853 cleared 348-60 Tuesday with 197 co-sponsors. The bill stands up an Organized Retail and Supply Chain Crime Coordination Center inside HSI. The Senate companion is still pending and the operational question is intake structure on day one."
-      },
-      {
-        "label": "Oklahoma HB 3244 signed",
-        "text": "New law adds fingerprints, PINs, DNA, and login credentials to the state identity theft definition and treats multi-municipality crews as ORC. Penalties run 10 to 20 years and up to $100K. Effective Nov. 1."
-      }
+      {"label": "Fences sit at the choke point", "text": "Three indictments in Virginia Beach name a 45-year-old fence by role, not the booster, as the operation's center of gravity. Fuentes in Vegas had 900 items moving online. Boosters are interchangeable; fences are the asset."},
+      {"label": "California vs. federal narrative collision", "text": "CA reports $75M and FBI year-over-year declines the same week NRF, FMI, NACS, and RILA push the Senate on CORCA. The Senate hearing will ask which story is the headline."},
+      {"label": "Cook County crew working unincorporated strip mall", "text": "Four suspects hit seven storefronts in unincorporated Maine Township at 2:54 a.m. Thursday, the kind of jurisdictional gray zone (county sheriff, not city PD) that ORC crews now scout deliberately."}
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-14-las-vegas-fuentes-online-fence",
+      "date": "May 14, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Las Vegas, NV",
+      "retailer": "Multiple retailers",
+      "amount": 418000,
+      "dollar_display": "$418K recovered",
+      "headline": "LVMPD arrests Roberto Fuentes, 49, after seizing 900-plus stolen items from his Decosta Circle home",
+      "summary": "LVMPD's Organized Retail Crimes Section ran an undercover operation at multiple stores starting March 28 and traced the goods to Fuentes, who resold through online marketplaces. A May 7 search warrant pulled jewelry, watches, tools, handbags, sunglasses, fragrance, alcohol, and toys. Nevada ORC Association partners inventoried the haul at $418,000.",
+      "sources": [
+        {"name": "Fox 5 Vegas", "url": "https://www.fox5vegas.com/2026/05/14/las-vegas-man-arrested-418k-organized-retail-crime-operation/"},
+        {"name": "KTNV", "url": "https://www.ktnv.com/news/crime/las-vegas-police-seize-418k-in-stolen-goods-during-illegal-online-marketplace-investigation"},
+        {"name": "Las Vegas Review-Journal", "url": "https://www.reviewjournal.com/crime/las-vegas-police-man-operated-illegal-online-marketplace-for-stolen-merchandise-3824257/"}
+      ]
+    },
+    {
+      "id": "2026-05-13-virginia-beach-walmart-1-6m-ring",
+      "date": "May 13, 2026",
+      "method": "ORC",
+      "region": "Southeast",
+      "city": "Virginia Beach, VA",
+      "retailer": "Walmart",
+      "amount": 1600000,
+      "dollar_display": "$1.6M ring dismantled",
+      "headline": "Three indicted in tri-state Walmart theft ring; Hampton-based fence named at the center",
+      "summary": "Virginia Beach PD and Walmart Global Investigations worked the case since January 2024 across Virginia, North Carolina, and South Carolina. Tony McClease ran operations from Norfolk including from incarceration, Alexander Newman boosted, and Chane'l Stith, 45, of Hampton fenced. All three were indicted Tuesday for organized retail theft, grand larceny, and conspiracy.",
+      "sources": [
+        {"name": "WAVY", "url": "https://www.wavy.com/news/local-news/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"},
+        {"name": "WRIC 8News", "url": "https://www.wric.com/news/virginia-news/tidewater/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"},
+        {"name": "13NewsNow", "url": "https://www.13newsnow.com/article/news/crime/police-say-multi-state-retail-theft-ring-dismantled-trio-indicted-in-166m-scheme/291-bfbd48d6-da71-4198-84dd-c21b0c599c0b"}
+      ]
+    },
+    {
+      "id": "2026-05-14-maine-township-strip-mall-smash-grab",
+      "date": "May 14, 2026",
+      "method": "Smash-and-Grab",
+      "region": "Midwest",
+      "city": "Des Plaines, IL",
+      "retailer": "Multiple (7 storefronts)",
+      "amount": 0,
+      "dollar_display": "7 storefronts hit, overnight",
+      "headline": "Four-suspect crew hits seven Maine Township stores in pre-dawn smash-and-grab",
+      "summary": "Cook County Sheriff's deputies responded to glass-smash burglaries at 2:54 a.m. Thursday in the 9300 block of Ballard Road in unincorporated Des Plaines. Surveillance shows one suspect climbing the counter at a small grocery and walking out with cash. One owner reports $50 taken with hundreds in damage. No arrests as of Thursday morning.",
+      "sources": [
+        {"name": "CBS Chicago", "url": "https://www.cbsnews.com/chicago/news/maine-township-strip-mall-smash-and-grab-burglaries/"},
+        {"name": "ABC7 Chicago", "url": "https://abc7chicago.com/post/7-businesses-broken-strip-mall-unincorporated-maine-township-des-plaines-cook-county-sheriffs-office-says/19102464/"}
+      ]
+    },
+    {
+      "id": "2026-05-08-chesterfield-va-walk-in-fix-it-smash",
+      "date": "May 8, 2026",
+      "method": "Smash-and-Grab",
+      "region": "Southeast",
+      "city": "Chesterfield, VA",
+      "retailer": "Walk-In and Fix It",
+      "amount": 40000,
+      "dollar_display": "$40K+ in electronics",
+      "headline": "Masked thief smashes display case at Chesterfield phone repair shop, second hit in months",
+      "summary": "A masked male suspect entered Walk-In and Fix It in the Chattanooga Shopping Plaza, smashed a display case, jumped the counter, and made off with more than $40,000 in electronics. Owner Cafer Timucin says the suspect and a female companion may have cased the shop. Owner is now sleeping inside the store.",
+      "sources": [
+        {"name": "WTVR", "url": "https://www.wtvr.com/news/local-news/chesterfield-county/electronics-store-robbery-may-13-2026"}
+      ]
+    },
+    {
+      "id": "2026-05-14-colbert-county-al-cstore-arrest",
+      "date": "May 14, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Colbert County, AL",
+      "retailer": "Unnamed convenience store",
+      "amount": 0,
+      "dollar_display": "Suspect in custody",
+      "headline": "Colbert County deputies capture armed c-store robbery suspect near Highways 247 and 72",
+      "summary": "Sheriff's deputies took an armed suspect into custody Thursday morning after a convenience store robbery near the intersection of Highways 247 and 72. Initial reports listed the suspect as armed and dangerous before the capture.",
+      "sources": [
+        {"name": "WAFF", "url": "https://www.waff.com/2026/05/14/colbert-county-deputies-search-armed-suspect-after-convenience-store-robbery-near-highways-247-72/"},
+        {"name": "TimesDaily", "url": "https://www.timesdaily.com/news/crime/law-enforcement-searching-for-a-man-considered-armed-and-dangerous/article_89cccb24-8cca-41c1-9937-40bc1bb6b59a.html"}
+      ]
+    },
     {
       "id": "2026-05-12-las-vegas-smiths-fatal-shooting",
       "date": "May 12, 2026",
@@ -51,18 +108,9 @@
       "headline": "Husband and wife killed inside south Las Vegas Smith's; shoppers tackled the gunman",
       "summary": "Alejandro Alfonso Estrada walked into the Smith's at 9700 S. Maryland Parkway around 11:30 a.m. Tuesday and shot a woman in her mid-40s and her current husband. LVMPD says Estrada had children with the woman and the two were in a custody fight. At least three bystanders subdued him at the scene.",
       "sources": [
-        {
-          "name": "Las Vegas Review-Journal",
-          "url": "https://www.reviewjournal.com/crime/homicides/2-shot-inside-las-vegas-grocery-store-3823110/"
-        },
-        {
-          "name": "Fox 5 Vegas",
-          "url": "https://www.fox5vegas.com/2026/05/13/im-just-shock-shoppers-staff-react-husband-wife-killed-deadly-las-vegas-shooting/"
-        },
-        {
-          "name": "8 News Now",
-          "url": "https://www.8newsnow.com/news/local-news/2-people-shot-at-las-vegas-shopping-center-near-maryland-silverado-ranch/"
-        }
+        {"name": "Las Vegas Review-Journal", "url": "https://www.reviewjournal.com/crime/homicides/2-shot-inside-las-vegas-grocery-store-3823110/"},
+        {"name": "Fox 5 Vegas", "url": "https://www.fox5vegas.com/2026/05/13/im-just-shock-shoppers-staff-react-husband-wife-killed-deadly-las-vegas-shooting/"},
+        {"name": "8 News Now", "url": "https://www.8newsnow.com/news/local-news/2-people-shot-at-las-vegas-shopping-center-near-maryland-silverado-ranch/"}
       ]
     },
     {
@@ -77,14 +125,8 @@
       "headline": "Bexar County investigators charge four women in $16K Ulta theft ring",
       "summary": "Estrella Beltran, Roxanne Isaac, and sisters Virginia and Blanca Maldonado were arrested in connection with a nearly year-long run across four San Antonio Ulta locations. Affidavit puts the take above $16,400 in fragrance and skincare. Facial recognition and surveillance identified all four. Each was charged with organized retail theft and bonded out.",
       "sources": [
-        {
-          "name": "KSAT",
-          "url": "https://www.ksat.com/news/local/2026/05/12/affidavit-4-accused-of-stealing-16k-worth-of-items-at-ulta-beauty-stores-across-bexar-county/"
-        },
-        {
-          "name": "KENS5",
-          "url": "https://www.kens5.com/article/news/local/san-antonio-texas-satx-theft-spree-arrests-women-accused-stealing-ulta-merchandise-estrella-beltran-roxanne-isaac-virginia-blanco-maldonado-may-2026/273-2bd562ef-b311-4826-aaae-a885ec00107f"
-        }
+        {"name": "KSAT", "url": "https://www.ksat.com/news/local/2026/05/12/affidavit-4-accused-of-stealing-16k-worth-of-items-at-ulta-beauty-stores-across-bexar-county/"},
+        {"name": "KENS5", "url": "https://www.kens5.com/article/news/local/san-antonio-texas-satx-theft-spree-arrests-women-accused-stealing-ulta-merchandise-estrella-beltran-roxanne-isaac-virginia-blanco-maldonado-may-2026/273-2bd562ef-b311-4826-aaae-a885ec00107f"}
       ]
     },
     {
@@ -99,10 +141,7 @@
       "headline": "Pre-dawn smash-and-grab cleans out South Loop cannabis store, white SUV the getaway",
       "summary": "Three to four suspects broke the front glass at Grasshopper Club on East Roosevelt Road around 3:40 a.m. Monday. One went inside and passed product through the broken window to others who loaded a white SUV. Chicago PD has no one in custody and has not released a dollar figure.",
       "sources": [
-        {
-          "name": "FOX 32 Chicago",
-          "url": "https://www.fox32chicago.com/news/smash-and-grab-caught-on-camera-at-chicago-cannabis-store-suspects-on-the-run"
-        }
+        {"name": "FOX 32 Chicago", "url": "https://www.fox32chicago.com/news/smash-and-grab-caught-on-camera-at-chicago-cannabis-store-suspects-on-the-run"}
       ]
     },
     {
@@ -117,18 +156,9 @@
       "headline": "Convicted felon arrested in five-store rifle robbery spree across the Lowcountry",
       "summary": "Marquell Lovon Holmes, 37, was booked Monday after a May 2 rifle robbery at a University Boulevard Family Dollar in North Charleston. Officers searching his car found a loaded AR-15 with a 30-round magazine. Holmes is also charged in the April 15 Hollywood Family Dollar holdup and the April 25 Johns Island Dollar General job.",
       "sources": [
-        {
-          "name": "Live 5 News",
-          "url": "https://www.live5news.com/2026/05/07/man-accused-robbing-several-lowcountry-stores-police-say/"
-        },
-        {
-          "name": "WCBD Counton2",
-          "url": "https://www.counton2.com/news/local-news/man-who-robbed-family-dollar-with-a-rifle-was-arrested-after-separate-robbery-in-summerville-police-say/"
-        },
-        {
-          "name": "ABC News 4",
-          "url": "https://abcnews4.com/news/local/suspect-arrested-in-saturday-family-dollar-armed-robbery-crime-university-boulevard-north-charleston-police"
-        }
+        {"name": "Live 5 News", "url": "https://www.live5news.com/2026/05/07/man-accused-robbing-several-lowcountry-stores-police-say/"},
+        {"name": "WCBD Counton2", "url": "https://www.counton2.com/news/local-news/man-who-robbed-family-dollar-with-a-rifle-was-arrested-after-separate-robbery-in-summerville-police-say/"},
+        {"name": "ABC News 4", "url": "https://abcnews4.com/news/local/suspect-arrested-in-saturday-family-dollar-armed-robbery-crime-university-boulevard-north-charleston-police"}
       ]
     },
     {
@@ -143,18 +173,9 @@
       "headline": "Federal grand jury charges four Californians in multi-state pharmacy burglary conspiracy",
       "summary": "The Southern District of Illinois announced charges against Anthony Ellison, 25, of Moreno Valley, Idani Johnson, 34, of Compton, and two co-defendants for conspiring to burglarize pharmacies and distribute controlled substances. The crew is accused of traveling from California to Ohio, then hitting drugstores in Missouri, Illinois, Indiana, Kentucky, Tennessee, Pennsylvania, and Idaho between April 2024 and February 2026.",
       "sources": [
-        {
-          "name": "DEA release",
-          "url": "https://www.dea.gov/press-releases/2026/05/04/three-people-arrested-homeland-security-task-force-and-four-charged-multi"
-        },
-        {
-          "name": "Indianapolis Business Journal",
-          "url": "https://www.ibjonline.com/2026/05/06/homeland-security-charges-made-in-local-pharmacies-burglary-drug-trafficking-conspiracy/"
-        },
-        {
-          "name": "Troy Times Tribune",
-          "url": "https://www.timestribunenews.com/2026/05/05/three-people-arrested-by-homeland-security-task-force-four-charged-with-multi-state-burglary-drug-trafficking-conspiracy-targeting-local-pharmacies/"
-        }
+        {"name": "DEA release", "url": "https://www.dea.gov/press-releases/2026/05/04/three-people-arrested-homeland-security-task-force-and-four-charged-multi"},
+        {"name": "Indianapolis Business Journal", "url": "https://www.ibjonline.com/2026/05/06/homeland-security-charges-made-in-local-pharmacies-burglary-drug-trafficking-conspiracy/"},
+        {"name": "Troy Times Tribune", "url": "https://www.timestribunenews.com/2026/05/05/three-people-arrested-by-homeland-security-task-force-four-charged-with-multi-state-burglary-drug-trafficking-conspiracy-targeting-local-pharmacies/"}
       ]
     },
     {
@@ -169,18 +190,9 @@
       "headline": "Cary, NC trading card shop hit for $32,826 in pre-dawn smash-and-grab; two in custody by morning",
       "summary": "James Mitchell Fillingame, 20, and a 17-year-old juvenile broke a front window at Triangle Area Trading Cards around 5:20 a.m. Wednesday using a shopping cart and a tool, then loaded duffel bags with Pokemon and Magic cards. Cary PD recovered everything. Fillingame is held on $15,000 bail.",
       "sources": [
-        {
-          "name": "ABC11",
-          "url": "https://abc11.com/post/cary-burglary-2-arrested-45k-trading-card-shop-break-stolen-items-recovered/19050635/"
-        },
-        {
-          "name": "CBS17",
-          "url": "https://www.cbs17.com/news/local-news/wake-county-news/trading-cards-worth-thousands-of-dollars-stolen-after-man-teen-broke-into-cary-collectibles-store-court-records/"
-        },
-        {
-          "name": "WRAL",
-          "url": "https://www.wral.com/news/local/triangle-area-trading-cards-break-in-cary-may-2026/"
-        }
+        {"name": "ABC11", "url": "https://abc11.com/post/cary-burglary-2-arrested-45k-trading-card-shop-break-stolen-items-recovered/19050635/"},
+        {"name": "CBS17", "url": "https://www.cbs17.com/news/local-news/wake-county-news/trading-cards-worth-thousands-of-dollars-stolen-after-man-teen-broke-into-cary-collectibles-store-court-records/"},
+        {"name": "WRAL", "url": "https://www.wral.com/news/local/triangle-area-trading-cards-break-in-cary-may-2026/"}
       ]
     },
     {
@@ -195,18 +207,9 @@
       "headline": "Knifepoint heist at Orioles Team Store: 49-year-old grabbed two jerseys, then drew a blade",
       "summary": "Baltimore Police arrested a 49-year-old Wednesday morning after a 10 a.m. armed robbery at the Orioles Team Store on West Camden Street. He pulled two jerseys off a wall, was confronted by an employee, then drew a knife and ran. Officers caught him on N. Eutaw Street.",
       "sources": [
-        {
-          "name": "CBS Baltimore",
-          "url": "https://www.cbsnews.com/baltimore/news/49-year-old-man-accused-armed-robbery-at-baltimore-orioles-team-shop/"
-        },
-        {
-          "name": "WMAR",
-          "url": "https://www.wmar2news.com/news/region/baltimore-city/man-arrested-in-connection-to-armed-robbery-at-orioles-team-store"
-        },
-        {
-          "name": "Baltimore Sun",
-          "url": "https://www.baltimoresun.com/2026/05/06/man-arrested-armed-robbery-orioles-team-store/"
-        }
+        {"name": "CBS Baltimore", "url": "https://www.cbsnews.com/baltimore/news/49-year-old-man-accused-armed-robbery-at-baltimore-orioles-team-shop/"},
+        {"name": "WMAR", "url": "https://www.wmar2news.com/news/region/baltimore-city/man-arrested-in-connection-to-armed-robbery-at-orioles-team-store"},
+        {"name": "Baltimore Sun", "url": "https://www.baltimoresun.com/2026/05/06/man-arrested-armed-robbery-orioles-team-store/"}
       ]
     },
     {
@@ -221,14 +224,8 @@
       "headline": "Arizona cargo crew hits second BNSF train; investigators trace ring back to southern California",
       "summary": "Yavapai County deputies say a crew transferred four pallets of tech off a semi at an Ash Fork truck stop in 11 minutes April 14, then hit a railcar northwest of Williams. Eleven defendants were indicted in a separate $202K Nike haul on the same line. Investigators told AZ Family Wednesday they believe the operation runs out of southern California.",
       "sources": [
-        {
-          "name": "AZ Family",
-          "url": "https://www.azfamily.com/2026/05/06/planned-cargo-heists-northern-arizona-believed-be-linked-california-organization/"
-        },
-        {
-          "name": "AZ Family follow-up",
-          "url": "https://www.azfamily.com/video/2026/05/07/search-continues-thieves-northern-arizona-train-heist/"
-        }
+        {"name": "AZ Family", "url": "https://www.azfamily.com/2026/05/06/planned-cargo-heists-northern-arizona-believed-be-linked-california-organization/"},
+        {"name": "AZ Family follow-up", "url": "https://www.azfamily.com/video/2026/05/07/search-continues-thieves-northern-arizona-train-heist/"}
       ]
     },
     {
@@ -243,22 +240,10 @@
       "headline": "Two killed, three wounded in Carrollton Korean grocery shooting; suspect caught at H Mart",
       "summary": "Sung Ho Han, 69, opened fire on business associates at Gwangjang Market in K Towne Plaza on Tuesday morning, then killed a man at an apartment four miles south. Carrollton officers grabbed him on foot at the Old Denton Road H Mart by noon and he confessed to a financial dispute.",
       "sources": [
-        {
-          "name": "WFAA",
-          "url": "https://www.wfaa.com/article/news/crime/carrollton-koreatown-k-town-police-respond-shooting-possible/287-a2bf2ce8-e7bc-4db2-a284-ee59ff19a223"
-        },
-        {
-          "name": "NBC DFW",
-          "url": "https://www.nbcdfw.com/news/local/carrollton-investigation-korean-market/4020555/"
-        },
-        {
-          "name": "CBS Texas",
-          "url": "https://www.cbsnews.com/texas/news/large-police-presence-in-carrollton-after-reports-of-shooting/"
-        },
-        {
-          "name": "Texas Tribune",
-          "url": "https://www.texastribune.org/2026/05/05/texas-carrollton-fatal-shooting-shopping-center/"
-        }
+        {"name": "WFAA", "url": "https://www.wfaa.com/article/news/crime/carrollton-koreatown-k-town-police-respond-shooting-possible/287-a2bf2ce8-e7bc-4db2-a284-ee59ff19a223"},
+        {"name": "NBC DFW", "url": "https://www.nbcdfw.com/news/local/carrollton-investigation-korean-market/4020555/"},
+        {"name": "CBS Texas", "url": "https://www.cbsnews.com/texas/news/large-police-presence-in-carrollton-after-reports-of-shooting/"},
+        {"name": "Texas Tribune", "url": "https://www.texastribune.org/2026/05/05/texas-carrollton-fatal-shooting-shopping-center/"}
       ]
     },
     {
@@ -273,18 +258,9 @@
       "headline": "Hammer-wielding crew cleans out Zales at Pleasanton's Stoneridge mall in broad daylight",
       "summary": "A crew with hammers and pepper spray smashed two cases at Zales inside Stoneridge Shopping Center around 11:30 a.m. Monday and emptied them. Workers and shoppers ran. Pleasanton PD has not said how many were in the crew, what was taken, or whether anyone is in custody.",
       "sources": [
-        {
-          "name": "ABC7 San Francisco",
-          "url": "https://abc7news.com/post/zales-jewelers-robbed-hammers-pepper-spray-smash-grab-stoneridge-shopping-center-pleasanton/19041429/"
-        },
-        {
-          "name": "KRON4",
-          "url": "https://www.kron4.com/news/only-on-kron4-crowd-of-criminals-armed-with-hammers-storm-pleasanton-jewelry-store-in-smash-and-grab-attempt/"
-        },
-        {
-          "name": "Pleasanton Weekly May 7",
-          "url": "https://www.pleasantonweekly.com/crime/2026/05/07/pleasanton-police-investigating-smash-and-grab-at-zales-in-stoneridge-mall/"
-        }
+        {"name": "ABC7 San Francisco", "url": "https://abc7news.com/post/zales-jewelers-robbed-hammers-pepper-spray-smash-grab-stoneridge-shopping-center-pleasanton/19041429/"},
+        {"name": "KRON4", "url": "https://www.kron4.com/news/only-on-kron4-crowd-of-criminals-armed-with-hammers-storm-pleasanton-jewelry-store-in-smash-and-grab-attempt/"},
+        {"name": "Pleasanton Weekly May 7", "url": "https://www.pleasantonweekly.com/crime/2026/05/07/pleasanton-police-investigating-smash-and-grab-at-zales-in-stoneridge-mall/"}
       ]
     },
     {
@@ -299,10 +275,7 @@
       "headline": "Suspects walked merchandise out of Waipahu Town Center store, then assaulted security",
       "summary": "A man and a woman selected merchandise inside a Waipahu Town Center store at 10:56 a.m. Sunday and walked out without paying. When a security guard confronted them in the parking lot, the male suspect assaulted him and the pair fled east on foot. Honolulu PD released suspect images Tuesday.",
       "sources": [
-        {
-          "name": "Hawaii News Now",
-          "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/"
-        }
+        {"name": "Hawaii News Now", "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/"}
       ]
     },
     {
@@ -317,18 +290,9 @@
       "headline": "Walgreens shutters Chatham store at 86th and Cottage Grove, blames theft and violence",
       "summary": "Walgreens told CBS Chicago the Chatham location ran significantly higher theft and violent incidents than peers, and it closes June 4. Alderman William Hall (6th Ward) is pushing for modifications instead of closure.",
       "sources": [
-        {
-          "name": "CBS Chicago",
-          "url": "https://www.cbsnews.com/chicago/news/walgreens-closing-chatham-store-due-to-violence-theft/"
-        },
-        {
-          "name": "Chicago Sun-Times",
-          "url": "https://chicago.suntimes.com/money/2026/05/04/walgreens-close-chatham-store-theft-violence"
-        },
-        {
-          "name": "Block Club Chicago",
-          "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/"
-        }
+        {"name": "CBS Chicago", "url": "https://www.cbsnews.com/chicago/news/walgreens-closing-chatham-store-due-to-violence-theft/"},
+        {"name": "Chicago Sun-Times", "url": "https://chicago.suntimes.com/money/2026/05/04/walgreens-close-chatham-store-theft-violence"},
+        {"name": "Block Club Chicago", "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/"}
       ]
     },
     {
@@ -343,14 +307,8 @@
       "headline": "$600K Home Depot fencing ring busted at SoCal swap meet",
       "summary": "California Highway Patrol Southern Division ORC Task Force served warrants April 28 on two suspects and recovered $600,000 in stolen Home Depot tools. The pair bought from boosters and resold through a Los Angeles County swap meet that CHP also shut down.",
       "sources": [
-        {
-          "name": "Detroit News",
-          "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/"
-        },
-        {
-          "name": "FOX 11 LA",
-          "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles"
-        }
+        {"name": "Detroit News", "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/"},
+        {"name": "FOX 11 LA", "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles"}
       ]
     },
     {
@@ -365,14 +323,8 @@
       "headline": "Everest ransomware crew claims Fiserv, the payment plumbing for US retailers",
       "summary": "Ransomware.live confirmed Fiserv on the Everest leak site May 3. Fiserv runs payment processing, merchant acquiring, and core banking software used by retailers and banks across the country, with no public timeline yet on data exfiltration or ransom demand.",
       "sources": [
-        {
-          "name": "Ransomware.live",
-          "url": "https://www.ransomware.live/id/RmlzZXJ2QGV2ZXJlc3Q"
-        },
-        {
-          "name": "RedPacket Security",
-          "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"
-        }
+        {"name": "Ransomware.live", "url": "https://www.ransomware.live/id/RmlzZXJ2QGV2ZXJlc3Q"},
+        {"name": "RedPacket Security", "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"}
       ]
     },
     {
@@ -387,14 +339,8 @@
       "headline": "Shreveport grocery employee charged with attempted murder after shooting customer",
       "summary": "Malik Ahmad Omar, 21, an employee at Consumers Grocery on Hollywood Avenue, was arrested after surveillance confirmed he shot a customer inside the store during a dispute. The victim was found across the street with a life-threatening abdominal gunshot wound.",
       "sources": [
-        {
-          "name": "KSLA",
-          "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/"
-        },
-        {
-          "name": "KTAL",
-          "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/"
-        }
+        {"name": "KSLA", "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/"},
+        {"name": "KTAL", "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/"}
       ]
     },
     {
@@ -409,14 +355,8 @@
       "headline": "Three Baltimore teens arrested after downtown convenience store thefts, gel-ball blaster recovered",
       "summary": "Three boys ages 14, 17, and 18 hit a North Charles Street convenience store repeatedly Sunday around 6 p.m., taking items each trip. On the final pass, the oldest brandished what officers thought was a rifle and knocked over equipment before fleeing. BPD tracked the group four blocks to Light Street and recovered an Orbeez gel-ball blaster.",
       "sources": [
-        {
-          "name": "Fox Baltimore",
-          "url": "https://foxbaltimore.com/news/local/three-teens-arrested-rifle-displayed-repeated-downtown-convenience-store-thefts"
-        },
-        {
-          "name": "Baltimore Sun",
-          "url": "https://www.baltimoresun.com/2026/05/11/teens-arrested-inner-harbor-toy-gun/"
-        }
+        {"name": "Fox Baltimore", "url": "https://foxbaltimore.com/news/local/three-teens-arrested-rifle-displayed-repeated-downtown-convenience-store-thefts"},
+        {"name": "Baltimore Sun", "url": "https://www.baltimoresun.com/2026/05/11/teens-arrested-inner-harbor-toy-gun/"}
       ]
     },
     {
@@ -431,14 +371,8 @@
       "headline": "Visalia man pulls knife on Circle K clerk over Mother's Day beer run",
       "summary": "Gerardo Guzman, 30, walked into the McAuliff Street Circle K just after 3 p.m. Sunday, grabbed two six packs, and threatened to cut the clerk who tried to stop him. He fled on a bicycle and was caught blocks away with a knife, under the influence. Booked on robbery and bicycle DUI.",
       "sources": [
-        {
-          "name": "GV Wire",
-          "url": "https://gvwire.com/2026/05/11/visalia-police-arrest-knife-wielding-beer-theft-suspect-after-bicycle-getaway/"
-        },
-        {
-          "name": "Your Central Valley",
-          "url": "https://www.yourcentralvalley.com/news/crime/beer-theft-visalia-arrest/"
-        }
+        {"name": "GV Wire", "url": "https://gvwire.com/2026/05/11/visalia-police-arrest-knife-wielding-beer-theft-suspect-after-bicycle-getaway/"},
+        {"name": "Your Central Valley", "url": "https://www.yourcentralvalley.com/news/crime/beer-theft-visalia-arrest/"}
       ]
     },
     {
@@ -453,14 +387,8 @@
       "headline": "Gloucester County deputies arrest Kay Jewelers larceny suspect after multi-county chase",
       "summary": "Deputies got the call to Kay Jewelers at 6738 Fox Center Parkway around 5:15 Saturday afternoon. Gabriele Randazzo, 27, took off as officers arrived. York-Poquoson Sheriff and Virginia State Police joined the pursuit, which ended in York County. Randazzo faces grand larceny, statutory burglary, felony evade and elude, and reckless driving. Held without bond.",
       "sources": [
-        {
-          "name": "WAVY",
-          "url": "https://www.wavy.com/news/local-news/man-accused-of-jewelry-store-larceny-police-pursuit-in-gloucester/"
-        },
-        {
-          "name": "13NewsNow",
-          "url": "https://www.13newsnow.com/article/news/local/gloucester-county/jewelry-store-robbery-leads-to-police-chase-ending-in-york-county-sheriff-reports/291-0bce6d24-2079-4793-8c6e-c817ad98f254"
-        }
+        {"name": "WAVY", "url": "https://www.wavy.com/news/local-news/man-accused-of-jewelry-store-larceny-police-pursuit-in-gloucester/"},
+        {"name": "13NewsNow", "url": "https://www.13newsnow.com/article/news/crime/gloucester-county/jewelry-store-robbery-leads-to-police-chase-ending-in-york-county-sheriff-reports/291-0bce6d24-2079-4793-8c6e-c817ad98f254"}
       ]
     },
     {
@@ -475,10 +403,7 @@
       "headline": "Ocala's Paddock Mall closes early Mother's Day after firearm brandish",
       "summary": "An altercation inside Paddock Mall Sunday afternoon ended with someone displaying a firearm. No shots were fired, no injuries reported, no arrests as of Sunday night. Mall security cleared the building and shut early on a Mother's Day. Ocala PD released photos of persons of interest.",
       "sources": [
-        {
-          "name": "WCJB",
-          "url": "https://www.wcjb.com/2026/05/10/paddock-mall-closed-mothers-day-after-person-brandishes-firearm/"
-        }
+        {"name": "WCJB", "url": "https://www.wcjb.com/2026/05/10/paddock-mall-closed-mothers-day-after-person-brandishes-firearm/"}
       ]
     }
   ]
