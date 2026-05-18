@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-15T18:00:00Z",
+  "generated_at": "2026-05-18T12:03:26Z",
   "window_hours": 72,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,102 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "One-name files keep stacking: Operation D-Fence, Boswell at 27 Walgreens hits, McClease running a ring from jail",
-    "body": "Hillsborough deputies and the Florida AG announced Operation D-Fence on Wednesday, taking down a $12M Home Depot fencing operation after a six-month undercover run with an asset protection partner inside. Las Vegas ORC cracked an online resale network and seized 900 items valued at $418K. SFPD charged five in San Francisco, including a man who allegedly hit two Walgreens 27 separate times for $40K in cosmetics. Prince George's PD arrested a one-man retail theft ring tied to 100-plus hits and nine open warrants. Virginia Beach indicted three who ran a $1.66M ring with the operational lead directing it from inside jail. The federal CORCA bill cleared the House the same week.",
+    "headline": "A gun-shop theft warrant did not stop a teen from coming back for round two in Austin",
+    "body": "Two Austin teens hit the same firearm retailer in back-to-back thefts before walking the merchandise into a 12-scene weekend shooting spree. The 17-year-old already had an open warrant for stealing a gun from that store. APD had all three suspects in custody by Sunday night. Out in Oakland, Arkansas, the FBI National Threat Operations Center ran down a Walmart mass-shooting threat that arrived through an online game lobby. Marion County deputies served the warrant Friday. In Saraland, Alabama, a TV grab at Walmart turned to first-degree robbery when one suspect flashed a gun, then a 90-mph U-Haul chase ended on spike strips in Mobile. CORCA remains parked in Senate Judiciary.",
     "callouts": [
       {
-        "label": "Repeat offenders are the case file",
-        "text": "Wilder (100-plus thefts), Boswell (27 Walgreens hits), McClease (directing from jail), Fuentes (months of online resale). A small number of subjects are running most of the loss across multiple jurisdictions, and pre-trial release keeps putting them back on the floor."
+        "label": "Same store, second time",
+        "text": "Austin firearm shop got hit twice by the same crew before the spree began. The 17-year-old had a warrant for the first theft when his 15-year-old running partner walked the second handgun out. The retail security question is what happens between warrant and arrest."
       },
       {
-        "label": "Undercover work landed Operation D-Fence",
-        "text": "HCSO ran an undercover detective inside Hoover Rengifo's Lutz fence for six months while Home Depot supplied bait product. CORCA gives the federal coordination structure. The field win came from the buy-bust, not the bill."
+        "label": "Online threat, offline arrest",
+        "text": "A 20-year-old in rural Arkansas threatened a mass shooting at his local Walmart inside an online game lobby. Another player recorded it and tipped NTOC. From tip to arrest took about a week. Frontline LP needs to know who to call when this lands on their desk."
       },
       {
-        "label": "Convenience store armed robbery beat",
-        "text": "LaGrange GA clerk pulled her own firearm on a note-passing robber Wednesday. Camden County GA deputies are working a parking-lot exchange of gunfire at Camden Grocery Market. Memphis MPD is still seeking a Save-A-Stop shooter. The clerk-as-last-line problem is back in front of frontline retail."
+        "label": "Theft turns to robbery in 60 seconds",
+        "text": "Saraland, AL: a $1,000 Walmart TV grab became a first-degree robbery the second a suspect showed a gun. Then a U-Haul chase to Mobile, spike strips, a PIT maneuver, and felony charges on both. The escalation timeline matters as much as the loss amount."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-16-austin-firearm-store-double-theft",
+      "date": "May 16, 2026",
+      "method": "ORC",
+      "region": "South",
+      "city": "Austin, TX",
+      "retailer": "Unnamed firearm retailer",
+      "amount": 0,
+      "dollar_display": "2 handguns stolen, 12-scene spree",
+      "headline": "Same Austin gun shop hit twice by the same crew; teens used the merch in a 12-scene weekend spree",
+      "summary": "A 15-year-old allegedly walked out of an Austin firearm store Saturday with a handgun. His 17-year-old running partner already had an open warrant for stealing a gun from the same store. Plus a third teen, the crew hit apartments and two Austin Fire stations across 12 random shootings, wounding four. All three in custody by Sunday night.",
+      "sources": [
+        {
+          "name": "KUT",
+          "url": "https://www.kut.org/news/2026-05-17/austin-shootings-active-shooter-search-shelter-in-place"
+        },
+        {
+          "name": "CBS Texas",
+          "url": "https://www.cbsnews.com/texas/news/austin-10-shootings-may-17-2026/"
+        },
+        {
+          "name": "FOX 7 Austin",
+          "url": "https://www.fox7austin.com/news/austin-police-search-suspect-multiple-random-saturday-shootings"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-16-oakland-ar-walmart-hantavirus-threat-bynum",
+      "date": "May 16, 2026",
+      "method": "Workplace Violence",
+      "region": "South",
+      "city": "Oakland, AR",
+      "retailer": "Walmart",
+      "amount": 0,
+      "dollar_display": "Mass-shooting threat, no incident",
+      "headline": "Arkansas gamer arrested for threatening Walmart mass shooting if hantavirus triggered a U.S. lockdown",
+      "summary": "Aaron Keith Bynum, 20, of Oakland, Arkansas, was booked Friday on first-degree terroristic threatening and harassing communications. The FBI National Threat Operations Center got the tip from another player in an online multiplayer game who recorded Bynum saying he would shoot up his local Walmart if the country locked down again. Marion County deputies served the warrant. Bond at $2,500.",
+      "sources": [
+        {
+          "name": "Fox News",
+          "url": "https://www.foxnews.com/us/arkansas-man-allegedly-threatened-walmart-mass-shooting-hantavirus-lockdown-fears-authorities-say"
+        },
+        {
+          "name": "KY3",
+          "url": "https://www.ky3.com/2026/05/16/man-marion-county-ark-accused-making-mass-shooting-threats-if-country-were-locked-down-due-hantavirus/"
+        },
+        {
+          "name": "KTBS",
+          "url": "https://www.ktbs.com/news/crime/arkansas-man-arrested-after-online-hantavirus-mass-shooting-threat/article_81352e8e-bfbb-447f-a00e-6cd91f834d75.html"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-14-saraland-walmart-uhaul-robbery-chase",
+      "date": "May 14, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Saraland, AL",
+      "retailer": "Walmart",
+      "amount": 1000,
+      "dollar_display": "$1,000 stolen, weapon recovered",
+      "headline": "$1,000 Walmart TV grab in Saraland becomes first-degree robbery and a 90-mph U-Haul chase",
+      "summary": "Saraland PD responded to a theft call at Walmart May 14 and learned a suspect had shown a gun, turning it into a robbery. Officers spotted the U-Haul and chased it at speeds up to 90 mph through Chickasaw and Prichard to Mobile, where spike strips and a PIT maneuver ended it. Horace Davis Jr. faces first-degree robbery and pistol possession by a prohibited person. Jamayah Thompson faces second-degree robbery.",
+      "sources": [
+        {
+          "name": "FOX 10 Mobile",
+          "url": "https://www.fox10tv.com/2026/05/15/spd-u-haul-chase-suspects-steal-multiple-tvs-1000-worth-merchandise-walmart/"
+        },
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/articles/alabama-suspects-allegedly-stole-walmart-231645395.html"
+        },
+        {
+          "name": "ABC 33/40",
+          "url": "https://abc3340.com/news/nation-world/u-haul-uhaul-chase-pursuit-chasing-truck-vehicle-police-deputies-sheriffs-office-pit-maneuver-patrol-car-cars-vehicles-hit-struck-collision-arrest-arrested-flip-flipped-onto-side-crash-crashed-traffic"
+        }
+      ]
+    },
     {
       "id": "2026-05-13-tampa-operation-d-fence-home-depot",
       "date": "May 13, 2026",
@@ -101,7 +179,7 @@
       "amount": 40000,
       "dollar_display": "$40K from Walgreens alone",
       "headline": "SFPD ORC task force charges five San Francisco retail theft suspects",
-      "summary": "Tyrese Boswell, 24, allegedly hit two Walgreens stores in North Beach and Noe Valley 27 separate times for nearly $40K in cosmetics. He bonded out after a December arrest and ran a week-long Castro Street spree before officers grabbed him again April 4. SFDA's ORC vertical prosecutor has the case.",
+      "summary": "Tyrese Boswell, 24, allegedly hit two Walgreens stores in North Beach and Noe Valley 27 separate times for nearly $40K in cosmetics. He bonded out after a December arrest and ran a week-long Castro Street spree before officers grabbed him again April 4. SFDA ORC vertical prosecutor has the case.",
       "sources": [
         {
           "name": "SFPD release",
