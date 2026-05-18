@@ -1,6 +1,6 @@
 {
   "generated_at": "2026-05-18T12:03:26Z",
-  "window_hours": 72,
+  "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
   "regions_allowed": [
