@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T11:27:08Z",
+  "generated_at": "2026-05-19T11:40:15Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,50 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "A murder in a Derry warehouse parking lot is what gift-card fraud looks like at scale",
-    "body": "The biggest story of the day is not a smash-and-grab. NHPR pulled back the curtain on a Chinese organized crime ring running 13 New Hampshire warehouses where workers repackage iPhones bought with drained gift cards stolen from Sephora and Lululemon shelves. Apple shipped 46,364 devices worth $47 million to one Windham facility in a 10-week stretch. The gift cards are the soft entry point retailers do not police. The killing of Gui Lin, 41, by men who drove up from Queens with knives and duct tape, is what happens when that volume of merchandise starts piling up in nondescript industrial units. Meanwhile Overhaul says Q1 cargo theft fell year-over-year for the first time since 2021, but strategic theft jumped 31% and half of all freight fraud is now tied to carriers with clean records.",
+    "headline": "Two minors, one gun store, and the LP question nobody wants to own",
+    "body": "Three teens walked out of one Austin firearm shop with handguns on consecutive days, then spent 28 hours firing at apartments, fire stations, and four bystanders before Manor PD ended it Sunday night. Mayor Watson wants the LPR debate reopened. The same week, 7-Eleven confirmed its ShinyHunters breach with notification letters going to franchisees, Overhaul reported the first Q1 cargo theft decline since 2021 alongside a 31% jump in deceptive pickup schemes, and a New Hampshire warehouse worker is dead after a $47M iPhone-and-gift-card ring used Apple as the laundromat. The week is not light on signal. It is light on owners.",
     "callouts": [
       {
-        "label": "Gift cards as the unguarded door",
-        "text": "Thieves peel security strips off Sephora and Lululemon cards, log the numbers, reseal them, and put them back on the shelf. The grandmother who buys it funds the next iPhone. No retailer P&L line owns this loss because the customer absorbs it. That is why the scheme scales."
+        "label": "Front-line defense",
+        "text": "Two Georgia store clerks pulled firearms on note-passing robbers in the last week. Both sent suspects walking out. Antwanius Thornton was the second one arrested. The clerk-as-LP-of-last-resort story keeps writing itself."
       },
       {
-        "label": "Cargo theft eases, fraud surges",
-        "text": "574 cargo incidents in Q1, the first YoY drop since 2021. But deceptive pickups jumped 31% and half of all Q1 freight fraud came from carriers with clean records. The vetting layer retailers and brokers rely on is no longer a layer."
+        "label": "Cyber, retail edition",
+        "text": "7-Eleven joins Fiserv, Zara, Carnival, Mytheresa, and Udemy on the ShinyHunters Salesforce extortion list. Two retail-relevant cyber items in two weeks. The pattern is the integration layer, not the storefront."
       },
       {
-        "label": "CORCA at the Senate door",
-        "text": "House passed CORCA 348-60 last week. Companion bill S.1404 has been parked in Senate Judiciary since April 2025. Federalizing prosecution does not fix carrier vetting, gift card display security, or the warehouse-by-warehouse fencing question. Worth watching what the Senate adds, if anything."
+        "label": "Cargo's mixed signal",
+        "text": "Overhaul logged the first Q1 cargo theft drop since 2021, but deceptive pickups jumped 31% and half of Q1 fraud came from carriers with clean records. The volume number is misleading. The carrier vetting problem is the real headline."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-18-7-eleven-shinyhunters-salesforce-confirmation",
+      "date": "May 18, 2026",
+      "method": "Cyber",
+      "region": "South",
+      "city": "Irving, TX",
+      "retailer": "7-Eleven",
+      "amount": 0,
+      "dollar_display": "600,000 records exposed",
+      "headline": "7-Eleven confirms ShinyHunters breach, 600,000 franchisee Salesforce records on the line",
+      "summary": "7-Eleven started mailing notification letters disclosing an April 8 intrusion into the system that holds franchisee documents, SecurityWeek reported May 18. ShinyHunters listed the chain on its leak site April 17 alongside Zara, Carnival, Mytheresa, and Udemy in a broader Salesforce-linked extortion wave. 7-Eleven has only confirmed two Maine residents notified so far.",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/"
+        },
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/192336/data-breach/shinyhunters-hack-7-eleven-franchisee-data-and-salesforce-records-exposed.html"
+        },
+        {
+          "name": "HackRead",
+          "url": "https://hackread.com/shinyhunters-leak-udemy-zara-7-eleven-data-breach/"
+        }
+      ]
+    },
     {
       "id": "2026-05-18-derry-nh-iphone-gift-card-murder-extradition",
       "date": "May 18, 2026",
@@ -99,23 +125,23 @@
       "method": "ORC",
       "region": "South",
       "city": "Austin, TX",
-      "retailer": "Unnamed firearm retailer",
+      "retailer": "Central Texas Gunworks",
       "amount": 0,
       "dollar_display": "2 handguns stolen, 12-scene spree",
-      "headline": "Same Austin gun shop hit twice by the same crew; teens used the merch in a 12-scene weekend spree",
-      "summary": "A 15-year-old allegedly walked out of an Austin firearm store Saturday with a handgun. His 17-year-old running partner already had an open warrant for stealing a gun from the same store. Plus a third teen, the crew hit apartments and two Austin Fire stations across 12 random shootings, wounding four. All three in custody by Sunday night.",
+      "headline": "Same Austin gun shop hit twice by the same crew; Fajardo Mondragon, 17, charged after 28-hour spree",
+      "summary": "A 15-year-old walked out of Central Texas Gunworks on Saturday with a handgun. His 17-year-old running partner, Cristian Fajardo Mondragon, already had a warrant for stealing a gun from the same store. With a third teen, the crew fired at apartments, two Austin Fire stations, and pedestrians across 12 shootings, wounding four. Mayor Kirk Watson and Chief Lisa Davis say the city needs to reopen the LPR debate.",
       "sources": [
         {
-          "name": "KUT",
-          "url": "https://www.kut.org/news/2026-05-17/austin-shootings-active-shooter-search-shelter-in-place"
+          "name": "KUT timeline",
+          "url": "https://www.kut.org/crime-justice/2026-05-18/austin-police-apd-south-austin-shootings-timeline"
         },
         {
-          "name": "CBS Texas",
-          "url": "https://www.cbsnews.com/texas/news/austin-10-shootings-may-17-2026/"
+          "name": "KWTX",
+          "url": "https://www.kwtx.com/2026/05/18/timeline-how-28-hour-crime-spree-unfolded-across-austin/"
         },
         {
-          "name": "FOX 7 Austin",
-          "url": "https://www.fox7austin.com/news/austin-police-search-suspect-multiple-random-saturday-shootings"
+          "name": "Deseret News",
+          "url": "https://www.deseret.com/politics/2026/05/18/shootings-in-texas-add-to-debate-over-surveillance-tech/"
         }
       ]
     },
@@ -146,6 +172,24 @@
       ]
     },
     {
+      "id": "2026-05-15-clermont-sole-beauty-supply-leaster",
+      "date": "May 15, 2026",
+      "method": "Smash-and-Grab",
+      "region": "Southeast",
+      "city": "Clermont, FL",
+      "retailer": "Sole Beauty Supply",
+      "amount": 19000,
+      "dollar_display": "$19,000 stolen",
+      "headline": "Sole Beauty Supply in Clermont hit for the sixth time in a decade, $19K gone",
+      "summary": "Two men smashed through the Lake County storefront around 4 a.m. Friday, one using a brick on the front glass, Clermont PD said. Owner Rupert Lespeare had already upgraded cameras and alarms after the prior five hits. Orange County deputies arrested Joshua Leaster, 26, on an unrelated charge and tied him to the burglary. A second suspect is unidentified.",
+      "sources": [
+        {
+          "name": "ClickOrlando",
+          "url": "https://www.clickorlando.com/news/local/2026/05/18/beauty-supply-store-in-clermont-broken-into-for-6th-time-in-10-years/"
+        }
+      ]
+    },
+    {
       "id": "2026-05-14-saraland-walmart-uhaul-robbery-chase",
       "date": "May 14, 2026",
       "method": "Armed Robbery",
@@ -168,58 +212,6 @@
         {
           "name": "ABC 33/40",
           "url": "https://abc3340.com/news/nation-world/u-haul-uhaul-chase-pursuit-chasing-truck-vehicle-police-deputies-sheriffs-office-pit-maneuver-patrol-car-cars-vehicles-hit-struck-collision-arrest-arrested-flip-flipped-onto-side-crash-crashed-traffic"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-13-tampa-operation-d-fence-home-depot",
-      "date": "May 13, 2026",
-      "method": "ORC",
-      "region": "Southeast",
-      "city": "Tampa, FL",
-      "retailer": "The Home Depot",
-      "amount": 5000000,
-      "dollar_display": "$5M recovered, $12M scheme",
-      "headline": "Florida AG and HCSO dismantle $12M Home Depot fencing ring in Operation D-Fence",
-      "summary": "Fourteen arrests after a six-month undercover run inside Hoover Rengifo's family fencing operation in Lutz. HCSO seized $5M in construction tools and home appliances, $220K cash, and seven vehicles. Home Depot supplied bait product so an undercover detective could sell to Rengifo directly. Crew moved goods across Florida, Tennessee, Kentucky, and Indiana.",
-      "sources": [
-        {
-          "name": "HCSO press release",
-          "url": "https://teamhcso.com/News/PressRelease/e9dce4e7-b3ae-4185-96c7-751805d5564b/en-US"
-        },
-        {
-          "name": "FOX 13 Tampa Bay",
-          "url": "https://www.fox13news.com/news/theft-ring-responsible-over-12-million-stolen-items-taken-down-operation-d-fence-hcso"
-        },
-        {
-          "name": "WFLA",
-          "url": "https://www.wfla.com/news/hillsborough-county/hillsborough-sheriff-florida-attorney-general-announce-arrests-in-retail-theft-scheme/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-13-virginia-beach-1-66m-retail-ring",
-      "date": "May 13, 2026",
-      "method": "ORC",
-      "region": "Southeast",
-      "city": "Virginia Beach, VA",
-      "retailer": "Multiple retailers (Walmart, others)",
-      "amount": 1660000,
-      "dollar_display": "$1.66M scheme",
-      "headline": "VBPD indicts three in $1.66M multi-state retail theft ring directed from jail",
-      "summary": "Tony McClease ran operations and managed distribution from inside while Alexander Newman boosted product and Chane'l Stith fenced it, prosecutors say. The trio faces organized retail theft and grand larceny conspiracy charges. Losses date to December 2023 across Virginia Beach, Yorktown, Chesapeake, Norfolk, Henrico, and Roxboro, North Carolina.",
-      "sources": [
-        {
-          "name": "WAVY",
-          "url": "https://www.wavy.com/news/local-news/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
-        },
-        {
-          "name": "13NewsNow",
-          "url": "https://www.13newsnow.com/article/news/crime/police-say-multi-state-retail-theft-ring-dismantled-trio-indicted-in-166m-scheme/291-bfbd48d6-da71-4198-84dd-c21b0c599c0b"
-        },
-        {
-          "name": "WRIC",
-          "url": "https://www.wric.com/news/virginia-news/tidewater/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
         }
       ]
     },
@@ -294,6 +286,58 @@
       ]
     },
     {
+      "id": "2026-05-13-tampa-operation-d-fence-home-depot",
+      "date": "May 13, 2026",
+      "method": "ORC",
+      "region": "Southeast",
+      "city": "Tampa, FL",
+      "retailer": "The Home Depot",
+      "amount": 5000000,
+      "dollar_display": "$5M recovered, $12M scheme",
+      "headline": "Florida AG and HCSO dismantle $12M Home Depot fencing ring in Operation D-Fence",
+      "summary": "Fourteen arrests after a six-month undercover run inside Hoover Rengifo's family fencing operation in Lutz. HCSO seized $5M in construction tools and home appliances, $220K cash, and seven vehicles. Home Depot supplied bait product so an undercover detective could sell to Rengifo directly. Crew moved goods across Florida, Tennessee, Kentucky, and Indiana.",
+      "sources": [
+        {
+          "name": "HCSO press release",
+          "url": "https://teamhcso.com/News/PressRelease/e9dce4e7-b3ae-4185-96c7-751805d5564b/en-US"
+        },
+        {
+          "name": "FOX 13 Tampa Bay",
+          "url": "https://www.fox13news.com/news/theft-ring-responsible-over-12-million-stolen-items-taken-down-operation-d-fence-hcso"
+        },
+        {
+          "name": "WFLA",
+          "url": "https://www.wfla.com/news/hillsborough-county/hillsborough-sheriff-florida-attorney-general-announce-arrests-in-retail-theft-scheme/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-13-virginia-beach-1-66m-retail-ring",
+      "date": "May 13, 2026",
+      "method": "ORC",
+      "region": "Southeast",
+      "city": "Virginia Beach, VA",
+      "retailer": "Multiple retailers (Walmart, others)",
+      "amount": 1660000,
+      "dollar_display": "$1.66M scheme",
+      "headline": "VBPD indicts three in $1.66M multi-state retail theft ring directed from jail",
+      "summary": "Tony McClease ran operations and managed distribution from inside while Alexander Newman boosted product and Chane'l Stith fenced it, prosecutors say. The trio faces organized retail theft and grand larceny conspiracy charges. Losses date to December 2023 across Virginia Beach, Yorktown, Chesapeake, Norfolk, Henrico, and Roxboro, North Carolina.",
+      "sources": [
+        {
+          "name": "WAVY",
+          "url": "https://www.wavy.com/news/local-news/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
+        },
+        {
+          "name": "13NewsNow",
+          "url": "https://www.13newsnow.com/article/news/crime/police-say-multi-state-retail-theft-ring-dismantled-trio-indicted-in-166m-scheme/291-bfbd48d6-da71-4198-84dd-c21b0c599c0b"
+        },
+        {
+          "name": "WRIC",
+          "url": "https://www.wric.com/news/virginia-news/tidewater/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
+        }
+      ]
+    },
+    {
       "id": "2026-05-13-lagrange-fullers-superette-clerk-firearm",
       "date": "May 13, 2026",
       "method": "Armed Robbery",
@@ -302,12 +346,16 @@
       "retailer": "Fuller's Superette",
       "amount": 0,
       "dollar_display": "Clerk pulled firearm, no shots",
-      "headline": "LaGrange clerk pulls firearm on note-passing robber, suspect walks out",
-      "summary": "A man entered Fuller's Superette on Hamilton Road just after 10 a.m. Wednesday and slid the clerk a note demanding the register. She drew a firearm from beneath the counter and pointed it at him. He grabbed the note back and left on foot. LaGrange PD released suspect images.",
+      "headline": "LaGrange clerk pulls firearm on note-passing robber; Thornton, 32, arrested five days later",
+      "summary": "A man entered Fuller's Superette on Hamilton Road just after 10 a.m. May 13 and slid the clerk a note demanding the register. She drew a firearm from beneath the counter. He grabbed the note back and walked out. LaGrange PD took Antwanius Thornton, 32, into custody Friday after tips identified him.",
       "sources": [
         {
-          "name": "WTVM",
+          "name": "WTVM (initial)",
           "url": "https://www.wtvm.com/2026/05/14/lagrange-store-clerk-pulls-gun-would-be-robber-suspect-sought/"
+        },
+        {
+          "name": "WTVM (arrest)",
+          "url": "https://www.wtvm.com/2026/05/18/1-custody-after-lagrange-store-clerk-draws-gun-foil-robbery-police/"
         }
       ]
     },
@@ -326,24 +374,6 @@
         {
           "name": "First Coast News",
           "url": "https://www.firstcoastnews.com/article/news/crime/shooting-camden-grocery-convenience-store-investigation/77-4e977667-c29a-4f35-bb03-4ddb6be72f0a"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-08-memphis-save-a-stop-orange-mound-shooting",
-      "date": "May 8, 2026",
-      "method": "Workplace Violence",
-      "region": "Southeast",
-      "city": "Memphis, TN",
-      "retailer": "Save-A-Stop 1",
-      "amount": 0,
-      "dollar_display": "Victim critical",
-      "headline": "MPD seeks suspect in Save-A-Stop convenience store shooting that left man critical",
-      "summary": "Memphis Police released suspect photos Wednesday in connection with a May 8 shooting at the Save-A-Stop 1 at Pendleton and Deadrick in Orange Mound. The suspect followed the victim inside, drew a handgun, shot him, and fled south on Pendleton. Victim remains in critical condition.",
-      "sources": [
-        {
-          "name": "Action News 5",
-          "url": "https://www.actionnews5.com/2026/05/13/police-release-photo-suspected-gunman-orange-mound-convenience-store-shooting/"
         }
       ]
     },
@@ -494,6 +524,24 @@
         {
           "name": "13NewsNow",
           "url": "https://www.13newsnow.com/article/news/local/gloucester-county/jewelry-store-robbery-leads-to-police-chase-ending-in-york-county-sheriff-reports/291-0bce6d24-2079-4793-8c6e-c817ad98f254"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-08-memphis-save-a-stop-orange-mound-shooting",
+      "date": "May 8, 2026",
+      "method": "Workplace Violence",
+      "region": "Southeast",
+      "city": "Memphis, TN",
+      "retailer": "Save-A-Stop 1",
+      "amount": 0,
+      "dollar_display": "Victim critical",
+      "headline": "MPD seeks suspect in Save-A-Stop convenience store shooting that left man critical",
+      "summary": "Memphis Police released suspect photos Wednesday in connection with a May 8 shooting at the Save-A-Stop 1 at Pendleton and Deadrick in Orange Mound. The suspect followed the victim inside, drew a handgun, shot him, and fled south on Pendleton. Victim remains in critical condition.",
+      "sources": [
+        {
+          "name": "Action News 5",
+          "url": "https://www.actionnews5.com/2026/05/13/police-release-photo-suspected-gunman-orange-mound-convenience-store-shooting/"
         }
       ]
     },
