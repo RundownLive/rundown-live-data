@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-18T12:03:26Z",
+  "generated_at": "2026-05-19T11:27:08Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,78 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "A gun-shop theft warrant did not stop a teen from coming back for round two in Austin",
-    "body": "Two Austin teens hit the same firearm retailer in back-to-back thefts before walking the merchandise into a 12-scene weekend shooting spree. The 17-year-old already had an open warrant for stealing a gun from that store. APD had all three suspects in custody by Sunday night. Out in Oakland, Arkansas, the FBI National Threat Operations Center ran down a Walmart mass-shooting threat that arrived through an online game lobby. Marion County deputies served the warrant Friday. In Saraland, Alabama, a TV grab at Walmart turned to first-degree robbery when one suspect flashed a gun, then a 90-mph U-Haul chase ended on spike strips in Mobile. CORCA remains parked in Senate Judiciary.",
+    "headline": "A murder in a Derry warehouse parking lot is what gift-card fraud looks like at scale",
+    "body": "The biggest story of the day is not a smash-and-grab. NHPR pulled back the curtain on a Chinese organized crime ring running 13 New Hampshire warehouses where workers repackage iPhones bought with drained gift cards stolen from Sephora and Lululemon shelves. Apple shipped 46,364 devices worth $47 million to one Windham facility in a 10-week stretch. The gift cards are the soft entry point retailers do not police. The killing of Gui Lin, 41, by men who drove up from Queens with knives and duct tape, is what happens when that volume of merchandise starts piling up in nondescript industrial units. Meanwhile Overhaul says Q1 cargo theft fell year-over-year for the first time since 2021, but strategic theft jumped 31% and half of all freight fraud is now tied to carriers with clean records.",
     "callouts": [
       {
-        "label": "Same store, second time",
-        "text": "Austin firearm shop got hit twice by the same crew before the spree began. The 17-year-old had a warrant for the first theft when his 15-year-old running partner walked the second handgun out. The retail security question is what happens between warrant and arrest."
+        "label": "Gift cards as the unguarded door",
+        "text": "Thieves peel security strips off Sephora and Lululemon cards, log the numbers, reseal them, and put them back on the shelf. The grandmother who buys it funds the next iPhone. No retailer P&L line owns this loss because the customer absorbs it. That is why the scheme scales."
       },
       {
-        "label": "Online threat, offline arrest",
-        "text": "A 20-year-old in rural Arkansas threatened a mass shooting at his local Walmart inside an online game lobby. Another player recorded it and tipped NTOC. From tip to arrest took about a week. Frontline LP needs to know who to call when this lands on their desk."
+        "label": "Cargo theft eases, fraud surges",
+        "text": "574 cargo incidents in Q1, the first YoY drop since 2021. But deceptive pickups jumped 31% and half of all Q1 freight fraud came from carriers with clean records. The vetting layer retailers and brokers rely on is no longer a layer."
       },
       {
-        "label": "Theft turns to robbery in 60 seconds",
-        "text": "Saraland, AL: a $1,000 Walmart TV grab became a first-degree robbery the second a suspect showed a gun. Then a U-Haul chase to Mobile, spike strips, a PIT maneuver, and felony charges on both. The escalation timeline matters as much as the loss amount."
+        "label": "CORCA at the Senate door",
+        "text": "House passed CORCA 348-60 last week. Companion bill S.1404 has been parked in Senate Judiciary since April 2025. Federalizing prosecution does not fix carrier vetting, gift card display security, or the warehouse-by-warehouse fencing question. Worth watching what the Senate adds, if anything."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-18-derry-nh-iphone-gift-card-murder-extradition",
+      "date": "May 18, 2026",
+      "method": "Workplace Violence",
+      "region": "Northeast",
+      "city": "Derry, NH",
+      "retailer": "Apple (gift cards stolen from Sephora, Lululemon, Walgreens)",
+      "amount": 47000000,
+      "dollar_display": "$47M Apple shipments to one warehouse, fatal",
+      "headline": "NH iPhone-smuggling murder defendant extradited as $47M gift-card ring exposed",
+      "summary": "Marco Marquez Vera, 20, of Queens awaits trial in the May 2025 stabbing of warehouse worker Gui Lin, 41, in Derry. NHPR detailed how Chinese organized crime drains stolen gift cards from Sephora and Lululemon, buys iPhones, and ships them through 13 NH warehouses; Apple sent 46,364 devices worth $47M to one Windham facility in 10 weeks.",
+      "sources": [
+        {
+          "name": "Valley News / NHPR",
+          "url": "https://vnews.com/2026/05/18/stolen-gift-card-apple-fraud/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-st-charles-mo-walgreens-colorado-trio",
+      "date": "May 18, 2026",
+      "method": "ORC",
+      "region": "Midwest",
+      "city": "St. Charles, MO",
+      "retailer": "Walgreens",
+      "amount": 25000,
+      "dollar_display": "Over $25,000 in cosmetics across four stores",
+      "headline": "Colorado trio set for arraignment in four-store St. Charles County Walgreens makeup haul",
+      "summary": "Andrei Constantin, Alin Constantin, and Elisabeta Iancu, all of Colorado, are charged after surveillance caught the trio hitting four St. Charles County, MO Walgreens stores on January 11 and walking out with thousands in cosmetics. Two face accessory stealing charges over $25,000; arraignments scheduled June 17, July 13, and July 21.",
+      "sources": [
+        {
+          "name": "FOX 2 St. Louis",
+          "url": "https://fox2now.com/news/missouri/colorado-trio-arrested-charged-for-multiple-makeup-thefts/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-macon-ga-family-dollar-armed-robbery",
+      "date": "May 18, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Macon, GA",
+      "retailer": "Family Dollar",
+      "amount": 0,
+      "dollar_display": "Cash register box stolen",
+      "headline": "Bibb County sheriff hunts masked gunman who hit Macon Family Dollar",
+      "summary": "A masked man walked into the Family Dollar at 3190 Mercer University Drive in Macon around 7:30 p.m. Saturday, pulled a handgun on the clerk, and forced her to hand over a register cash box. The suspect fled on foot in a tan shirt, black jeans, and grey-and-white sneakers. Bibb County Sheriff released photos Monday.",
+      "sources": [
+        {
+          "name": "13WMAZ",
+          "url": "https://www.13wmaz.com/article/news/local/macon/bibb-county-sheriffs-office-releases-photosv-suspect-family-dollar-armed-robbery/93-d662c411-b1ae-4bd5-aefa-2d5e727320ff"
+        }
+      ]
+    },
     {
       "id": "2026-05-16-austin-firearm-store-double-theft",
       "date": "May 16, 2026",
