@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T13:00:00Z",
+  "generated_at": "2026-05-20T11:59:02Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -39,6 +39,32 @@
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-19-bothell-wa-7-eleven-officer-involved",
+      "date": "May 19, 2026",
+      "method": "Officer-Involved",
+      "region": "West",
+      "city": "Bothell, WA",
+      "retailer": "7-Eleven",
+      "amount": 0,
+      "dollar_display": "19-year-old wounded, no officer injury",
+      "headline": "Bothell officer fires at car in 7-Eleven lot after passenger points gun",
+      "summary": "A Bothell officer stopped a vehicle for an illegal U-turn on Bothell-Everett Highway just after 12:20 a.m. Tuesday and pulled into the 7-Eleven lot. The driver ran on foot. A passenger pointed a firearm at the officer, who fired multiple rounds. Suspects rammed the patrol car and fled; a 19-year-old turned up at a Burien hospital with gunshot wounds.",
+      "sources": [
+        {
+          "name": "Seattle Times",
+          "url": "https://www.seattletimes.com/seattle-news/law-justice/bothell-police-shooting-injures-one-at-7-eleven-traffic-stop/"
+        },
+        {
+          "name": "KING 5",
+          "url": "https://www.king5.com/article/news/crime/snohomish-county-sheriffs-office-investigates-officer-involved-shooting-in-bothell/281-e6ae8099-2d4a-4e42-93f3-c2d299aba9fc"
+        },
+        {
+          "name": "Bothell-Kenmore Reporter",
+          "url": "https://www.bothell-reporter.com/2026/05/19/bothell-officer-involved-shooting-under-investigation/"
+        }
+      ]
+    },
     {
       "id": "2026-05-19-chicago-walgreens-e71st-specialty-close",
       "date": "May 19, 2026",
@@ -160,6 +186,32 @@
         {
           "name": "13WMAZ",
           "url": "https://www.13wmaz.com/article/news/local/macon/bibb-county-sheriffs-office-releases-photosv-suspect-family-dollar-armed-robbery/93-d662c411-b1ae-4bd5-aefa-2d5e727320ff"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-winston-salem-gamestop-medina-machete",
+      "date": "May 18, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Winston-Salem, NC",
+      "retailer": "GameStop",
+      "amount": 900,
+      "dollar_display": "$900 stolen, weapon recovered",
+      "headline": "Aaron Medina, 26, arrested with machete after $900 Winston-Salem GameStop holdup",
+      "summary": "Medina walked into the GameStop on Hanes Mall Boulevard at 6:57 p.m. Monday, drew a machete, took roughly $900 in merchandise, and ran. Winston-Salem PD caught him with the machete and the merchandise. He faces robbery with a dangerous weapon plus concealed-carry and drug counts.",
+      "sources": [
+        {
+          "name": "WFMY News 2",
+          "url": "https://www.wfmynews2.com/article/news/crime/gamestop-machete-robbery-winston-salem-hanes-mall-boulevard/83-eab78b49-77da-4103-841b-1248aba7e39a"
+        },
+        {
+          "name": "Winston-Salem Journal",
+          "url": "https://journalnow.com/news/local/crime-courts/article_d551d2de-b0b2-4b26-bc62-dd9d8113b321.html"
+        },
+        {
+          "name": "ABC 45",
+          "url": "https://abc45.com/news/local/winston-salem-police-investigate-armed-robbery-at-hanes-mall-boulevard-gamestop"
         }
       ]
     },
