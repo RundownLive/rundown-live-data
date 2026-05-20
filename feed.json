@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-19T11:40:15Z",
+  "generated_at": "2026-05-20T13:00:00Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,50 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Two minors, one gun store, and the LP question nobody wants to own",
-    "body": "Three teens walked out of one Austin firearm shop with handguns on consecutive days, then spent 28 hours firing at apartments, fire stations, and four bystanders before Manor PD ended it Sunday night. Mayor Watson wants the LPR debate reopened. The same week, 7-Eleven confirmed its ShinyHunters breach with notification letters going to franchisees, Overhaul reported the first Q1 cargo theft decline since 2021 alongside a 31% jump in deceptive pickup schemes, and a New Hampshire warehouse worker is dead after a $47M iPhone-and-gift-card ring used Apple as the laundromat. The week is not light on signal. It is light on owners.",
+    "headline": "The week cyber became a P&L line item",
+    "body": "7-Eleven mailed breach notifications all last week. Marks & Spencer pinned £131M of profit damage on its ransomware attack in annual results released today. Verizon's DBIR on Monday named vulnerability exploitation the top breach vector for the first time in 19 years, with AI compressing patch windows from months to hours. Three confirmations of the same operational reality on three consecutive working days. Add Chatham Walgreens shuttering its East 71st specialty pharmacy today and citing 16% theft-of-sales at the larger store closing June 4. A 14-year-old took a chest wound outside the downtown Detroit Gucci during a 500-teen Saturday takeover. Sacramento sentenced William Ellis to 251 years for serial retail parking-lot armed robberies. The bills are arriving.",
     "callouts": [
       {
-        "label": "Front-line defense",
-        "text": "Two Georgia store clerks pulled firearms on note-passing robbers in the last week. Both sent suspects walking out. Antwanius Thornton was the second one arrested. The clerk-as-LP-of-last-resort story keeps writing itself."
+        "label": "Cyber as P&L",
+        "text": "Read the Verizon DBIR and the M&S annual results on the same desk this week. The DBIR names the cause, M&S names the dollar number. U.S. retail boards will reach for both in the next budget cycle."
       },
       {
-        "label": "Cyber, retail edition",
-        "text": "7-Eleven joins Fiserv, Zara, Carnival, Mytheresa, and Udemy on the ShinyHunters Salesforce extortion list. Two retail-relevant cyber items in two weeks. The pattern is the integration layer, not the storefront."
+        "label": "Corporate abandonment vs. operating math",
+        "text": "Chatham aldermen called Walgreens to account. Walgreens cites 16% theft-of-sales, four times the company average. Both can be true at once. The math is not optional."
       },
       {
-        "label": "Cargo's mixed signal",
-        "text": "Overhaul logged the first Q1 cargo theft drop since 2021, but deceptive pickups jumped 31% and half of Q1 fraud came from carriers with clean records. The volume number is misleading. The carrier vetting problem is the real headline."
+        "label": "Teen takeovers, retail district edition",
+        "text": "Detroit's 500-teen Saturday brawl outside Gucci puts shopping and dining corridors into the same conversation as the mall-takeover trend. Different youth, same operational gap for retailers."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-19-chicago-walgreens-e71st-specialty-close",
+      "date": "May 19, 2026",
+      "method": "Workplace Violence",
+      "region": "Midwest",
+      "city": "Chicago, IL",
+      "retailer": "Walgreens",
+      "amount": 0,
+      "dollar_display": "Store closure, theft 16% of sales at sister store",
+      "headline": "Walgreens specialty pharmacy at East 71st Street closes today as Chatham flagship waits for June 4",
+      "summary": "The Walgreens specialty pharmacy at 2351 East 71st Street in Chicago pulled the shutters today, with the larger Chatham store at 86th and Cottage Grove set to follow June 4. Walgreens told CBS Chicago theft at the larger store hit 16% of sales, four times the company average. Three South Side aldermen led a Monday protest inside the building.",
+      "sources": [
+        {
+          "name": "Block Club Chicago",
+          "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/"
+        },
+        {
+          "name": "Chicago Sun-Times",
+          "url": "https://chicago.suntimes.com/money/2026/05/04/walgreens-close-chatham-store-theft-violence"
+        },
+        {
+          "name": "ABC7 Chicago",
+          "url": "https://abc7chicago.com/post/chicago-community-leaders-speak-ahead-chatham-walgreens-pharmacy-store-closure-month/19034714/"
+        }
+      ]
+    },
     {
       "id": "2026-05-18-7-eleven-shinyhunters-salesforce-confirmation",
       "date": "May 18, 2026",
@@ -84,6 +110,24 @@
       ]
     },
     {
+      "id": "2026-05-18-sacramento-ellis-parking-lot-251-years",
+      "date": "May 18, 2026",
+      "method": "Armed Robbery",
+      "region": "West",
+      "city": "Sacramento, CA",
+      "retailer": "Multiple retailers (parking lots)",
+      "amount": 0,
+      "dollar_display": "251 years to life",
+      "headline": "Sacramento serial robber William Ellis sentenced to 251 years for retail parking-lot holdups",
+      "summary": "William Ellis, 44, was sentenced Friday in Sacramento County Superior Court for seven counts of robbery and felony evasion across three 2023 retail parking-lot incidents. Two prior strike convictions and multiple aggravating factors stacked the count. Victims handed over wedding rings and family heirlooms at gunpoint while loading vehicles, including families with small children.",
+      "sources": [
+        {
+          "name": "CBS Sacramento",
+          "url": "https://www.cbsnews.com/sacramento/news/armed-robberies-sacramento-county-retail-theft-life-sentence/"
+        }
+      ]
+    },
+    {
       "id": "2026-05-18-st-charles-mo-walgreens-colorado-trio",
       "date": "May 18, 2026",
       "method": "ORC",
@@ -116,6 +160,32 @@
         {
           "name": "13WMAZ",
           "url": "https://www.13wmaz.com/article/news/local/macon/bibb-county-sheriffs-office-releases-photosv-suspect-family-dollar-armed-robbery/93-d662c411-b1ae-4bd5-aefa-2d5e727320ff"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-17-detroit-downtown-teen-takeover-gucci",
+      "date": "May 17, 2026",
+      "method": "Workplace Violence",
+      "region": "Midwest",
+      "city": "Detroit, MI",
+      "retailer": "Gucci (and downtown retail/dining corridor)",
+      "amount": 0,
+      "dollar_display": "14-year-old shot, 60-plus juveniles detained",
+      "headline": "Detroit teen takeover outside downtown Gucci leaves 14-year-old shot; 500 teens brawl",
+      "summary": "Two groups gathered outside the Gucci store at Library and Farmer Streets in downtown Detroit on Saturday evening when shots were fired. The 14-year-old took a chest wound and survived. DPD detained more than 60 juveniles and recovered the firearm. A 16-year-old and a 17-year-old were charged. Mayor Sheffield is pushing curfew enforcement.",
+      "sources": [
+        {
+          "name": "ClickOnDetroit",
+          "url": "https://www.clickondetroit.com/news/local/2026/05/18/detroit-leaders-push-curfew-enforcement-after-weekend-teen-takeover-turns-violent/"
+        },
+        {
+          "name": "Detroit News",
+          "url": "https://www.detroitnews.com/story/news/local/detroit-city/2026/05/18/hundreds-of-teens-brawl-in-downtown-detroit-reports/90138347007/"
+        },
+        {
+          "name": "Hoodline",
+          "url": "https://hoodline.com/2026/05/teen-shot-steps-from-library-street-in-downtown-detroit-another-teen-nabbed/"
         }
       ]
     },
