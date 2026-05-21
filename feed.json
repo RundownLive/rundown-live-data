@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-20T11:59:02Z",
+  "generated_at": "2026-05-21T13:59:22Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,20 +21,20 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "The week cyber became a P&L line item",
-    "body": "7-Eleven mailed breach notifications all last week. Marks & Spencer pinned £131M of profit damage on its ransomware attack in annual results released today. Verizon's DBIR on Monday named vulnerability exploitation the top breach vector for the first time in 19 years, with AI compressing patch windows from months to hours. Three confirmations of the same operational reality on three consecutive working days. Add Chatham Walgreens shuttering its East 71st specialty pharmacy today and citing 16% theft-of-sales at the larger store closing June 4. A 14-year-old took a chest wound outside the downtown Detroit Gucci during a 500-teen Saturday takeover. Sacramento sentenced William Ellis to 251 years for serial retail parking-lot armed robberies. The bills are arriving.",
+    "headline": "The shrink line just flipped, the cyber line just got bigger",
+    "body": "Two retail bellwethers reported Q1 inside 24 hours. Walmart posted $175.7B in net sales today with adjusted EPS up 8% and shrink language unchanged from the last call: a small tailwind, not a headwind. Target reported yesterday with comp traffic up 4.4% and CEO Michael Fiddelke calling shrink plateaued, two quarters into the year. Both lined up against Marks and Spencer publishing a clean number on the other side of the P&L: 131.3 million pounds in costs from one ransomware incident, 100 million pounds back through insurance. That is the line item retail boards will be reading next quarter. Verizon DBIR yesterday named vulnerability exploitation the top breach vector for the first time in 19 years. AP and IT are looking at the same risk register now, and nobody has a clean answer for who owns the dollar number.",
     "callouts": [
       {
-        "label": "Cyber as P&L",
-        "text": "Read the Verizon DBIR and the M&S annual results on the same desk this week. The DBIR names the cause, M&S names the dollar number. U.S. retail boards will reach for both in the next budget cycle."
+        "label": "Walmart, Target shrink commentary",
+        "text": "Both CFOs treated shrink as a non-event this quarter. Target moved the line from headwind to tailwind, Walmart held it as a small benefit. Either AP teams solved a 100-billion-dollar problem or the industry stopped citing it because it stopped working as a narrative."
       },
       {
-        "label": "Corporate abandonment vs. operating math",
-        "text": "Chatham aldermen called Walgreens to account. Walgreens cites 16% theft-of-sales, four times the company average. Both can be true at once. The math is not optional."
+        "label": "M&S as the cyber benchmark",
+        "text": "131.3 million pounds of damage from one incident, 100 million pounds back through insurance. The net hit is still larger than what most named U.S. retailers admit on a full year of shrink. U.S. boards will benchmark their own cyber posture against that number."
       },
       {
-        "label": "Teen takeovers, retail district edition",
-        "text": "Detroit's 500-teen Saturday brawl outside Gucci puts shopping and dining corridors into the same conversation as the mall-takeover trend. Different youth, same operational gap for retailers."
+        "label": "Connecticut and the Flock question",
+        "text": "Home Depot and Lowe's parking-lot LPRs are now drawing local pushback in Connecticut. State privacy law covers public agencies, not private-lot cameras. Retailers want the deterrent and the law enforcement pipeline. Shoppers and ACLU chapters are starting to ask which is the point."
       }
     ]
   },
