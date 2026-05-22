@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-21T13:59:22Z",
+  "generated_at": "2026-05-22T14:02:07Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,47 +21,39 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "The shrink line just flipped, the cyber line just got bigger",
-    "body": "Two retail bellwethers reported Q1 inside 24 hours. Walmart posted $175.7B in net sales today with adjusted EPS up 8% and shrink language unchanged from the last call: a small tailwind, not a headwind. Target reported yesterday with comp traffic up 4.4% and CEO Michael Fiddelke calling shrink plateaued, two quarters into the year. Both lined up against Marks and Spencer publishing a clean number on the other side of the P&L: 131.3 million pounds in costs from one ransomware incident, 100 million pounds back through insurance. That is the line item retail boards will be reading next quarter. Verizon DBIR yesterday named vulnerability exploitation the top breach vector for the first time in 19 years. AP and IT are looking at the same risk register now, and nobody has a clean answer for who owns the dollar number.",
+    "headline": "Shrink left the earnings script. Flock walked into the boardroom.",
+    "body": "Three big-box and off-price retailers posted Q1 this week (Walmart, Target, Ross) with comp momentum and zero shrink language in prepared remarks. Two years ago that word opened every CEO call. Now it is gone. Meanwhile the same Flock LPR network that helped Odessa PD place a 68-year-old serial pharmacy robber across the street from a CVS on May 17 is the data feed Home Depot and Lowes shareholders want a board-level privacy review on. Lowes votes May 29. Cyber kept burning underneath: 7-Eleven notices hit mailboxes with SSNs and DLs, and the Verizon DBIR put vulnerability exploitation ahead of stolen credentials for the first time in 19 years.",
     "callouts": [
       {
-        "label": "Walmart, Target shrink commentary",
-        "text": "Both CFOs treated shrink as a non-event this quarter. Target moved the line from headwind to tailwind, Walmart held it as a small benefit. Either AP teams solved a 100-billion-dollar problem or the industry stopped citing it because it stopped working as a narrative."
+        "label": "Pharmacy stays hot",
+        "text": "CVS Odessa robber Wesley Bingham was out on bond from a May 13 supermarket pharmacy robbery when he hit the CVS on May 17. Walgreens shut its E. 71st St. specialty location in Chicago this week, the second-to-last on the South Side. DEA pharmacy burglary indictment still grinding through SDIL."
       },
       {
-        "label": "M&S as the cyber benchmark",
-        "text": "131.3 million pounds of damage from one incident, 100 million pounds back through insurance. The net hit is still larger than what most named U.S. retailers admit on a full year of shrink. U.S. boards will benchmark their own cyber posture against that number."
+        "label": "Flock paradox",
+        "text": "LPR catches a serial pharmacy robber in West Texas. The same vendor faces a board-level shareholder review at Home Depot and a shareholder vote at Lowes on May 29. AP teams want the tool. Investors and civil rights groups want a brake on what flows downstream."
       },
       {
-        "label": "Connecticut and the Flock question",
-        "text": "Home Depot and Lowe's parking-lot LPRs are now drawing local pushback in Connecticut. State privacy law covers public agencies, not private-lot cameras. Retailers want the deterrent and the law enforcement pipeline. Shoppers and ACLU chapters are starting to ask which is the point."
+        "label": "Cyber on the P&L",
+        "text": "M&S put a £131 million line on last year's ransomware in its annual results. 7-Eleven breach mailings are now landing with names, SSNs, addresses, DL numbers from the April 8 ShinyHunters intrusion. Verizon DBIR confirms the patch-to-exploit window is shrinking."
       }
     ]
   },
   "incidents": [
     {
-      "id": "2026-05-19-bothell-wa-7-eleven-officer-involved",
-      "date": "May 19, 2026",
-      "method": "Officer-Involved",
-      "region": "West",
-      "city": "Bothell, WA",
-      "retailer": "7-Eleven",
-      "amount": 0,
-      "dollar_display": "19-year-old wounded, no officer injury",
-      "headline": "Bothell officer fires at car in 7-Eleven lot after passenger points gun",
-      "summary": "A Bothell officer stopped a vehicle for an illegal U-turn on Bothell-Everett Highway just after 12:20 a.m. Tuesday and pulled into the 7-Eleven lot. The driver ran on foot. A passenger pointed a firearm at the officer, who fired multiple rounds. Suspects rammed the patrol car and fled; a 19-year-old turned up at a Burien hospital with gunshot wounds.",
+      "id": "2026-05-21-san-antonio-home-depot-fake-receipt-trio",
+      "date": "May 21, 2026",
+      "method": "ORC",
+      "region": "South",
+      "city": "San Antonio, TX",
+      "retailer": "Home Depot",
+      "amount": 1000,
+      "dollar_display": "$1K+ stolen",
+      "headline": "Three booked at San Antonio Home Depot in printed fake-receipt scheme",
+      "summary": "San Antonio police arrested three suspects on organized retail theft and forgery charges after they used a printed fake receipt to walk more than $1,000 in merchandise out of a Home Depot. Officers found the HP printer inside their truck. Rogelio Saldana was booked into the Bexar County jail May 19. Investigators say the receipt-print method is part of a wider crew.",
       "sources": [
         {
-          "name": "Seattle Times",
-          "url": "https://www.seattletimes.com/seattle-news/law-justice/bothell-police-shooting-injures-one-at-7-eleven-traffic-stop/"
-        },
-        {
-          "name": "KING 5",
-          "url": "https://www.king5.com/article/news/crime/snohomish-county-sheriffs-office-investigates-officer-involved-shooting-in-bothell/281-e6ae8099-2d4a-4e42-93f3-c2d299aba9fc"
-        },
-        {
-          "name": "Bothell-Kenmore Reporter",
-          "url": "https://www.bothell-reporter.com/2026/05/19/bothell-officer-involved-shooting-under-investigation/"
+          "name": "KSAT",
+          "url": "https://www.ksat.com/news/local/2026/05/21/3-arrested-for-stealing-more-than-1000-of-home-depot-merchandise-using-fake-receipt-sapd-says/"
         }
       ]
     },
@@ -92,100 +84,28 @@
       ]
     },
     {
-      "id": "2026-05-18-7-eleven-shinyhunters-salesforce-confirmation",
-      "date": "May 18, 2026",
-      "method": "Cyber",
-      "region": "South",
-      "city": "Irving, TX",
+      "id": "2026-05-19-bothell-wa-7-eleven-officer-involved",
+      "date": "May 19, 2026",
+      "method": "Officer-Involved",
+      "region": "West",
+      "city": "Bothell, WA",
       "retailer": "7-Eleven",
       "amount": 0,
-      "dollar_display": "600,000 records exposed",
-      "headline": "7-Eleven confirms ShinyHunters breach, 600,000 franchisee Salesforce records on the line",
-      "summary": "7-Eleven started mailing notification letters disclosing an April 8 intrusion into the system that holds franchisee documents, SecurityWeek reported May 18. ShinyHunters listed the chain on its leak site April 17 alongside Zara, Carnival, Mytheresa, and Udemy in a broader Salesforce-linked extortion wave. 7-Eleven has only confirmed two Maine residents notified so far.",
+      "dollar_display": "19-year-old wounded, no officer injury",
+      "headline": "Bothell officer fires at car in 7-Eleven lot after passenger points gun",
+      "summary": "A Bothell officer stopped a vehicle for an illegal U-turn on Bothell-Everett Highway just after 12:20 a.m. Tuesday and pulled into the 7-Eleven lot. The driver ran on foot. A passenger pointed a firearm at the officer, who fired multiple rounds. Suspects rammed the patrol car and fled; a 19-year-old turned up at a Burien hospital with gunshot wounds.",
       "sources": [
         {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/"
+          "name": "Seattle Times",
+          "url": "https://www.seattletimes.com/seattle-news/law-justice/bothell-police-shooting-injures-one-at-7-eleven-traffic-stop/"
         },
         {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/192336/data-breach/shinyhunters-hack-7-eleven-franchisee-data-and-salesforce-records-exposed.html"
+          "name": "KING 5",
+          "url": "https://www.king5.com/article/news/crime/snohomish-county-sheriffs-office-investigates-officer-involved-shooting-in-bothell/281-e6ae8099-2d4a-4e42-93f3-c2d299aba9fc"
         },
         {
-          "name": "HackRead",
-          "url": "https://hackread.com/shinyhunters-leak-udemy-zara-7-eleven-data-breach/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-18-derry-nh-iphone-gift-card-murder-extradition",
-      "date": "May 18, 2026",
-      "method": "Workplace Violence",
-      "region": "Northeast",
-      "city": "Derry, NH",
-      "retailer": "Apple (gift cards stolen from Sephora, Lululemon, Walgreens)",
-      "amount": 47000000,
-      "dollar_display": "$47M Apple shipments to one warehouse, fatal",
-      "headline": "NH iPhone-smuggling murder defendant extradited as $47M gift-card ring exposed",
-      "summary": "Marco Marquez Vera, 20, of Queens awaits trial in the May 2025 stabbing of warehouse worker Gui Lin, 41, in Derry. NHPR detailed how Chinese organized crime drains stolen gift cards from Sephora and Lululemon, buys iPhones, and ships them through 13 NH warehouses; Apple sent 46,364 devices worth $47M to one Windham facility in 10 weeks.",
-      "sources": [
-        {
-          "name": "Valley News / NHPR",
-          "url": "https://vnews.com/2026/05/18/stolen-gift-card-apple-fraud/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-18-sacramento-ellis-parking-lot-251-years",
-      "date": "May 18, 2026",
-      "method": "Armed Robbery",
-      "region": "West",
-      "city": "Sacramento, CA",
-      "retailer": "Multiple retailers (parking lots)",
-      "amount": 0,
-      "dollar_display": "251 years to life",
-      "headline": "Sacramento serial robber William Ellis sentenced to 251 years for retail parking-lot holdups",
-      "summary": "William Ellis, 44, was sentenced Friday in Sacramento County Superior Court for seven counts of robbery and felony evasion across three 2023 retail parking-lot incidents. Two prior strike convictions and multiple aggravating factors stacked the count. Victims handed over wedding rings and family heirlooms at gunpoint while loading vehicles, including families with small children.",
-      "sources": [
-        {
-          "name": "CBS Sacramento",
-          "url": "https://www.cbsnews.com/sacramento/news/armed-robberies-sacramento-county-retail-theft-life-sentence/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-18-st-charles-mo-walgreens-colorado-trio",
-      "date": "May 18, 2026",
-      "method": "ORC",
-      "region": "Midwest",
-      "city": "St. Charles, MO",
-      "retailer": "Walgreens",
-      "amount": 25000,
-      "dollar_display": "Over $25,000 in cosmetics across four stores",
-      "headline": "Colorado trio set for arraignment in four-store St. Charles County Walgreens makeup haul",
-      "summary": "Andrei Constantin, Alin Constantin, and Elisabeta Iancu, all of Colorado, are charged after surveillance caught the trio hitting four St. Charles County, MO Walgreens stores on January 11 and walking out with thousands in cosmetics. Two face accessory stealing charges over $25,000; arraignments scheduled June 17, July 13, and July 21.",
-      "sources": [
-        {
-          "name": "FOX 2 St. Louis",
-          "url": "https://fox2now.com/news/missouri/colorado-trio-arrested-charged-for-multiple-makeup-thefts/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-18-macon-ga-family-dollar-armed-robbery",
-      "date": "May 18, 2026",
-      "method": "Armed Robbery",
-      "region": "Southeast",
-      "city": "Macon, GA",
-      "retailer": "Family Dollar",
-      "amount": 0,
-      "dollar_display": "Cash register box stolen",
-      "headline": "Bibb County sheriff hunts masked gunman who hit Macon Family Dollar",
-      "summary": "A masked man walked into the Family Dollar at 3190 Mercer University Drive in Macon around 7:30 p.m. Saturday, pulled a handgun on the clerk, and forced her to hand over a register cash box. The suspect fled on foot in a tan shirt, black jeans, and grey-and-white sneakers. Bibb County Sheriff released photos Monday.",
-      "sources": [
-        {
-          "name": "13WMAZ",
-          "url": "https://www.13wmaz.com/article/news/local/macon/bibb-county-sheriffs-office-releases-photosv-suspect-family-dollar-armed-robbery/93-d662c411-b1ae-4bd5-aefa-2d5e727320ff"
+          "name": "Bothell-Kenmore Reporter",
+          "url": "https://www.bothell-reporter.com/2026/05/19/bothell-officer-involved-shooting-under-investigation/"
         }
       ]
     },
@@ -216,6 +136,130 @@
       ]
     },
     {
+      "id": "2026-05-18-st-charles-mo-walgreens-colorado-trio",
+      "date": "May 18, 2026",
+      "method": "ORC",
+      "region": "Midwest",
+      "city": "St. Charles, MO",
+      "retailer": "Walgreens",
+      "amount": 25000,
+      "dollar_display": "Over $25,000 in cosmetics across four stores",
+      "headline": "Colorado trio set for arraignment in four-store St. Charles County Walgreens makeup haul",
+      "summary": "Andrei Constantin, Alin Constantin, and Elisabeta Iancu, all of Colorado, are charged after surveillance caught the trio hitting four St. Charles County, MO Walgreens stores on January 11 and walking out with thousands in cosmetics. Two face accessory stealing charges over $25,000; arraignments scheduled June 17, July 13, and July 21.",
+      "sources": [
+        {
+          "name": "FOX 2 St. Louis",
+          "url": "https://fox2now.com/news/missouri/colorado-trio-arrested-charged-for-multiple-makeup-thefts/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-sacramento-ellis-parking-lot-251-years",
+      "date": "May 18, 2026",
+      "method": "Armed Robbery",
+      "region": "West",
+      "city": "Sacramento, CA",
+      "retailer": "Multiple retailers (parking lots)",
+      "amount": 0,
+      "dollar_display": "251 years to life",
+      "headline": "Sacramento serial robber William Ellis sentenced to 251 years for retail parking-lot holdups",
+      "summary": "William Ellis, 44, was sentenced Friday in Sacramento County Superior Court for seven counts of robbery and felony evasion across three 2023 retail parking-lot incidents. Two prior strike convictions and multiple aggravating factors stacked the count. Victims handed over wedding rings and family heirlooms at gunpoint while loading vehicles, including families with small children.",
+      "sources": [
+        {
+          "name": "CBS Sacramento",
+          "url": "https://www.cbsnews.com/sacramento/news/armed-robberies-sacramento-county-retail-theft-life-sentence/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-odessa-cvs-bingham-flock-lpr-arrest",
+      "date": "May 18, 2026",
+      "method": "Armed Robbery",
+      "region": "South",
+      "city": "Odessa, TX",
+      "retailer": "CVS",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "FLOCK LPR places serial pharmacy robber across the street from Odessa CVS",
+      "summary": "Wesley Mark Bingham, 68, was arrested May 18 for the May 17 robbery attempt at the CVS on West 42nd Street in Odessa. Officers used the FLOCK system to find his vehicle parked across the street at the time of the attempt. He now faces three counts of aggravated robbery, $165,000 bond, and was out on bond from a May 13 United Supermarkets pharmacy robbery when he hit the CVS.",
+      "sources": [
+        {
+          "name": "Odessa American",
+          "url": "https://www.oaoa.com/local-news/pharmacy-robbery-suspect-arrested-again/"
+        },
+        {
+          "name": "First Alert 7",
+          "url": "https://www.firstalert7.com/2026/05/20/back-custody-police-arrest-man-again-after-pharmacy-robbery-attempt/"
+        },
+        {
+          "name": "KFYO",
+          "url": "https://kfyo.com/odessa-pharmacy-robbery-wesley-bingham/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-macon-ga-family-dollar-armed-robbery",
+      "date": "May 18, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Macon, GA",
+      "retailer": "Family Dollar",
+      "amount": 0,
+      "dollar_display": "Cash register box stolen",
+      "headline": "Bibb County sheriff hunts masked gunman who hit Macon Family Dollar",
+      "summary": "A masked man walked into the Family Dollar at 3190 Mercer University Drive in Macon around 7:30 p.m. Saturday, pulled a handgun on the clerk, and forced her to hand over a register cash box. The suspect fled on foot in a tan shirt, black jeans, and grey-and-white sneakers. Bibb County Sheriff released photos Monday.",
+      "sources": [
+        {
+          "name": "13WMAZ",
+          "url": "https://www.13wmaz.com/article/news/local/macon/bibb-county-sheriffs-office-releases-photosv-suspect-family-dollar-armed-robbery/93-d662c411-b1ae-4bd5-aefa-2d5e727320ff"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-derry-nh-iphone-gift-card-murder-extradition",
+      "date": "May 18, 2026",
+      "method": "Workplace Violence",
+      "region": "Northeast",
+      "city": "Derry, NH",
+      "retailer": "Apple (gift cards stolen from Sephora, Lululemon, Walgreens)",
+      "amount": 47000000,
+      "dollar_display": "$47M Apple shipments to one warehouse, fatal",
+      "headline": "NH iPhone-smuggling murder defendant extradited as $47M gift-card ring exposed",
+      "summary": "Marco Marquez Vera, 20, of Queens awaits trial in the May 2025 stabbing of warehouse worker Gui Lin, 41, in Derry. NHPR detailed how Chinese organized crime drains stolen gift cards from Sephora and Lululemon, buys iPhones, and ships them through 13 NH warehouses; Apple sent 46,364 devices worth $47M to one Windham facility in 10 weeks.",
+      "sources": [
+        {
+          "name": "Valley News / NHPR",
+          "url": "https://vnews.com/2026/05/18/stolen-gift-card-apple-fraud/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-7-eleven-shinyhunters-salesforce-confirmation",
+      "date": "May 18, 2026",
+      "method": "Cyber",
+      "region": "South",
+      "city": "Irving, TX",
+      "retailer": "7-Eleven",
+      "amount": 0,
+      "dollar_display": "600,000 records exposed",
+      "headline": "7-Eleven confirms ShinyHunters breach, 600,000 franchisee Salesforce records on the line",
+      "summary": "7-Eleven started mailing notification letters disclosing an April 8 intrusion into the system that holds franchisee documents, SecurityWeek reported May 18. ShinyHunters listed the chain on its leak site April 17 alongside Zara, Carnival, Mytheresa, and Udemy in a broader Salesforce-linked extortion wave. 7-Eleven has only confirmed two Maine residents notified so far.",
+      "sources": [
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/"
+        },
+        {
+          "name": "Security Affairs",
+          "url": "https://securityaffairs.com/192336/data-breach/shinyhunters-hack-7-eleven-franchisee-data-and-salesforce-records-exposed.html"
+        },
+        {
+          "name": "HackRead",
+          "url": "https://hackread.com/shinyhunters-leak-udemy-zara-7-eleven-data-breach/"
+        }
+      ]
+    },
+    {
       "id": "2026-05-17-detroit-downtown-teen-takeover-gucci",
       "date": "May 17, 2026",
       "method": "Workplace Violence",
@@ -238,32 +282,6 @@
         {
           "name": "Hoodline",
           "url": "https://hoodline.com/2026/05/teen-shot-steps-from-library-street-in-downtown-detroit-another-teen-nabbed/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-16-austin-firearm-store-double-theft",
-      "date": "May 16, 2026",
-      "method": "ORC",
-      "region": "South",
-      "city": "Austin, TX",
-      "retailer": "Central Texas Gunworks",
-      "amount": 0,
-      "dollar_display": "2 handguns stolen, 12-scene spree",
-      "headline": "Same Austin gun shop hit twice by the same crew; Fajardo Mondragon, 17, charged after 28-hour spree",
-      "summary": "A 15-year-old walked out of Central Texas Gunworks on Saturday with a handgun. His 17-year-old running partner, Cristian Fajardo Mondragon, already had a warrant for stealing a gun from the same store. With a third teen, the crew fired at apartments, two Austin Fire stations, and pedestrians across 12 shootings, wounding four. Mayor Kirk Watson and Chief Lisa Davis say the city needs to reopen the LPR debate.",
-      "sources": [
-        {
-          "name": "KUT timeline",
-          "url": "https://www.kut.org/crime-justice/2026-05-18/austin-police-apd-south-austin-shootings-timeline"
-        },
-        {
-          "name": "KWTX",
-          "url": "https://www.kwtx.com/2026/05/18/timeline-how-28-hour-crime-spree-unfolded-across-austin/"
-        },
-        {
-          "name": "Deseret News",
-          "url": "https://www.deseret.com/politics/2026/05/18/shootings-in-texas-add-to-debate-over-surveillance-tech/"
         }
       ]
     },
@@ -294,6 +312,32 @@
       ]
     },
     {
+      "id": "2026-05-16-austin-firearm-store-double-theft",
+      "date": "May 16, 2026",
+      "method": "ORC",
+      "region": "South",
+      "city": "Austin, TX",
+      "retailer": "Central Texas Gunworks",
+      "amount": 0,
+      "dollar_display": "2 handguns stolen, 12-scene spree",
+      "headline": "Same Austin gun shop hit twice by the same crew; Fajardo Mondragon, 17, charged after 28-hour spree",
+      "summary": "A 15-year-old walked out of Central Texas Gunworks on Saturday with a handgun. His 17-year-old running partner, Cristian Fajardo Mondragon, already had a warrant for stealing a gun from the same store. With a third teen, the crew fired at apartments, two Austin Fire stations, and pedestrians across 12 shootings, wounding four. Mayor Kirk Watson and Chief Lisa Davis say the city needs to reopen the LPR debate.",
+      "sources": [
+        {
+          "name": "KUT timeline",
+          "url": "https://www.kut.org/crime-justice/2026-05-18/austin-police-apd-south-austin-shootings-timeline"
+        },
+        {
+          "name": "KWTX",
+          "url": "https://www.kwtx.com/2026/05/18/timeline-how-28-hour-crime-spree-unfolded-across-austin/"
+        },
+        {
+          "name": "Deseret News",
+          "url": "https://www.deseret.com/politics/2026/05/18/shootings-in-texas-add-to-debate-over-surveillance-tech/"
+        }
+      ]
+    },
+    {
       "id": "2026-05-15-clermont-sole-beauty-supply-leaster",
       "date": "May 15, 2026",
       "method": "Smash-and-Grab",
@@ -308,32 +352,6 @@
         {
           "name": "ClickOrlando",
           "url": "https://www.clickorlando.com/news/local/2026/05/18/beauty-supply-store-in-clermont-broken-into-for-6th-time-in-10-years/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-14-saraland-walmart-uhaul-robbery-chase",
-      "date": "May 14, 2026",
-      "method": "Armed Robbery",
-      "region": "Southeast",
-      "city": "Saraland, AL",
-      "retailer": "Walmart",
-      "amount": 1000,
-      "dollar_display": "$1,000 stolen, weapon recovered",
-      "headline": "$1,000 Walmart TV grab in Saraland becomes first-degree robbery and a 90-mph U-Haul chase",
-      "summary": "Saraland PD responded to a theft call at Walmart May 14 and learned a suspect had shown a gun, turning it into a robbery. Officers spotted the U-Haul and chased it at speeds up to 90 mph through Chickasaw and Prichard to Mobile, where spike strips and a PIT maneuver ended it. Horace Davis Jr. faces first-degree robbery and pistol possession by a prohibited person. Jamayah Thompson faces second-degree robbery.",
-      "sources": [
-        {
-          "name": "FOX 10 Mobile",
-          "url": "https://www.fox10tv.com/2026/05/15/spd-u-haul-chase-suspects-steal-multiple-tvs-1000-worth-merchandise-walmart/"
-        },
-        {
-          "name": "Yahoo News",
-          "url": "https://www.yahoo.com/news/articles/alabama-suspects-allegedly-stole-walmart-231645395.html"
-        },
-        {
-          "name": "ABC 33/40",
-          "url": "https://abc3340.com/news/nation-world/u-haul-uhaul-chase-pursuit-chasing-truck-vehicle-police-deputies-sheriffs-office-pit-maneuver-patrol-car-cars-vehicles-hit-struck-collision-arrest-arrested-flip-flipped-onto-side-crash-crashed-traffic"
         }
       ]
     },
@@ -364,6 +382,50 @@
       ]
     },
     {
+      "id": "2026-05-14-saraland-walmart-uhaul-robbery-chase",
+      "date": "May 14, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Saraland, AL",
+      "retailer": "Walmart",
+      "amount": 1000,
+      "dollar_display": "$1,000 stolen, weapon recovered",
+      "headline": "$1,000 Walmart TV grab in Saraland becomes first-degree robbery and a 90-mph U-Haul chase",
+      "summary": "Saraland PD responded to a theft call at Walmart May 14 and learned a suspect had shown a gun, turning it into a robbery. Officers spotted the U-Haul and chased it at speeds up to 90 mph through Chickasaw and Prichard to Mobile, where spike strips and a PIT maneuver ended it. Horace Davis Jr. faces first-degree robbery and pistol possession by a prohibited person. Jamayah Thompson faces second-degree robbery.",
+      "sources": [
+        {
+          "name": "FOX 10 Mobile",
+          "url": "https://www.fox10tv.com/2026/05/15/spd-u-haul-chase-suspects-steal-multiple-tvs-1000-worth-merchandise-walmart/"
+        },
+        {
+          "name": "Yahoo News",
+          "url": "https://www.yahoo.com/news/articles/alabama-suspects-allegedly-stole-walmart-231645395.html"
+        },
+        {
+          "name": "ABC 33/40",
+          "url": "https://abc3340.com/news/nation-world/u-haul-uhaul-chase-pursuit-chasing-truck-vehicle-police-deputies-sheriffs-office-pit-maneuver-patrol-car-cars-vehicles-hit-struck-collision-arrest-arrested-flip-flipped-onto-side-crash-crashed-traffic"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-14-prince-georges-wilder-100-thefts",
+      "date": "May 14, 2026",
+      "method": "ORC",
+      "region": "Northeast",
+      "city": "Riverdale, MD",
+      "retailer": "Multiple retailers (Prince George's County)",
+      "amount": 50000,
+      "dollar_display": "$50K stolen, 100-plus hits",
+      "headline": "Prince George's PD arrests one-man retail theft ring after 100-plus hits",
+      "summary": "Carlos Maurice Wilder, 42, of Riverdale faces charges in more than 100 thefts since January, totaling roughly $50,000. He had nine open theft warrants at the time of arrest. PGPD says Wilder fits the pattern of single repeat offenders driving the bulk of countywide retail loss.",
+      "sources": [
+        {
+          "name": "FOX 5 DC",
+          "url": "https://www.fox5dc.com/news/prince-georges-police-announce-major-retail-theft-bust-suspect-accused-more-than-100-thefts"
+        }
+      ]
+    },
+    {
       "id": "2026-05-14-las-vegas-fuentes-online-fence",
       "date": "May 14, 2026",
       "method": "ORC",
@@ -390,20 +452,28 @@
       ]
     },
     {
-      "id": "2026-05-14-prince-georges-wilder-100-thefts",
-      "date": "May 14, 2026",
+      "id": "2026-05-13-virginia-beach-1-66m-retail-ring",
+      "date": "May 13, 2026",
       "method": "ORC",
-      "region": "Northeast",
-      "city": "Riverdale, MD",
-      "retailer": "Multiple retailers (Prince George's County)",
-      "amount": 50000,
-      "dollar_display": "$50K stolen, 100-plus hits",
-      "headline": "Prince George's PD arrests one-man retail theft ring after 100-plus hits",
-      "summary": "Carlos Maurice Wilder, 42, of Riverdale faces charges in more than 100 thefts since January, totaling roughly $50,000. He had nine open theft warrants at the time of arrest. PGPD says Wilder fits the pattern of single repeat offenders driving the bulk of countywide retail loss.",
+      "region": "Southeast",
+      "city": "Virginia Beach, VA",
+      "retailer": "Multiple retailers (Walmart, others)",
+      "amount": 1660000,
+      "dollar_display": "$1.66M scheme",
+      "headline": "VBPD indicts three in $1.66M multi-state retail theft ring directed from jail",
+      "summary": "Tony McClease ran operations and managed distribution from inside while Alexander Newman boosted product and Chane'l Stith fenced it, prosecutors say. The trio faces organized retail theft and grand larceny conspiracy charges. Losses date to December 2023 across Virginia Beach, Yorktown, Chesapeake, Norfolk, Henrico, and Roxboro, North Carolina.",
       "sources": [
         {
-          "name": "FOX 5 DC",
-          "url": "https://www.fox5dc.com/news/prince-georges-police-announce-major-retail-theft-bust-suspect-accused-more-than-100-thefts"
+          "name": "WAVY",
+          "url": "https://www.wavy.com/news/local-news/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
+        },
+        {
+          "name": "13NewsNow",
+          "url": "https://www.13newsnow.com/article/news/crime/police-say-multi-state-retail-theft-ring-dismantled-trio-indicted-in-166m-scheme/291-bfbd48d6-da71-4198-84dd-c21b0c599c0b"
+        },
+        {
+          "name": "WRIC",
+          "url": "https://www.wric.com/news/virginia-news/tidewater/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
         }
       ]
     },
@@ -430,32 +500,6 @@
         {
           "name": "WFLA",
           "url": "https://www.wfla.com/news/hillsborough-county/hillsborough-sheriff-florida-attorney-general-announce-arrests-in-retail-theft-scheme/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-13-virginia-beach-1-66m-retail-ring",
-      "date": "May 13, 2026",
-      "method": "ORC",
-      "region": "Southeast",
-      "city": "Virginia Beach, VA",
-      "retailer": "Multiple retailers (Walmart, others)",
-      "amount": 1660000,
-      "dollar_display": "$1.66M scheme",
-      "headline": "VBPD indicts three in $1.66M multi-state retail theft ring directed from jail",
-      "summary": "Tony McClease ran operations and managed distribution from inside while Alexander Newman boosted product and Chane'l Stith fenced it, prosecutors say. The trio faces organized retail theft and grand larceny conspiracy charges. Losses date to December 2023 across Virginia Beach, Yorktown, Chesapeake, Norfolk, Henrico, and Roxboro, North Carolina.",
-      "sources": [
-        {
-          "name": "WAVY",
-          "url": "https://www.wavy.com/news/local-news/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
-        },
-        {
-          "name": "13NewsNow",
-          "url": "https://www.13newsnow.com/article/news/crime/police-say-multi-state-retail-theft-ring-dismantled-trio-indicted-in-166m-scheme/291-bfbd48d6-da71-4198-84dd-c21b0c599c0b"
-        },
-        {
-          "name": "WRIC",
-          "url": "https://www.wric.com/news/virginia-news/tidewater/3-indicted-in-1-6m-retail-theft-ring-spanning-multiple-cities/"
         }
       ]
     },
@@ -500,6 +544,28 @@
       ]
     },
     {
+      "id": "2026-05-12-san-antonio-ulta-four-women-charged",
+      "date": "May 12, 2026",
+      "method": "ORC",
+      "region": "South",
+      "city": "San Antonio, TX",
+      "retailer": "Ulta Beauty",
+      "amount": 16400,
+      "dollar_display": "$16,400 stolen",
+      "headline": "Bexar County investigators charge four women in $16K Ulta theft ring",
+      "summary": "Estrella Beltran, Roxanne Isaac, and sisters Virginia and Blanca Maldonado were arrested in connection with a nearly year-long run across four San Antonio Ulta locations. Affidavit puts the take above $16,400 in fragrance and skincare. Facial recognition and surveillance identified all four. Each was charged with organized retail theft and bonded out.",
+      "sources": [
+        {
+          "name": "KSAT",
+          "url": "https://www.ksat.com/news/local/2026/05/12/affidavit-4-accused-of-stealing-16k-worth-of-items-at-ulta-beauty-stores-across-bexar-county/"
+        },
+        {
+          "name": "KENS5",
+          "url": "https://www.kens5.com/article/news/local/san-antonio-texas-satx-theft-spree-arrests-women-accused-stealing-ulta-merchandise-estrella-beltran-roxanne-isaac-virginia-blanco-maldonado-may-2026/273-2bd562ef-b311-4826-aaae-a885ec00107f"
+        }
+      ]
+    },
+    {
       "id": "2026-05-12-las-vegas-smiths-fatal-shooting",
       "date": "May 12, 2026",
       "method": "Workplace Violence",
@@ -526,46 +592,6 @@
       ]
     },
     {
-      "id": "2026-05-12-san-antonio-ulta-four-women-charged",
-      "date": "May 12, 2026",
-      "method": "ORC",
-      "region": "South",
-      "city": "San Antonio, TX",
-      "retailer": "Ulta Beauty",
-      "amount": 16400,
-      "dollar_display": "$16,400 stolen",
-      "headline": "Bexar County investigators charge four women in $16K Ulta theft ring",
-      "summary": "Estrella Beltran, Roxanne Isaac, and sisters Virginia and Blanca Maldonado were arrested in connection with a nearly year-long run across four San Antonio Ulta locations. Affidavit puts the take above $16,400 in fragrance and skincare. Facial recognition and surveillance identified all four. Each was charged with organized retail theft and bonded out.",
-      "sources": [
-        {
-          "name": "KSAT",
-          "url": "https://www.ksat.com/news/local/2026/05/12/affidavit-4-accused-of-stealing-16k-worth-of-items-at-ulta-beauty-stores-across-bexar-county/"
-        },
-        {
-          "name": "KENS5",
-          "url": "https://www.kens5.com/article/news/local/san-antonio-texas-satx-theft-spree-arrests-women-accused-stealing-ulta-merchandise-estrella-beltran-roxanne-isaac-virginia-blanco-maldonado-may-2026/273-2bd562ef-b311-4826-aaae-a885ec00107f"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-11-chicago-south-loop-cannabis-smashgrab",
-      "date": "May 11, 2026",
-      "method": "Smash-and-Grab",
-      "region": "Midwest",
-      "city": "Chicago, IL",
-      "retailer": "Grasshopper Club (cannabis)",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Pre-dawn smash-and-grab cleans out South Loop cannabis store, white SUV the getaway",
-      "summary": "Three to four suspects broke the front glass at Grasshopper Club on East Roosevelt Road around 3:40 a.m. Monday. One went inside and passed product through the broken window to others who loaded a white SUV. Chicago PD has no one in custody and has not released a dollar figure.",
-      "sources": [
-        {
-          "name": "FOX 32 Chicago",
-          "url": "https://www.fox32chicago.com/news/smash-and-grab-caught-on-camera-at-chicago-cannabis-store-suspects-on-the-run"
-        }
-      ]
-    },
-    {
       "id": "2026-05-11-visalia-circle-k-knife-beer-mothers-day",
       "date": "May 11, 2026",
       "method": "Armed Robbery",
@@ -588,24 +614,20 @@
       ]
     },
     {
-      "id": "2026-05-10-baltimore-north-charles-convenience-gel-blaster",
-      "date": "May 10, 2026",
-      "method": "Armed Robbery",
-      "region": "Northeast",
-      "city": "Baltimore, MD",
-      "retailer": "Unnamed convenience store",
+      "id": "2026-05-11-chicago-south-loop-cannabis-smashgrab",
+      "date": "May 11, 2026",
+      "method": "Smash-and-Grab",
+      "region": "Midwest",
+      "city": "Chicago, IL",
+      "retailer": "Grasshopper Club (cannabis)",
       "amount": 0,
       "dollar_display": "",
-      "headline": "Three Baltimore teens arrested after downtown convenience store thefts, gel-ball blaster recovered",
-      "summary": "Three boys ages 14, 17, and 18 hit a North Charles Street convenience store repeatedly Sunday around 6 p.m., taking items each trip. On the final pass, the oldest brandished what officers thought was a rifle and knocked over equipment before fleeing. BPD tracked the group four blocks to Light Street and recovered an Orbeez gel-ball blaster.",
+      "headline": "Pre-dawn smash-and-grab cleans out South Loop cannabis store, white SUV the getaway",
+      "summary": "Three to four suspects broke the front glass at Grasshopper Club on East Roosevelt Road around 3:40 a.m. Monday. One went inside and passed product through the broken window to others who loaded a white SUV. Chicago PD has no one in custody and has not released a dollar figure.",
       "sources": [
         {
-          "name": "Fox Baltimore",
-          "url": "https://foxbaltimore.com/news/local/three-teens-arrested-rifle-displayed-repeated-downtown-convenience-store-thefts"
-        },
-        {
-          "name": "Baltimore Sun",
-          "url": "https://www.baltimoresun.com/2026/05/11/teens-arrested-inner-harbor-toy-gun/"
+          "name": "FOX 32 Chicago",
+          "url": "https://www.fox32chicago.com/news/smash-and-grab-caught-on-camera-at-chicago-cannabis-store-suspects-on-the-run"
         }
       ]
     },
@@ -624,6 +646,28 @@
         {
           "name": "WCJB",
           "url": "https://www.wcjb.com/2026/05/10/paddock-mall-closed-mothers-day-after-person-brandishes-firearm/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-10-baltimore-north-charles-convenience-gel-blaster",
+      "date": "May 10, 2026",
+      "method": "Armed Robbery",
+      "region": "Northeast",
+      "city": "Baltimore, MD",
+      "retailer": "Unnamed convenience store",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Three Baltimore teens arrested after downtown convenience store thefts, gel-ball blaster recovered",
+      "summary": "Three boys ages 14, 17, and 18 hit a North Charles Street convenience store repeatedly Sunday around 6 p.m., taking items each trip. On the final pass, the oldest brandished what officers thought was a rifle and knocked over equipment before fleeing. BPD tracked the group four blocks to Light Street and recovered an Orbeez gel-ball blaster.",
+      "sources": [
+        {
+          "name": "Fox Baltimore",
+          "url": "https://foxbaltimore.com/news/local/three-teens-arrested-rifle-displayed-repeated-downtown-convenience-store-thefts"
+        },
+        {
+          "name": "Baltimore Sun",
+          "url": "https://www.baltimoresun.com/2026/05/11/teens-arrested-inner-harbor-toy-gun/"
         }
       ]
     },
@@ -798,6 +842,28 @@
       ]
     },
     {
+      "id": "2026-05-04-shreveport-consumers-grocery-shooting",
+      "date": "May 4, 2026",
+      "method": "Workplace Violence",
+      "region": "Southeast",
+      "city": "Shreveport, LA",
+      "retailer": "Consumers Grocery",
+      "amount": 0,
+      "dollar_display": "Critically injured",
+      "headline": "Shreveport grocery employee charged with attempted murder after shooting customer",
+      "summary": "Malik Ahmad Omar, 21, an employee at Consumers Grocery on Hollywood Avenue, was arrested after surveillance confirmed he shot a customer inside the store during a dispute. The victim was found across the street with a life-threatening abdominal gunshot wound.",
+      "sources": [
+        {
+          "name": "KSLA",
+          "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/"
+        },
+        {
+          "name": "KTAL",
+          "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/"
+        }
+      ]
+    },
+    {
       "id": "2026-05-04-sdil-multistate-pharmacy-burglary-indictment",
       "date": "May 4, 2026",
       "method": "ORC",
@@ -850,6 +916,28 @@
       ]
     },
     {
+      "id": "2026-05-04-los-angeles-home-depot-fence-bust",
+      "date": "May 4, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Los Angeles, CA",
+      "retailer": "Home Depot",
+      "amount": 600000,
+      "dollar_display": "$600K recovered",
+      "headline": "$600K Home Depot fencing ring busted at SoCal swap meet",
+      "summary": "California Highway Patrol Southern Division ORC Task Force served warrants April 28 on two suspects and recovered $600,000 in stolen Home Depot tools. The pair bought from boosters and resold through a Los Angeles County swap meet that CHP also shut down.",
+      "sources": [
+        {
+          "name": "Detroit News",
+          "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/"
+        },
+        {
+          "name": "FOX 11 LA",
+          "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles"
+        }
+      ]
+    },
+    {
       "id": "2026-05-04-chicago-walgreens-chatham-closure",
       "date": "May 4, 2026",
       "method": "Workplace Violence",
@@ -876,46 +964,20 @@
       ]
     },
     {
-      "id": "2026-05-04-los-angeles-home-depot-fence-bust",
-      "date": "May 4, 2026",
+      "id": "2026-05-03-waipahu-hi-town-center-security-assault",
+      "date": "May 3, 2026",
       "method": "ORC",
       "region": "West",
-      "city": "Los Angeles, CA",
-      "retailer": "Home Depot",
-      "amount": 600000,
-      "dollar_display": "$600K recovered",
-      "headline": "$600K Home Depot fencing ring busted at SoCal swap meet",
-      "summary": "California Highway Patrol Southern Division ORC Task Force served warrants April 28 on two suspects and recovered $600,000 in stolen Home Depot tools. The pair bought from boosters and resold through a Los Angeles County swap meet that CHP also shut down.",
-      "sources": [
-        {
-          "name": "Detroit News",
-          "url": "https://www.detroitnews.com/story/news/nation/2026/05/04/socal-authorities-disrupt-scheme-to-resell-stolen-home-depot-goods/89921186007/"
-        },
-        {
-          "name": "FOX 11 LA",
-          "url": "https://www.foxla.com/news/chp-home-depot-theft-bust-los-angeles"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-04-shreveport-consumers-grocery-shooting",
-      "date": "May 4, 2026",
-      "method": "Workplace Violence",
-      "region": "Southeast",
-      "city": "Shreveport, LA",
-      "retailer": "Consumers Grocery",
+      "city": "Waipahu, HI",
+      "retailer": "Unnamed retailer (Waipahu Town Center)",
       "amount": 0,
-      "dollar_display": "Critically injured",
-      "headline": "Shreveport grocery employee charged with attempted murder after shooting customer",
-      "summary": "Malik Ahmad Omar, 21, an employee at Consumers Grocery on Hollywood Avenue, was arrested after surveillance confirmed he shot a customer inside the store during a dispute. The victim was found across the street with a life-threatening abdominal gunshot wound.",
+      "dollar_display": "",
+      "headline": "Suspects walked merchandise out of Waipahu Town Center store, then assaulted security",
+      "summary": "A man and a woman selected merchandise inside a Waipahu Town Center store at 10:56 a.m. Sunday and walked out without paying. When a security guard confronted them in the parking lot, the male suspect assaulted him and the pair fled east on foot. Honolulu PD released suspect images Tuesday.",
       "sources": [
         {
-          "name": "KSLA",
-          "url": "https://www.ksla.com/2026/05/04/man-arrested-shooting-shreveport-that-left-man-with-life-threatening-injuries/"
-        },
-        {
-          "name": "KTAL",
-          "url": "https://www.ktalnews.com/news/crime/shreveport-grocery-shooting-arrest/"
+          "name": "Hawaii News Now",
+          "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/"
         }
       ]
     },
@@ -938,24 +1000,6 @@
         {
           "name": "RedPacket Security",
           "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-03-waipahu-hi-town-center-security-assault",
-      "date": "May 3, 2026",
-      "method": "ORC",
-      "region": "West",
-      "city": "Waipahu, HI",
-      "retailer": "Unnamed retailer (Waipahu Town Center)",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Suspects walked merchandise out of Waipahu Town Center store, then assaulted security",
-      "summary": "A man and a woman selected merchandise inside a Waipahu Town Center store at 10:56 a.m. Sunday and walked out without paying. When a security guard confronted them in the parking lot, the male suspect assaulted him and the pair fled east on foot. Honolulu PD released suspect images Tuesday.",
-      "sources": [
-        {
-          "name": "Hawaii News Now",
-          "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/"
         }
       ]
     }
