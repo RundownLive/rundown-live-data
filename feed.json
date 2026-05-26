@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-22T14:02:07Z",
+  "generated_at": "2026-05-26T18:23:23Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,160 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Shrink left the earnings script. Flock walked into the boardroom.",
-    "body": "Three big-box and off-price retailers posted Q1 this week (Walmart, Target, Ross) with comp momentum and zero shrink language in prepared remarks. Two years ago that word opened every CEO call. Now it is gone. Meanwhile the same Flock LPR network that helped Odessa PD place a 68-year-old serial pharmacy robber across the street from a CVS on May 17 is the data feed Home Depot and Lowes shareholders want a board-level privacy review on. Lowes votes May 29. Cyber kept burning underneath: 7-Eleven notices hit mailboxes with SSNs and DLs, and the Verizon DBIR put vulnerability exploitation ahead of stolen credentials for the first time in 19 years.",
+    "headline": "Memorial Day quieted the earnings calls. It did not quiet the parking lots.",
+    "body": "Two retail shootings inside 24 hours frame a long weekend that ended with arrests at both stores. A 27-year-old shooter named Allen Prince killed a customer and wounded a teenage Price Chopper stocker in Pleasant Hill on Memorial Day, with two armed shoppers cornering him before he turned the rifle on himself. The day before, a 21-year-old fired inside the Mesa Target on Power Road. Two masked men with handguns cleared two safes inside a Potomac CVS at 3:20 a.m. Monday. CargoNet ran its standard Memorial Day advisory through May 27 as organized crews keep moving toward fewer, larger loads. Store-front violence and dock-side strategic theft are the same week of news.",
     "callouts": [
       {
         "label": "Pharmacy stays hot",
-        "text": "CVS Odessa robber Wesley Bingham was out on bond from a May 13 supermarket pharmacy robbery when he hit the CVS on May 17. Walgreens shut its E. 71st St. specialty location in Chicago this week, the second-to-last on the South Side. DEA pharmacy burglary indictment still grinding through SDIL."
+        "text": "Two armed men forced four people into a restroom and cleared two safes inside a Potomac CVS at 3:20 a.m. Monday. Bryan PD used LPR to put three suspects in cuffs after a 3:11 a.m. Walgreens robbery May 23. The Wesley Bingham CVS arrest in Odessa was eight days before that."
       },
       {
-        "label": "Flock paradox",
-        "text": "LPR catches a serial pharmacy robber in West Texas. The same vendor faces a board-level shareholder review at Home Depot and a shareholder vote at Lowes on May 29. AP teams want the tool. Investors and civil rights groups want a brake on what flows downstream."
+        "label": "LPR did its job twice in 48 hours",
+        "text": "Bryan PD ran license plate readers to track a Walgreens getaway car. Odessa PD used Flock to put Wesley Bingham across the street from the CVS he tried to hit May 17. Lowe's shareholders vote May 29 on whether the board owes them a privacy review on the same camera network."
       },
       {
-        "label": "Cyber on the P&L",
-        "text": "M&S put a £131 million line on last year's ransomware in its annual results. 7-Eleven breach mailings are now landing with names, SSNs, addresses, DL numbers from the April 8 ShinyHunters intrusion. Verizon DBIR confirms the patch-to-exploit window is shrinking."
+        "label": "CargoNet's Memorial Day window",
+        "text": "Verisk CargoNet's advisory runs through May 27. Total volume is down for the year, but 28 shipments above $1 million are already on the board for 2026. California, Texas, Illinois, Georgia, and Florida absorb most of the holiday theft activity."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-25-pleasant-hill-mo-price-chopper-memorial-day-fatal",
+      "date": "May 25, 2026",
+      "method": "Workplace Violence",
+      "region": "Midwest",
+      "city": "Pleasant Hill, MO",
+      "retailer": "Price Chopper",
+      "amount": 0,
+      "dollar_display": "Fatal",
+      "headline": "Pleasant Hill Price Chopper shooting kills customer, wounds 16-year-old employee on Memorial Day",
+      "summary": "Allen Prince, 27, opened fire in the parking lot at 4:28 p.m., killing Amy Coon, 45, and wounding teen stocker Ayden. Two armed shoppers closed in before Prince turned the rifle on himself; Cass County filed first-degree murder, assault, and armed criminal action counts.",
+      "sources": [
+        {
+          "name": "KSHB Kansas City",
+          "url": "https://www.kshb.com/news/local-news/missouri/kansas-city/pleasant-hill-police-announce-charges-in-deadly-price-chopper-shooting"
+        },
+        {
+          "name": "Fox 4 Kansas City",
+          "url": "https://fox4kc.com/news/pleasant-hill-police-speak-after-deadly-price-chopper-shooting-on-memorial-day/"
+        },
+        {
+          "name": "KCTV5",
+          "url": "https://www.kctv5.com/2026/05/25/shooting-pleasant-hill-grocery-store-under-investigation/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-25-potomac-cvs-pharmacy-tuckerman-safe-robbery",
+      "date": "May 25, 2026",
+      "method": "Armed Robbery",
+      "region": "Northeast",
+      "city": "Potomac, MD",
+      "retailer": "CVS",
+      "amount": 0,
+      "dollar_display": "Prescription drugs stolen",
+      "headline": "Potomac CVS pharmacy hit at 3:20 a.m. -- two armed men force four into restroom, clean two safes",
+      "summary": "Montgomery County PD says two masked men with handguns forced three employees and one customer into a restroom, took their cellphones, then ordered the pharmacist to open two safes and walked out with prescription medications from the Tuckerman Lane store. Suspects later identified as Jude and Whitaker.",
+      "sources": [
+        {
+          "name": "ABC 7 WJLA",
+          "url": "https://wjla.com/news/local/potomac-montgomery-county-maryland-cvs-pharmacy-armed-robbery-crime-shakir-jude-justin-whitaker-tuckerman-lane-alexandria-virginia-gun-charges"
+        },
+        {
+          "name": "Montgomery County PD",
+          "url": "https://www2.montgomerycountymd.gov/mcgportalapps/Press_Detail.aspx?Item_ID=47555"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-24-mesa-az-target-stinson-shooting",
+      "date": "May 24, 2026",
+      "method": "Workplace Violence",
+      "region": "West",
+      "city": "Mesa, AZ",
+      "retailer": "Target",
+      "amount": 0,
+      "dollar_display": "1 critical",
+      "headline": "Mesa Target shooting leaves victim critical, suspect Dylan Stinson booked",
+      "summary": "Mesa PD responded to the Target at 1525 S. Power Road just before 8 p.m. Sunday after two men exchanged gunfire inside the store. Dylan Stinson, 21, was booked on aggravated assault and unlawful discharge charges. The victim remains in critical but stable condition and police say the two were not connected.",
+      "sources": [
+        {
+          "name": "AZFamily",
+          "url": "https://www.azfamily.com/2026/05/25/1-hospitalized-shooting-inside-mesa-target/"
+        },
+        {
+          "name": "Fox 10 Phoenix",
+          "url": "https://www.fox10phoenix.com/news/shooting-mesa-target-leaves-least-1-hurt"
+        },
+        {
+          "name": "KTAR",
+          "url": "https://ktar.com/arizona-news/target-shooting-mesa/5871001/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-23-bryan-tx-walgreens-pharmacy-lpr-arrest",
+      "date": "May 23, 2026",
+      "method": "Armed Robbery",
+      "region": "South",
+      "city": "Bryan, TX",
+      "retailer": "Walgreens",
+      "amount": 0,
+      "dollar_display": "3 arrested via LPR",
+      "headline": "Bryan PD uses LPR to grab three Walgreens pharmacy robbery suspects after 3 a.m. hit",
+      "summary": "Bryan Police responded to a robbery at the Walgreens on E. 29th Street at 3:11 a.m. Thursday and used license plate reader hits to track the getaway car. Noel McCall, 19, Jayshawn Love, 22, and Andrevious Ramsey, 19, were arrested on foot after a vehicle chase.",
+      "sources": [
+        {
+          "name": "KCEN",
+          "url": "https://www.kcentv.com/article/news/local/bryan-police-arrest-three-suspects-walgreens-pharmacy-robbery/500-56cf7937-a078-482f-8178-8d4a8bdef56f"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-23-lexington-sc-7-eleven-platt-springs-shooting",
+      "date": "May 23, 2026",
+      "method": "Workplace Violence",
+      "region": "Southeast",
+      "city": "Lexington, SC",
+      "retailer": "7-Eleven",
+      "amount": 0,
+      "dollar_display": "1 hospitalized",
+      "headline": "Lexington County deputies still working overnight shooting at Platt Springs Road 7-Eleven",
+      "summary": "Lexington County Sheriff deputies responded to a late-night shooting at the 7-Eleven in the 5100 block of Platt Springs Road and found one man with an upper-body gunshot wound. He was transported for treatment. No suspect description has been released and tips are going to Midlands CrimeStoppers.",
+      "sources": [
+        {
+          "name": "WIS",
+          "url": "https://www.wistv.com/2026/05/23/1-hurt-after-shooting-lexington-county-convenience-store/"
+        },
+        {
+          "name": "WACH",
+          "url": "https://wach.com/news/local/2026-05-23-man-injured-in-overnight-convenience-store-shooting-sheriff-says-platt-springs-road-crime-investigation"
+        },
+        {
+          "name": "ABC Columbia",
+          "url": "https://www.abccolumbia.com/2026/05/24/lexington-pd-continues-search-for-shooter-at-local-7-11-convenience-store/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-22-lincoln-county-wv-shell-attempted-robbery",
+      "date": "May 22, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Lincoln County, WV",
+      "retailer": "Shell",
+      "amount": 0,
+      "dollar_display": "Shot fired into wall",
+      "headline": "Lincoln County woman in custody after firing inside Shell during attempted robbery",
+      "summary": "West Virginia State Police say Rebecca Peterson, 42, of Oceana approached the counter at the Shell on Little Coal River Road just before 4 a.m. Friday, pointed a firearm at the clerk, and fired a round into the wall. She was charged with attempted armed robbery and wanton endangerment.",
+      "sources": [
+        {
+          "name": "WCHS",
+          "url": "https://wchstv.com/news/local/woman-in-custody-after-shots-fire-inside-lincoln-county-gas-station-troopers-say"
+        }
+      ]
+    },
     {
       "id": "2026-05-21-san-antonio-home-depot-fake-receipt-trio",
       "date": "May 21, 2026",
