@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-26T18:23:23Z",
+  "generated_at": "2026-05-27T11:39:26Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,20 +21,20 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Memorial Day quieted the earnings calls. It did not quiet the parking lots.",
-    "body": "Two retail shootings inside 24 hours frame a long weekend that ended with arrests at both stores. A 27-year-old shooter named Allen Prince killed a customer and wounded a teenage Price Chopper stocker in Pleasant Hill on Memorial Day, with two armed shoppers cornering him before he turned the rifle on himself. The day before, a 21-year-old fired inside the Mesa Target on Power Road. Two masked men with handguns cleared two safes inside a Potomac CVS at 3:20 a.m. Monday. CargoNet ran its standard Memorial Day advisory through May 27 as organized crews keep moving toward fewer, larger loads. Store-front violence and dock-side strategic theft are the same week of news.",
+    "headline": "Customers are doing the closing work and the arrests photograph fine. The follow-through is the part nobody publishes.",
+    "body": "Two civilian-intervention stories defined the week. Two armed shoppers cornered Allen Prince in the Pleasant Hill Price Chopper lot on Memorial Day after he killed Amy Coon and wounded a 16-year-old stocker; court documents say he had threatened to shoot his own family eight months earlier and was released on bond with a no-firearms order. In Lynchburg, witnesses chased down a Walmart purse snatcher and held him for police. On the enforcement side, CHP opened a five-day National Organized Retail Crime Blitz with 90 arrests and $153K recovered on day one, while Sonoma County ran a six-agency ORT sweep with LP teams embedded.",
     "callouts": [
       {
-        "label": "Pharmacy stays hot",
-        "text": "Two armed men forced four people into a restroom and cleared two safes inside a Potomac CVS at 3:20 a.m. Monday. Bryan PD used LPR to put three suspects in cuffs after a 3:11 a.m. Walgreens robbery May 23. The Wesley Bingham CVS arrest in Odessa was eight days before that."
+        "label": "Citizen intervention",
+        "text": "Three of the week's biggest retail incidents ended with shoppers or bystanders neutralizing the threat. The customer-carry debate is national. The store-level question — what is the front-end script when civilians step in — is still being written one parking lot at a time."
       },
       {
-        "label": "LPR did its job twice in 48 hours",
-        "text": "Bryan PD ran license plate readers to track a Walgreens getaway car. Odessa PD used Flock to put Wesley Bingham across the street from the CVS he tried to hit May 17. Lowe's shareholders vote May 29 on whether the board owes them a privacy review on the same camera network."
+        "label": "Pre-incident signals",
+        "text": "Pleasant Hill is now also a bond-conditions story. A September 2025 family threat call, a shotgun in the closet, a no-firearms order, and eight months later he is in a grocery parking lot with a rifle."
       },
       {
-        "label": "CargoNet's Memorial Day window",
-        "text": "Verisk CargoNet's advisory runs through May 27. Total volume is down for the year, but 28 shipments above $1 million are already on the board for 2026. California, Texas, Illinois, Georgia, and Florida absorb most of the holiday theft activity."
+        "label": "Enforcement vs. conviction",
+        "text": "CHP, Sonoma County, Hillsborough Operation D-Fence, and DC Jaws-of-Life ATM indictments all landed in the same window. The number nobody is publishing is what survives intake on the prosecutor's side."
       }
     ]
   },
@@ -49,7 +49,7 @@
       "amount": 0,
       "dollar_display": "Fatal",
       "headline": "Pleasant Hill Price Chopper shooting kills customer, wounds 16-year-old employee on Memorial Day",
-      "summary": "Allen Prince, 27, opened fire in the parking lot at 4:28 p.m., killing Amy Coon, 45, and wounding teen stocker Ayden. Two armed shoppers closed in before Prince turned the rifle on himself; Cass County filed first-degree murder, assault, and armed criminal action counts.",
+      "summary": "Allen Prince, 27, opened fire in the parking lot at 4:28 p.m., killing Amy Coon, 45, and wounding teen stocker Ayden. Court documents unsealed May 26 show Cass County deputies were called to the family home in September 2025 after Prince threatened to shoot a relative and admitted to a shotgun in his closet; he was released on bond with a no-firearms order. Formal charges filed May 26 include first-degree murder.",
       "sources": [
         {
           "name": "KSHB Kansas City",
@@ -62,6 +62,10 @@
         {
           "name": "KCTV5",
           "url": "https://www.kctv5.com/2026/05/25/shooting-pleasant-hill-grocery-store-under-investigation/"
+        },
+        {
+          "name": "KCTV5 court documents",
+          "url": "https://www.kctv5.com/2026/05/26/man-threatened-shoot-family-months-before-pleasant-hill-grocery-store-shooting/"
         }
       ]
     },
@@ -1136,6 +1140,72 @@
         {
           "name": "RedPacket Security",
           "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-california-chp-national-orc-blitz-day1",
+      "date": "May 26, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Statewide, CA",
+      "retailer": "Multiple major retailers",
+      "amount": 153000,
+      "dollar_display": "$153K recovered",
+      "headline": "CHP-led National Organized Retail Crime Blitz opens with 90-plus arrests and $153K recovered",
+      "summary": "California Highway Patrol's Organized Retail Crime Task Force teamed with 100-plus law enforcement agencies and major retailers for a coordinated five-day national push running May 26 through May 30. Day-one operations focused on shopping centers, malls, and high-traffic retail corridors statewide, with multiple suspects tied to crews operating beyond California state lines.",
+      "sources": [
+        {
+          "name": "Action News Now",
+          "url": "https://www.actionnewsnow.com/news/more-than-90-people-arrested-153-000-in-stolen-merchandise-recovered-during-chp-retail-theft/article_16e843a3-559f-4011-a028-141d9782bf68.html"
+        },
+        {
+          "name": "CBS 8 San Diego",
+          "url": "https://www.cbs8.com/article/news/local/chp-arrests-90-recovers-153000-during-retail-crime-clampdown/509-870565b8-0e08-4e8c-a25b-e79635364fcf"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-20-sonoma-county-multi-agency-ort-sweep",
+      "date": "May 20, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Sonoma County, CA",
+      "retailer": "Unnamed retailers",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Six-agency Sonoma County ORT sweep books arrests across five cities with LP teams embedded",
+      "summary": "Rohnert Park Department of Public Safety, Sonoma County Sheriff, Windsor PD, Santa Rosa PD, Petaluma PD, and the Sonoma County DA Investigators ran a single-day Organized Retail Theft enforcement operation May 20 alongside retail loss prevention officers. Santa Rosa PD confirmed two arrests with charges pending, and at least one suspect is being held without bail.",
+      "sources": [
+        {
+          "name": "Crime Voice",
+          "url": "https://www.crimevoice.com/2026/05/26/sonoma-county-multi-agency-organized-retail-theft-investigation/"
+        },
+        {
+          "name": "CBS San Francisco",
+          "url": "https://www.cbsnews.com/sanfrancisco/news/santa-rosa-organized-retail-theft-crackdown-multiple-arrests/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-24-lynchburg-va-walmart-parking-lot-purse-snatch",
+      "date": "May 24, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Lynchburg, VA",
+      "retailer": "Walmart",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Bystanders restrain Lynchburg Walmart purse snatcher until LPD arrives",
+      "summary": "Anthony Alexander Heath Hamilton, 21, grabbed a woman by the arms and stole her purse in the Walmart parking lot at 3227 Old Forest Road just before 11:23 a.m. Sunday. Witnesses chased him down on foot and held him until officers arrived. Property recovered, Hamilton booked into Blue Ridge Regional Jail without bond on robbery, grand larceny, and credit-card theft counts.",
+      "sources": [
+        {
+          "name": "WSET",
+          "url": "https://wset.com/news/local/lynchburg-virginia-police-arrest-robbery-suspect-after-help-from-citizens-walmart-parking-lot-3227-old-forest-road-may-2026"
+        },
+        {
+          "name": "WDBJ7",
+          "url": "https://www.wdbj7.com/2026/05/25/residents-restrain-lynchburg-robber-after-purse-snatching/"
         }
       ]
     }
