@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-27T11:39:26Z",
+  "generated_at": "2026-05-28T12:14:35Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,20 +21,20 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Customers are doing the closing work and the arrests photograph fine. The follow-through is the part nobody publishes.",
-    "body": "Two civilian-intervention stories defined the week. Two armed shoppers cornered Allen Prince in the Pleasant Hill Price Chopper lot on Memorial Day after he killed Amy Coon and wounded a 16-year-old stocker; court documents say he had threatened to shoot his own family eight months earlier and was released on bond with a no-firearms order. In Lynchburg, witnesses chased down a Walmart purse snatcher and held him for police. On the enforcement side, CHP opened a five-day National Organized Retail Crime Blitz with 90 arrests and $153K recovered on day one, while Sonoma County ran a six-agency ORT sweep with LP teams embedded.",
+    "headline": "The shoplifting call is the new flashpoint and the parking-lot camera is the new political fight.",
+    "body": "Three parking-lot stories defined the week and each one started as a routine retail call. Cobb County officers shot and killed 25-year-old Cortez Eatmon Wednesday afternoon at Town Center at Cobb after he ran from a shoplifting call and pulled a handgun. Allen Prince was formally charged with first-degree murder Tuesday in the Pleasant Hill Price Chopper Memorial Day shooting that killed Amy Coon and wounded a 16-year-old stocker; the court revoked his bond after he violated conditions from a September 2025 family-threat case. On the tech side, nine Connecticut lawmakers sent Marvin Ellison and Ed Decker an eight-question letter on Lowe's and Home Depot parking-lot ALPRs. And 7-Eleven confirmed 185,000 people are affected in the ShinyHunters franchisee data theft.",
     "callouts": [
       {
-        "label": "Citizen intervention",
-        "text": "Three of the week's biggest retail incidents ended with shoppers or bystanders neutralizing the threat. The customer-carry debate is national. The store-level question — what is the front-end script when civilians step in — is still being written one parking lot at a time."
+        "label": "Shoplifting flashpoint",
+        "text": "Cobb County, Pleasant Hill, and the Las Vegas Smith's reopening all anchored the same beat in one week. Three deaths, all started as routine retail business. The corporate engagement script is overdue for a rewrite that does not just say call 911 and step back."
       },
       {
-        "label": "Pre-incident signals",
-        "text": "Pleasant Hill is now also a bond-conditions story. A September 2025 family threat call, a shotgun in the closet, a no-firearms order, and eight months later he is in a grocery parking lot with a rifle."
+        "label": "ALPR politics",
+        "text": "Connecticut's Senate President plus eight colleagues put Lowe's and Home Depot CEOs on the clock to explain how Flock-supplied parking-lot license plate readers store and share data. The state public-agency ALPR law does not cover private retailers yet. That gap is now a political problem retailers will have to staff for."
       },
       {
-        "label": "Enforcement vs. conviction",
-        "text": "CHP, Sonoma County, Hillsborough Operation D-Fence, and DC Jaws-of-Life ATM indictments all landed in the same window. The number nobody is publishing is what survives intake on the prosecutor's side."
+        "label": "Cyber follow-through",
+        "text": "7-Eleven moved from ShinyHunters allegation to formal notification with a 185,000-person headcount on franchisee names, addresses, Social Security numbers, and driver's licenses. The recruiting and franchise-development side of the org owns this conversation as much as IT does."
       }
     ]
   },
@@ -375,27 +375,31 @@
     },
     {
       "id": "2026-05-18-7-eleven-shinyhunters-salesforce-confirmation",
-      "date": "May 18, 2026",
+      "date": "May 26, 2026",
       "method": "Cyber",
       "region": "South",
       "city": "Irving, TX",
       "retailer": "7-Eleven",
       "amount": 0,
-      "dollar_display": "600,000 records exposed",
-      "headline": "7-Eleven confirms ShinyHunters breach, 600,000 franchisee Salesforce records on the line",
-      "summary": "7-Eleven started mailing notification letters disclosing an April 8 intrusion into the system that holds franchisee documents, SecurityWeek reported May 18. ShinyHunters listed the chain on its leak site April 17 alongside Zara, Carnival, Mytheresa, and Udemy in a broader Salesforce-linked extortion wave. 7-Eleven has only confirmed two Maine residents notified so far.",
+      "dollar_display": "185,000 affected",
+      "headline": "7-Eleven confirms 185,000 affected in ShinyHunters franchisee data theft",
+      "summary": "7-Eleven filed formal breach notification letters Tuesday confirming names, addresses, Social Security numbers, and driver licenses were taken from current, former, and prospective franchisees during an April 8 intrusion. ShinyHunters leaked a 9.4GB archive on its dark web extortion site after the chain refused to pay. 7-Eleven is offering 24 months of IDX identity-theft protection.",
       "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/05/26/7-eleven-data-breach-shinyhunters/"
+        },
         {
           "name": "SecurityWeek",
           "url": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/"
         },
         {
-          "name": "Security Affairs",
-          "url": "https://securityaffairs.com/192336/data-breach/shinyhunters-hack-7-eleven-franchisee-data-and-salesforce-records-exposed.html"
-        },
-        {
-          "name": "HackRead",
-          "url": "https://hackread.com/shinyhunters-leak-udemy-zara-7-eleven-data-breach/"
+          "name": "The Record",
+          "url": "https://therecord.media/7-eleven-reports-data-breach-shinyhunters"
         }
       ]
     },
@@ -1206,6 +1210,66 @@
         {
           "name": "WDBJ7",
           "url": "https://www.wdbj7.com/2026/05/25/residents-restrain-lynchburg-robber-after-purse-snatching/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-27-kennesaw-ga-town-center-mall-eatmon-officer-involved",
+      "date": "May 27, 2026",
+      "method": "Officer-Involved",
+      "region": "Southeast",
+      "city": "Kennesaw, GA",
+      "retailer": "Town Center at Cobb",
+      "amount": 0,
+      "dollar_display": "Fatal",
+      "headline": "Cobb officer fatally shoots armed shoplifting suspect at Town Center at Cobb",
+      "summary": "Cobb County uniformed patrol officers responded to a shoplifting in progress at Town Center at Cobb around 2 p.m. Wednesday. An officer approached 25-year-old Cortez Eatmon of Alabama in the parking lot, Eatmon ran, then pulled a handgun. The officer fired and Eatmon was pronounced dead at the hospital. No officers were hurt. The Georgia Bureau of Investigation has the case.",
+      "sources": [
+        {
+          "name": "AJC",
+          "url": "https://www.ajc.com/news/2026/05/officer-involved-shooting-investigation-underway-at-town-center-at-cobb-police-say/"
+        },
+        {
+          "name": "WSB-TV",
+          "url": "https://www.wsbtv.com/news/local/cobb-county/officer-involved-shooting-under-investigation-near-town-center-mall/JK65EUBMTNGHTIOEI3GVKIROBI/"
+        },
+        {
+          "name": "11Alive",
+          "url": "https://www.11alive.com/article/news/local/officer-involved-shooting-prompts-heavy-police-presence-near-town-center-mall/85-9539fd1c-d352-4eed-9f82-41d3c310b87a"
+        },
+        {
+          "name": "Atlanta News First",
+          "url": "https://www.atlantanewsfirst.com/2026/05/27/shooting-involving-officer-reported-near-town-center-mall-cobb-county/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-connecticut-lawmakers-lowes-home-depot-alpr-letter",
+      "date": "May 26, 2026",
+      "method": "ORC",
+      "region": "Northeast",
+      "city": "Hartford, CT",
+      "retailer": "Lowe's, The Home Depot",
+      "amount": 0,
+      "dollar_display": "Policy escalation",
+      "headline": "Nine Connecticut lawmakers press Lowe's, Home Depot CEOs on parking-lot ALPR data",
+      "summary": "Senate President Martin Looney, Majority Leader Bob Duff, and seven colleagues sent letters Tuesday to Marvin Ellison and Edward Decker pressing the chains on how Flock-supplied license plate readers in store parking lots store, share, and retain data. The state's new public-agency ALPR law does not cover private retailers. Lawmakers want it to and gave the CEOs eight questions in writing.",
+      "sources": [
+        {
+          "name": "CT News Junkie",
+          "url": "https://ctnewsjunkie.com/2026/05/26/ct-lawmakers-press-home-depot-lowes-on-license-plate-reader-details/"
+        },
+        {
+          "name": "WFSB",
+          "url": "https://www.wfsb.com/2026/05/26/ct-lawmakers-demanding-answers-home-depot-lowes-license-plate-cameras-data-sharing/"
+        },
+        {
+          "name": "CT Senate Democrats",
+          "url": "https://www.senatedems.ct.gov/senate-house-leaders-press-lowes-home-depot-on-license-plate-readers-2"
+        },
+        {
+          "name": "GovTech",
+          "url": "https://www.govtech.com/policy/connecticut-lawmakers-ask-stores-for-info-on-license-plate-cameras"
         }
       ]
     }
