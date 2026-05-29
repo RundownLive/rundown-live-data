@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-28T12:14:35Z",
+  "generated_at": "2026-05-29T14:48:38Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,154 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "The shoplifting call is the new flashpoint and the parking-lot camera is the new political fight.",
-    "body": "Three parking-lot stories defined the week and each one started as a routine retail call. Cobb County officers shot and killed 25-year-old Cortez Eatmon Wednesday afternoon at Town Center at Cobb after he ran from a shoplifting call and pulled a handgun. Allen Prince was formally charged with first-degree murder Tuesday in the Pleasant Hill Price Chopper Memorial Day shooting that killed Amy Coon and wounded a 16-year-old stocker; the court revoked his bond after he violated conditions from a September 2025 family-threat case. On the tech side, nine Connecticut lawmakers sent Marvin Ellison and Ed Decker an eight-question letter on Lowe's and Home Depot parking-lot ALPRs. And 7-Eleven confirmed 185,000 people are affected in the ShinyHunters franchisee data theft.",
+    "headline": "A quiet wire, but the fight over the federal retail crime bill just got loud",
+    "body": "Slow few days for fresh busts, which makes the noise around CORCA stand out. The bill cleared the House 348-60 and has more than 40 Senate co-sponsors, then the Vera Institute and Dream.org put up half a million dollars to kill it over its DHS and ICE provisions. Meanwhile Florida showed what already works: a single Martin County burglary report grew into a 13-county racketeering case against a hardware-store smash-and-grab ring. The pattern holds. State task forces and aggregation statutes are doing the heavy lifting on ORC right now, while Washington argues over what got bolted onto the federal bill. Watch the Senate calendar and your local case-linking.",
     "callouts": [
       {
-        "label": "Shoplifting flashpoint",
-        "text": "Cobb County, Pleasant Hill, and the Las Vegas Smith's reopening all anchored the same beat in one week. Three deaths, all started as routine retail business. The corporate engagement script is overdue for a rewrite that does not just say call 911 and step back."
+        "label": "Policy",
+        "text": "CORCA passed the House 348-60 but now faces a $500K activist campaign aimed at the Senate. The opposition is about DHS and ICE powers, not the retail merits."
       },
       {
-        "label": "ALPR politics",
-        "text": "Connecticut's Senate President plus eight colleagues put Lowe's and Home Depot CEOs on the clock to explain how Flock-supplied parking-lot license plate readers store and share data. The state public-agency ALPR law does not cover private retailers yet. That gap is now a political problem retailers will have to staff for."
+        "label": "Southeast",
+        "text": "Florida AG charged three in a 13-county hardware-store ring tied to 30-plus cases. Ferguson, Grainger and Sewell Hardware were among the targets; tools were fenced in Miami-Dade."
       },
       {
-        "label": "Cyber follow-through",
-        "text": "7-Eleven moved from ShinyHunters allegation to formal notification with a 185,000-person headcount on franchisee names, addresses, Social Security numbers, and driver's licenses. The recruiting and franchise-development side of the org owns this conversation as much as IT does."
+        "label": "Calendar",
+        "text": "NRF PROTECT runs June 8-10 at the Gaylord Texan in Grapevine, Texas. Expect the AP-as-advisor framing to dominate the main stage."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-28-stuart-fl-hardware-orc",
+      "date": "May 28, 2026",
+      "method": "ORC",
+      "region": "Southeast",
+      "city": "Stuart, FL",
+      "retailer": "Sewell Hardware, Ferguson, Grainger",
+      "amount": 0,
+      "dollar_display": "Hundreds of thousands in losses",
+      "headline": "Florida charges three in 13-county hardware-store smash-and-grab ring",
+      "summary": "Florida AG James Uthmeier charged three men with racketeering for a smash-and-grab ring that hit hardware retailers across 13 counties and resold the tools in Miami-Dade. Martin County detectives linked the crews to more than 30 cases statewide; one suspect remains at large.",
+      "sources": [
+        {
+          "name": "CBS12 / WPEC",
+          "url": "https://cbs12.com/news/local/three-charged-in-organized-retail-theft-scheme-targeting-hardware-stores-across-florida"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-27-kennesaw-ga-town-center-mall-eatmon-officer-involved",
+      "date": "May 27, 2026",
+      "method": "Officer-Involved",
+      "region": "Southeast",
+      "city": "Kennesaw, GA",
+      "retailer": "Town Center at Cobb",
+      "amount": 0,
+      "dollar_display": "Fatal",
+      "headline": "Cobb officer fatally shoots armed shoplifting suspect at Town Center at Cobb",
+      "summary": "Cobb County uniformed patrol officers responded to a shoplifting in progress at Town Center at Cobb around 2 p.m. Wednesday. An officer approached 25-year-old Cortez Eatmon of Alabama in the parking lot, Eatmon ran, then pulled a handgun. The officer fired and Eatmon was pronounced dead at the hospital. No officers were hurt. The Georgia Bureau of Investigation has the case.",
+      "sources": [
+        {
+          "name": "AJC",
+          "url": "https://www.ajc.com/news/2026/05/officer-involved-shooting-investigation-underway-at-town-center-at-cobb-police-say/"
+        },
+        {
+          "name": "WSB-TV",
+          "url": "https://www.wsbtv.com/news/local/cobb-county/officer-involved-shooting-under-investigation-near-town-center-mall/JK65EUBMTNGHTIOEI3GVKIROBI/"
+        },
+        {
+          "name": "11Alive",
+          "url": "https://www.11alive.com/article/news/local/officer-involved-shooting-prompts-heavy-police-presence-near-town-center-mall/85-9539fd1c-d352-4eed-9f82-41d3c310b87a"
+        },
+        {
+          "name": "Atlanta News First",
+          "url": "https://www.atlantanewsfirst.com/2026/05/27/shooting-involving-officer-reported-near-town-center-mall-cobb-county/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-18-7-eleven-shinyhunters-salesforce-confirmation",
+      "date": "May 26, 2026",
+      "method": "Cyber",
+      "region": "South",
+      "city": "Irving, TX",
+      "retailer": "7-Eleven",
+      "amount": 0,
+      "dollar_display": "185,000 affected",
+      "headline": "7-Eleven confirms 185,000 affected in ShinyHunters franchisee data theft",
+      "summary": "7-Eleven filed formal breach notification letters Tuesday confirming names, addresses, Social Security numbers, and driver licenses were taken from current, former, and prospective franchisees during an April 8 intrusion. ShinyHunters leaked a 9.4GB archive on its dark web extortion site after the chain refused to pay. 7-Eleven is offering 24 months of IDX identity-theft protection.",
+      "sources": [
+        {
+          "name": "BleepingComputer",
+          "url": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/"
+        },
+        {
+          "name": "Help Net Security",
+          "url": "https://www.helpnetsecurity.com/2026/05/26/7-eleven-data-breach-shinyhunters/"
+        },
+        {
+          "name": "SecurityWeek",
+          "url": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/"
+        },
+        {
+          "name": "The Record",
+          "url": "https://therecord.media/7-eleven-reports-data-breach-shinyhunters"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-california-chp-national-orc-blitz-day1",
+      "date": "May 26, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Statewide, CA",
+      "retailer": "Multiple major retailers",
+      "amount": 153000,
+      "dollar_display": "$153K recovered",
+      "headline": "CHP-led National Organized Retail Crime Blitz opens with 90-plus arrests and $153K recovered",
+      "summary": "California Highway Patrol's Organized Retail Crime Task Force teamed with 100-plus law enforcement agencies and major retailers for a coordinated five-day national push running May 26 through May 30. Day-one operations focused on shopping centers, malls, and high-traffic retail corridors statewide, with multiple suspects tied to crews operating beyond California state lines.",
+      "sources": [
+        {
+          "name": "Action News Now",
+          "url": "https://www.actionnewsnow.com/news/more-than-90-people-arrested-153-000-in-stolen-merchandise-recovered-during-chp-retail-theft/article_16e843a3-559f-4011-a028-141d9782bf68.html"
+        },
+        {
+          "name": "CBS 8 San Diego",
+          "url": "https://www.cbs8.com/article/news/local/chp-arrests-90-recovers-153000-during-retail-crime-clampdown/509-870565b8-0e08-4e8c-a25b-e79635364fcf"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-26-connecticut-lawmakers-lowes-home-depot-alpr-letter",
+      "date": "May 26, 2026",
+      "method": "ORC",
+      "region": "Northeast",
+      "city": "Hartford, CT",
+      "retailer": "Lowe's, The Home Depot",
+      "amount": 0,
+      "dollar_display": "Policy escalation",
+      "headline": "Nine Connecticut lawmakers press Lowe's, Home Depot CEOs on parking-lot ALPR data",
+      "summary": "Senate President Martin Looney, Majority Leader Bob Duff, and seven colleagues sent letters Tuesday to Marvin Ellison and Edward Decker pressing the chains on how Flock-supplied license plate readers in store parking lots store, share, and retain data. The state's new public-agency ALPR law does not cover private retailers. Lawmakers want it to and gave the CEOs eight questions in writing.",
+      "sources": [
+        {
+          "name": "CT News Junkie",
+          "url": "https://ctnewsjunkie.com/2026/05/26/ct-lawmakers-press-home-depot-lowes-on-license-plate-reader-details/"
+        },
+        {
+          "name": "WFSB",
+          "url": "https://www.wfsb.com/2026/05/26/ct-lawmakers-demanding-answers-home-depot-lowes-license-plate-cameras-data-sharing/"
+        },
+        {
+          "name": "CT Senate Democrats",
+          "url": "https://www.senatedems.ct.gov/senate-house-leaders-press-lowes-home-depot-on-license-plate-readers-2"
+        },
+        {
+          "name": "GovTech",
+          "url": "https://www.govtech.com/policy/connecticut-lawmakers-ask-stores-for-info-on-license-plate-cameras"
+        }
+      ]
+    },
     {
       "id": "2026-05-25-pleasant-hill-mo-price-chopper-memorial-day-fatal",
       "date": "May 25, 2026",
@@ -114,6 +244,28 @@
         {
           "name": "KTAR",
           "url": "https://ktar.com/arizona-news/target-shooting-mesa/5871001/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-24-lynchburg-va-walmart-parking-lot-purse-snatch",
+      "date": "May 24, 2026",
+      "method": "Armed Robbery",
+      "region": "Southeast",
+      "city": "Lynchburg, VA",
+      "retailer": "Walmart",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Bystanders restrain Lynchburg Walmart purse snatcher until LPD arrives",
+      "summary": "Anthony Alexander Heath Hamilton, 21, grabbed a woman by the arms and stole her purse in the Walmart parking lot at 3227 Old Forest Road just before 11:23 a.m. Sunday. Witnesses chased him down on foot and held him until officers arrived. Property recovered, Hamilton booked into Blue Ridge Regional Jail without bond on robbery, grand larceny, and credit-card theft counts.",
+      "sources": [
+        {
+          "name": "WSET",
+          "url": "https://wset.com/news/local/lynchburg-virginia-police-arrest-robbery-suspect-after-help-from-citizens-walmart-parking-lot-3227-old-forest-road-may-2026"
+        },
+        {
+          "name": "WDBJ7",
+          "url": "https://www.wdbj7.com/2026/05/25/residents-restrain-lynchburg-robber-after-purse-snatching/"
         }
       ]
     },
@@ -194,6 +346,28 @@
         {
           "name": "KSAT",
           "url": "https://www.ksat.com/news/local/2026/05/21/3-arrested-for-stealing-more-than-1000-of-home-depot-merchandise-using-fake-receipt-sapd-says/"
+        }
+      ]
+    },
+    {
+      "id": "2026-05-20-sonoma-county-multi-agency-ort-sweep",
+      "date": "May 20, 2026",
+      "method": "ORC",
+      "region": "West",
+      "city": "Sonoma County, CA",
+      "retailer": "Unnamed retailers",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Six-agency Sonoma County ORT sweep books arrests across five cities with LP teams embedded",
+      "summary": "Rohnert Park Department of Public Safety, Sonoma County Sheriff, Windsor PD, Santa Rosa PD, Petaluma PD, and the Sonoma County DA Investigators ran a single-day Organized Retail Theft enforcement operation May 20 alongside retail loss prevention officers. Santa Rosa PD confirmed two arrests with charges pending, and at least one suspect is being held without bail.",
+      "sources": [
+        {
+          "name": "Crime Voice",
+          "url": "https://www.crimevoice.com/2026/05/26/sonoma-county-multi-agency-organized-retail-theft-investigation/"
+        },
+        {
+          "name": "CBS San Francisco",
+          "url": "https://www.cbsnews.com/sanfrancisco/news/santa-rosa-organized-retail-theft-crackdown-multiple-arrests/"
         }
       ]
     },
@@ -370,36 +544,6 @@
         {
           "name": "Valley News / NHPR",
           "url": "https://vnews.com/2026/05/18/stolen-gift-card-apple-fraud/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-18-7-eleven-shinyhunters-salesforce-confirmation",
-      "date": "May 26, 2026",
-      "method": "Cyber",
-      "region": "South",
-      "city": "Irving, TX",
-      "retailer": "7-Eleven",
-      "amount": 0,
-      "dollar_display": "185,000 affected",
-      "headline": "7-Eleven confirms 185,000 affected in ShinyHunters franchisee data theft",
-      "summary": "7-Eleven filed formal breach notification letters Tuesday confirming names, addresses, Social Security numbers, and driver licenses were taken from current, former, and prospective franchisees during an April 8 intrusion. ShinyHunters leaked a 9.4GB archive on its dark web extortion site after the chain refused to pay. 7-Eleven is offering 24 months of IDX identity-theft protection.",
-      "sources": [
-        {
-          "name": "BleepingComputer",
-          "url": "https://www.bleepingcomputer.com/news/security/7-eleven-data-breach-exposes-personal-information-of-185-000-people/"
-        },
-        {
-          "name": "Help Net Security",
-          "url": "https://www.helpnetsecurity.com/2026/05/26/7-eleven-data-breach-shinyhunters/"
-        },
-        {
-          "name": "SecurityWeek",
-          "url": "https://www.securityweek.com/7-eleven-data-breach-confirmed-after-shinyhunters-ransom-demand/"
-        },
-        {
-          "name": "The Record",
-          "url": "https://therecord.media/7-eleven-reports-data-breach-shinyhunters"
         }
       ]
     },
@@ -1144,132 +1288,6 @@
         {
           "name": "RedPacket Security",
           "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-26-california-chp-national-orc-blitz-day1",
-      "date": "May 26, 2026",
-      "method": "ORC",
-      "region": "West",
-      "city": "Statewide, CA",
-      "retailer": "Multiple major retailers",
-      "amount": 153000,
-      "dollar_display": "$153K recovered",
-      "headline": "CHP-led National Organized Retail Crime Blitz opens with 90-plus arrests and $153K recovered",
-      "summary": "California Highway Patrol's Organized Retail Crime Task Force teamed with 100-plus law enforcement agencies and major retailers for a coordinated five-day national push running May 26 through May 30. Day-one operations focused on shopping centers, malls, and high-traffic retail corridors statewide, with multiple suspects tied to crews operating beyond California state lines.",
-      "sources": [
-        {
-          "name": "Action News Now",
-          "url": "https://www.actionnewsnow.com/news/more-than-90-people-arrested-153-000-in-stolen-merchandise-recovered-during-chp-retail-theft/article_16e843a3-559f-4011-a028-141d9782bf68.html"
-        },
-        {
-          "name": "CBS 8 San Diego",
-          "url": "https://www.cbs8.com/article/news/local/chp-arrests-90-recovers-153000-during-retail-crime-clampdown/509-870565b8-0e08-4e8c-a25b-e79635364fcf"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-20-sonoma-county-multi-agency-ort-sweep",
-      "date": "May 20, 2026",
-      "method": "ORC",
-      "region": "West",
-      "city": "Sonoma County, CA",
-      "retailer": "Unnamed retailers",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Six-agency Sonoma County ORT sweep books arrests across five cities with LP teams embedded",
-      "summary": "Rohnert Park Department of Public Safety, Sonoma County Sheriff, Windsor PD, Santa Rosa PD, Petaluma PD, and the Sonoma County DA Investigators ran a single-day Organized Retail Theft enforcement operation May 20 alongside retail loss prevention officers. Santa Rosa PD confirmed two arrests with charges pending, and at least one suspect is being held without bail.",
-      "sources": [
-        {
-          "name": "Crime Voice",
-          "url": "https://www.crimevoice.com/2026/05/26/sonoma-county-multi-agency-organized-retail-theft-investigation/"
-        },
-        {
-          "name": "CBS San Francisco",
-          "url": "https://www.cbsnews.com/sanfrancisco/news/santa-rosa-organized-retail-theft-crackdown-multiple-arrests/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-24-lynchburg-va-walmart-parking-lot-purse-snatch",
-      "date": "May 24, 2026",
-      "method": "Armed Robbery",
-      "region": "Southeast",
-      "city": "Lynchburg, VA",
-      "retailer": "Walmart",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Bystanders restrain Lynchburg Walmart purse snatcher until LPD arrives",
-      "summary": "Anthony Alexander Heath Hamilton, 21, grabbed a woman by the arms and stole her purse in the Walmart parking lot at 3227 Old Forest Road just before 11:23 a.m. Sunday. Witnesses chased him down on foot and held him until officers arrived. Property recovered, Hamilton booked into Blue Ridge Regional Jail without bond on robbery, grand larceny, and credit-card theft counts.",
-      "sources": [
-        {
-          "name": "WSET",
-          "url": "https://wset.com/news/local/lynchburg-virginia-police-arrest-robbery-suspect-after-help-from-citizens-walmart-parking-lot-3227-old-forest-road-may-2026"
-        },
-        {
-          "name": "WDBJ7",
-          "url": "https://www.wdbj7.com/2026/05/25/residents-restrain-lynchburg-robber-after-purse-snatching/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-27-kennesaw-ga-town-center-mall-eatmon-officer-involved",
-      "date": "May 27, 2026",
-      "method": "Officer-Involved",
-      "region": "Southeast",
-      "city": "Kennesaw, GA",
-      "retailer": "Town Center at Cobb",
-      "amount": 0,
-      "dollar_display": "Fatal",
-      "headline": "Cobb officer fatally shoots armed shoplifting suspect at Town Center at Cobb",
-      "summary": "Cobb County uniformed patrol officers responded to a shoplifting in progress at Town Center at Cobb around 2 p.m. Wednesday. An officer approached 25-year-old Cortez Eatmon of Alabama in the parking lot, Eatmon ran, then pulled a handgun. The officer fired and Eatmon was pronounced dead at the hospital. No officers were hurt. The Georgia Bureau of Investigation has the case.",
-      "sources": [
-        {
-          "name": "AJC",
-          "url": "https://www.ajc.com/news/2026/05/officer-involved-shooting-investigation-underway-at-town-center-at-cobb-police-say/"
-        },
-        {
-          "name": "WSB-TV",
-          "url": "https://www.wsbtv.com/news/local/cobb-county/officer-involved-shooting-under-investigation-near-town-center-mall/JK65EUBMTNGHTIOEI3GVKIROBI/"
-        },
-        {
-          "name": "11Alive",
-          "url": "https://www.11alive.com/article/news/local/officer-involved-shooting-prompts-heavy-police-presence-near-town-center-mall/85-9539fd1c-d352-4eed-9f82-41d3c310b87a"
-        },
-        {
-          "name": "Atlanta News First",
-          "url": "https://www.atlantanewsfirst.com/2026/05/27/shooting-involving-officer-reported-near-town-center-mall-cobb-county/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-26-connecticut-lawmakers-lowes-home-depot-alpr-letter",
-      "date": "May 26, 2026",
-      "method": "ORC",
-      "region": "Northeast",
-      "city": "Hartford, CT",
-      "retailer": "Lowe's, The Home Depot",
-      "amount": 0,
-      "dollar_display": "Policy escalation",
-      "headline": "Nine Connecticut lawmakers press Lowe's, Home Depot CEOs on parking-lot ALPR data",
-      "summary": "Senate President Martin Looney, Majority Leader Bob Duff, and seven colleagues sent letters Tuesday to Marvin Ellison and Edward Decker pressing the chains on how Flock-supplied license plate readers in store parking lots store, share, and retain data. The state's new public-agency ALPR law does not cover private retailers. Lawmakers want it to and gave the CEOs eight questions in writing.",
-      "sources": [
-        {
-          "name": "CT News Junkie",
-          "url": "https://ctnewsjunkie.com/2026/05/26/ct-lawmakers-press-home-depot-lowes-on-license-plate-reader-details/"
-        },
-        {
-          "name": "WFSB",
-          "url": "https://www.wfsb.com/2026/05/26/ct-lawmakers-demanding-answers-home-depot-lowes-license-plate-cameras-data-sharing/"
-        },
-        {
-          "name": "CT Senate Democrats",
-          "url": "https://www.senatedems.ct.gov/senate-house-leaders-press-lowes-home-depot-on-license-plate-readers-2"
-        },
-        {
-          "name": "GovTech",
-          "url": "https://www.govtech.com/policy/connecticut-lawmakers-ask-stores-for-info-on-license-plate-cameras"
         }
       ]
     }
