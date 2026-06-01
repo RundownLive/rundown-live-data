@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-05-29T14:48:38Z",
+  "generated_at": "2026-06-01T12:56:46Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,42 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "A quiet wire, but the fight over the federal retail crime bill just got loud",
-    "body": "Slow few days for fresh busts, which makes the noise around CORCA stand out. The bill cleared the House 348-60 and has more than 40 Senate co-sponsors, then the Vera Institute and Dream.org put up half a million dollars to kill it over its DHS and ICE provisions. Meanwhile Florida showed what already works: a single Martin County burglary report grew into a 13-county racketeering case against a hardware-store smash-and-grab ring. The pattern holds. State task forces and aggregation statutes are doing the heavy lifting on ORC right now, while Washington argues over what got bolted onto the federal bill. Watch the Senate calendar and your local case-linking.",
+    "headline": "A quiet Monday, but the week behind it was loud",
+    "body": "The wire went quiet over the holiday weekend, but the seven days before it stacked up. Officer-involved shootings at a Mesa Target and a Kennesaw mall, a Memorial Day fatal at a Price Chopper, and a CVS pharmacy safe robbery in Potomac all landed inside one stretch. California CHP ran a national ORC blitz. Connecticut lawmakers leaned on Lowe and Home Depot over license plate readers. Now Cincinnati books a single suspect for a months-long break-in run across four chains. The pattern worth watching is not the big multi-state ring. It is the repeat local offender who hits four banners before anyone connects the dots.",
     "callouts": [
       {
-        "label": "Policy",
-        "text": "CORCA passed the House 348-60 but now faces a $500K activist campaign aimed at the Senate. The opposition is about DHS and ICE powers, not the retail merits."
+        "label": "Officer-involved",
+        "text": "Three retail-adjacent officer-involved shootings in eight days, from a Mesa Target to a Kennesaw mall. Store-perimeter confrontations are turning into use-of-force events fast."
       },
       {
-        "label": "Southeast",
-        "text": "Florida AG charged three in a 13-county hardware-store ring tied to 30-plus cases. Ferguson, Grainger and Sewell Hardware were among the targets; tools were fenced in Miami-Dade."
+        "label": "Pharmacy",
+        "text": "A Potomac CVS safe robbery and continued pharmacy targeting show the back counter is still the prize. Controlled-substance access keeps drawing armed crews."
       },
       {
-        "label": "Calendar",
-        "text": "NRF PROTECT runs June 8-10 at the Gaylord Texan in Grapevine, Texas. Expect the AP-as-advisor framing to dominate the main stage."
+        "label": "Midwest",
+        "text": "Cincinnati one-man, four-banner break-in spree is the small-loss pattern that hides until a detective links it. Cross-retailer data sharing is what closed it."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-31-cincinnati-multistore-break-in-spree",
+      "date": "May 31, 2026",
+      "method": "Smash-and-Grab",
+      "region": "Midwest",
+      "city": "Cincinnati, OH",
+      "retailer": "Family Dollar, Kroger, UDF, Target",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Cincinnati man charged after 3-month break-in spree across Family Dollar, Kroger, UDF and Target",
+      "summary": "Police arrested Shannon Gibson over the weekend, ending a months-long run of overnight break-ins that caused thousands in damage. Gibson faces five counts of breaking and entering and one count of criminal damaging, with Family Dollar, Kroger, UDF and Target among the stores hit.",
+      "sources": [
+        {
+          "name": "Local 12 / WKRC",
+          "url": "https://local12.com/news/local/cincinnati-theft-spree-breaking-entering-robbery-burglary-damages-thousands-damage-family-dollar-kroger-udf-target-money-expensive-steal-attempted-arrest-arrested-gibson"
+        }
+      ]
+    },
     {
       "id": "2026-05-28-stuart-fl-hardware-orc",
       "date": "May 28, 2026",
