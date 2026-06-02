@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:42:43Z",
+  "generated_at": "2026-06-02T12:43:06Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,78 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "A lighter cycle, but the guard at the door is still the one bleeding",
-    "body": "The last seven days kept the pattern that has been building all spring: the violence keeps landing on the lowest-paid person in the building. A security guard took a blade to the neck at an Albuquerque Smith's Monday, days after a Mesa Target shooting and a Kennesaw mall officer-involved shooting. On the enforcement side, license plate readers are doing real work, helping Round Rock charge a jewelry smash-and-grab crew in weeks. That same tech is what Connecticut lawmakers want Lowe's and Home Depot to switch off. CORCA sits in the Senate with 38 AGs behind it. NRF PROTECT opens June 8. Watch the worker-safety conversation get louder in Grapevine.",
+    "headline": "Lighter cycle, but the guard still bled",
+    "body": "Two fresh U.S. incidents cleared the bar today. A security guard took a blade to the neck at an Albuquerque Smith's, and Round Rock police charged two Houston men in a jewelry smash-and-grab that license plate readers helped close. That LPR win sits oddly next to Connecticut lawmakers leaning on Lowe and Home Depot to pull their plate readers. The tool catching crews is the tool legislators want throttled. CORCA is parked in the Senate with 26 cosponsors and 38 state AGs behind it, and NRF PROTECT opens in Grapevine in six days with return fraud and AI on the agenda. The thread to watch is who actually owns store violence when the person bleeding is a contract guard.",
     "callouts": [
       {
-        "label": "Workplace violence",
-        "text": "An Albuquerque grocery guard stabbed in the neck is the latest hit on store-floor security staff. The people hired to absorb risk keep being the ones who actually do."
+        "label": "Same camera, two verdicts",
+        "text": "License plate readers built the Round Rock jewelry case in weeks while Connecticut lawmakers push Lowe and Home Depot to drop ALPR. LP is stuck in a fight it did not start."
       },
       {
-        "label": "LPR",
-        "text": "License plate readers cracked the Round Rock jewelry smash-and-grab in weeks, even as Connecticut lawmakers press Lowe's and Home Depot to pull their ALPR feeds. Same tool, opposite verdicts."
+        "label": "Who owns the risk",
+        "text": "The Albuquerque guard stabbing lands on the lowest-paid person in the store. With NRF PROTECT days away, worker-safety numbers (27% feel unsafe, 11% hit by violence) are worth carrying in."
       },
       {
-        "label": "Policy",
-        "text": "CORCA is parked in the Senate with 26 cosponsors and 38 state AGs. It likely rides a larger package. NRF PROTECT June 8-10 will set the talking points either way."
+        "label": "Policy clock",
+        "text": "CORCA cleared the House 348-60 and now sits in the Senate. Expect it to ride a larger package. The FBI IC3 also flagged carrier-impersonation cargo theft moving from the yard to the inbox."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-06-01-albuquerque-nm-smiths-coors-guard-stabbing",
+      "date": "Jun 1, 2026",
+      "method": "Workplace Violence",
+      "region": "West",
+      "city": "Albuquerque, NM",
+      "retailer": "Smith's (Kroger)",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Security guard knifed in the neck at Albuquerque Smith's, two arrested",
+      "summary": "A security guard at the Smith's on Coors was stabbed in the neck around 3:50 p.m. Monday. Albuquerque police found a man and woman a few blocks away with blood on their clothing and booked both.",
+      "sources": [
+        {
+          "name": "ABQ RAW",
+          "url": "https://abqraw.com/post/stabbing-at-sw-abq-grocery-store-leaves-1-wounded-2-in-custody/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-01-round-rock-tx-marc-robinson-jewelers-smash-grab-charges",
+      "date": "Jun 1, 2026",
+      "method": "Smash-and-Grab",
+      "region": "South",
+      "city": "Round Rock, TX",
+      "retailer": "Marc Robinson Jewelers",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Two Houston men charged in Round Rock Premium Outlets jewelry smash-and-grab",
+      "summary": "Round Rock police charged Jalen Davis, 24, and Leslie Jones II, 25, in the April 21 raid on Marc Robinson Jewelers, where a masked crew smashed cases and grabbed high-value pieces. License plate readers and surveillance tied their vehicles to the scene.",
+      "sources": [
+        {
+          "name": "KWTX",
+          "url": "https://www.kwtx.com/2026/06/01/houston-men-charged-smash-and-grab-robbery-central-texas-jewelry-store/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-01-gates-ny-banks-retail-theft-ring-sentencing",
+      "date": "Jun 1, 2026",
+      "method": "ORC",
+      "region": "Northeast",
+      "city": "Gates, NY",
+      "retailer": "Best Buy, Home Depot, Kohl's, Lowe's, Macy's, Target, Walmart",
+      "amount": 92903,
+      "dollar_display": "$92,903 restitution",
+      "headline": "Gates, NY woman sentenced to 63 months in million-dollar retail theft ring",
+      "summary": "Shabon Banks of Gates, NY was sentenced to 63 months and ordered to pay $92,903 in restitution for her role in a retail theft ring that moved over a million dollars in stolen merchandise. Victims included Best Buy, Home Depot, Kohl's, Lowe's, Macy's, Target, and Walmart.",
+      "sources": [
+        {
+          "name": "DOJ WDNY",
+          "url": "https://www.justice.gov/usao-wdny/pr/gates-woman-sentenced-her-role-retail-theft-ring-involving-over-million-dollars-stolen"
+        }
+      ]
+    },
     {
       "id": "2026-06-01-albuquerque-smiths-guard-stabbing",
       "date": "June 1, 2026",
