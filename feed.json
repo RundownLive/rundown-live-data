@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-01T12:56:46Z",
+  "generated_at": "2026-06-02T12:41:32Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,20 +21,20 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "A quiet Monday, but the week behind it was loud",
-    "body": "The wire went quiet over the holiday weekend, but the seven days before it stacked up. Officer-involved shootings at a Mesa Target and a Kennesaw mall, a Memorial Day fatal at a Price Chopper, and a CVS pharmacy safe robbery in Potomac all landed inside one stretch. California CHP ran a national ORC blitz. Connecticut lawmakers leaned on Lowe and Home Depot over license plate readers. Now Cincinnati books a single suspect for a months-long break-in run across four chains. The pattern worth watching is not the big multi-state ring. It is the repeat local offender who hits four banners before anyone connects the dots.",
+    "headline": "Quiet 24 hours after a loud week",
+    "body": "Nothing new broke overnight. The last seven days carried the weight: a Cincinnati run where one suspect hit Family Dollar, Kroger, UDF, and Target before a detective connected the dots, a Stuart hardware ORC case, and the Kennesaw mall officer-involved shooting that is still with the GBI. The board sat still today, and that is fine. Worth watching is not a single big ring but the repeat local offender who works four banners before anyone links the receipts, and the perimeter confrontations that keep turning into use-of-force events. Earnings season had four big chains telling investors shrink is down, while the reporting says operational loss, not theft, is the real margin leak.",
     "callouts": [
       {
+        "label": "One-man, four-banner",
+        "text": "Cincinnati's single-suspect break-in run across Family Dollar, Kroger, UDF, and Target is the small-loss pattern that hides until someone shares data across chains. That is what closed it."
+      },
+      {
         "label": "Officer-involved",
-        "text": "Three retail-adjacent officer-involved shootings in eight days, from a Mesa Target to a Kennesaw mall. Store-perimeter confrontations are turning into use-of-force events fast."
+        "text": "Kennesaw's Town Center shooting stays under GBI review. A shoplifting call ending in a parking-lot fatality is the third retail-perimeter use-of-force event in just over a week."
       },
       {
-        "label": "Pharmacy",
-        "text": "A Potomac CVS safe robbery and continued pharmacy targeting show the back counter is still the prize. Controlled-substance access keeps drawing armed crews."
-      },
-      {
-        "label": "Midwest",
-        "text": "Cincinnati one-man, four-banner break-in spree is the small-loss pattern that hides until a detective links it. Cross-retailer data sharing is what closed it."
+        "label": "Shrink narrative",
+        "text": "Target, TJX, Kroger, and Dollar General all said shrink is down from pandemic highs. The open question is whether that is less theft or a cleaner definition, and which number AP gets measured on next."
       }
     ]
   },
