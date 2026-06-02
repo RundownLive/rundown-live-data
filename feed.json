@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:43:06Z",
+  "generated_at": "2026-06-02T12:45:17Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -41,7 +41,7 @@
   "incidents": [
     {
       "id": "2026-06-01-albuquerque-nm-smiths-coors-guard-stabbing",
-      "date": "Jun 1, 2026",
+      "date": "June 1, 2026",
       "method": "Workplace Violence",
       "region": "West",
       "city": "Albuquerque, NM",
@@ -59,7 +59,7 @@
     },
     {
       "id": "2026-06-01-round-rock-tx-marc-robinson-jewelers-smash-grab-charges",
-      "date": "Jun 1, 2026",
+      "date": "June 1, 2026",
       "method": "Smash-and-Grab",
       "region": "South",
       "city": "Round Rock, TX",
@@ -77,7 +77,7 @@
     },
     {
       "id": "2026-06-01-gates-ny-banks-retail-theft-ring-sentencing",
-      "date": "Jun 1, 2026",
+      "date": "June 1, 2026",
       "method": "ORC",
       "region": "Northeast",
       "city": "Gates, NY",
@@ -90,42 +90,6 @@
         {
           "name": "DOJ WDNY",
           "url": "https://www.justice.gov/usao-wdny/pr/gates-woman-sentenced-her-role-retail-theft-ring-involving-over-million-dollars-stolen"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-01-albuquerque-smiths-guard-stabbing",
-      "date": "June 1, 2026",
-      "method": "Workplace Violence",
-      "region": "West",
-      "city": "Albuquerque, NM",
-      "retailer": "Smith's (Kroger)",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Security guard knifed in the neck at an Albuquerque Smith's, two arrested",
-      "summary": "A security guard was stabbed in the neck around 3:50 p.m. Monday at the Smith's on Coors Boulevard and was rushed to a hospital. Albuquerque police found a man and a woman a few blocks away with blood on their clothing and took both into custody.",
-      "sources": [
-        {
-          "name": "ABQ RAW",
-          "url": "https://abqraw.com/post/stabbing-at-sw-abq-grocery-store-leaves-1-wounded-2-in-custody/"
-        }
-      ]
-    },
-    {
-      "id": "2026-06-01-round-rock-tx-marc-robinson-jewelers-smash-grab",
-      "date": "June 1, 2026",
-      "method": "Smash-and-Grab",
-      "region": "South",
-      "city": "Round Rock, TX",
-      "retailer": "Marc Robinson Jewelers",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Two Houston men charged in Round Rock Premium Outlets jewelry smash-and-grab",
-      "summary": "Round Rock police charged Jalen Javon Davis, 24, and Leslie La Vun Jones II, 25, in the April 21 raid on Marc Robinson Jewelers, where a masked crew smashed display cases and grabbed high-value pieces. License plate readers, surveillance and witness statements tied their vehicles to the scene, and investigators say more arrests are expected.",
-      "sources": [
-        {
-          "name": "KWTX",
-          "url": "https://www.kwtx.com/2026/06/01/houston-men-charged-smash-and-grab-robbery-central-texas-jewelry-store/"
         }
       ]
     },
