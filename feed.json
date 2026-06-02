@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:41:32Z",
+  "generated_at": "2026-06-02T12:42:43Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,60 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Quiet 24 hours after a loud week",
-    "body": "Nothing new broke overnight. The last seven days carried the weight: a Cincinnati run where one suspect hit Family Dollar, Kroger, UDF, and Target before a detective connected the dots, a Stuart hardware ORC case, and the Kennesaw mall officer-involved shooting that is still with the GBI. The board sat still today, and that is fine. Worth watching is not a single big ring but the repeat local offender who works four banners before anyone links the receipts, and the perimeter confrontations that keep turning into use-of-force events. Earnings season had four big chains telling investors shrink is down, while the reporting says operational loss, not theft, is the real margin leak.",
+    "headline": "A lighter cycle, but the guard at the door is still the one bleeding",
+    "body": "The last seven days kept the pattern that has been building all spring: the violence keeps landing on the lowest-paid person in the building. A security guard took a blade to the neck at an Albuquerque Smith's Monday, days after a Mesa Target shooting and a Kennesaw mall officer-involved shooting. On the enforcement side, license plate readers are doing real work, helping Round Rock charge a jewelry smash-and-grab crew in weeks. That same tech is what Connecticut lawmakers want Lowe's and Home Depot to switch off. CORCA sits in the Senate with 38 AGs behind it. NRF PROTECT opens June 8. Watch the worker-safety conversation get louder in Grapevine.",
     "callouts": [
       {
-        "label": "One-man, four-banner",
-        "text": "Cincinnati's single-suspect break-in run across Family Dollar, Kroger, UDF, and Target is the small-loss pattern that hides until someone shares data across chains. That is what closed it."
+        "label": "Workplace violence",
+        "text": "An Albuquerque grocery guard stabbed in the neck is the latest hit on store-floor security staff. The people hired to absorb risk keep being the ones who actually do."
       },
       {
-        "label": "Officer-involved",
-        "text": "Kennesaw's Town Center shooting stays under GBI review. A shoplifting call ending in a parking-lot fatality is the third retail-perimeter use-of-force event in just over a week."
+        "label": "LPR",
+        "text": "License plate readers cracked the Round Rock jewelry smash-and-grab in weeks, even as Connecticut lawmakers press Lowe's and Home Depot to pull their ALPR feeds. Same tool, opposite verdicts."
       },
       {
-        "label": "Shrink narrative",
-        "text": "Target, TJX, Kroger, and Dollar General all said shrink is down from pandemic highs. The open question is whether that is less theft or a cleaner definition, and which number AP gets measured on next."
+        "label": "Policy",
+        "text": "CORCA is parked in the Senate with 26 cosponsors and 38 state AGs. It likely rides a larger package. NRF PROTECT June 8-10 will set the talking points either way."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-06-01-albuquerque-smiths-guard-stabbing",
+      "date": "June 1, 2026",
+      "method": "Workplace Violence",
+      "region": "West",
+      "city": "Albuquerque, NM",
+      "retailer": "Smith's (Kroger)",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Security guard knifed in the neck at an Albuquerque Smith's, two arrested",
+      "summary": "A security guard was stabbed in the neck around 3:50 p.m. Monday at the Smith's on Coors Boulevard and was rushed to a hospital. Albuquerque police found a man and a woman a few blocks away with blood on their clothing and took both into custody.",
+      "sources": [
+        {
+          "name": "ABQ RAW",
+          "url": "https://abqraw.com/post/stabbing-at-sw-abq-grocery-store-leaves-1-wounded-2-in-custody/"
+        }
+      ]
+    },
+    {
+      "id": "2026-06-01-round-rock-tx-marc-robinson-jewelers-smash-grab",
+      "date": "June 1, 2026",
+      "method": "Smash-and-Grab",
+      "region": "South",
+      "city": "Round Rock, TX",
+      "retailer": "Marc Robinson Jewelers",
+      "amount": 0,
+      "dollar_display": "",
+      "headline": "Two Houston men charged in Round Rock Premium Outlets jewelry smash-and-grab",
+      "summary": "Round Rock police charged Jalen Javon Davis, 24, and Leslie La Vun Jones II, 25, in the April 21 raid on Marc Robinson Jewelers, where a masked crew smashed display cases and grabbed high-value pieces. License plate readers, surveillance and witness statements tied their vehicles to the scene, and investigators say more arrests are expected.",
+      "sources": [
+        {
+          "name": "KWTX",
+          "url": "https://www.kwtx.com/2026/06/01/houston-men-charged-smash-and-grab-robbery-central-texas-jewelry-store/"
+        }
+      ]
+    },
     {
       "id": "2026-05-31-cincinnati-multistore-break-in-spree",
       "date": "May 31, 2026",
