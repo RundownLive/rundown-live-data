@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-06-02T12:45:17Z",
+  "generated_at": "2026-06-03T18:51:51Z",
   "window_hours": 168,
   "incidents_window_hours": 720,
   "schema_version": "2.1",
@@ -21,24 +21,46 @@
     "Fraud"
   ],
   "brief": {
-    "headline": "Lighter cycle, but the guard still bled",
-    "body": "Two fresh U.S. incidents cleared the bar today. A security guard took a blade to the neck at an Albuquerque Smith's, and Round Rock police charged two Houston men in a jewelry smash-and-grab that license plate readers helped close. That LPR win sits oddly next to Connecticut lawmakers leaning on Lowe and Home Depot to pull their plate readers. The tool catching crews is the tool legislators want throttled. CORCA is parked in the Senate with 26 cosponsors and 38 state AGs behind it, and NRF PROTECT opens in Grapevine in six days with return fraud and AI on the agenda. The thread to watch is who actually owns store violence when the person bleeding is a contract guard.",
+    "headline": "A quiet cycle, and the wins are the boring kind",
+    "body": "Slow news days are not slow crime days, they are days the busts are still being built. Martin County proved it this week, putting names and a $500,000 figure on a hardware-store ring that ran sledgehammers through 40 stores in 13 counties since December and fenced the tools in Miami-Dade. Racketeering charges, not a stack of single-store reports. The other number that mattered came with no perp walk: Dollar Tree said it is bending its shrink curve by standardizing stores. The headlines chase the smash crews. The P&L moves on the work nobody films.",
     "callouts": [
       {
-        "label": "Same camera, two verdicts",
-        "text": "License plate readers built the Round Rock jewelry case in weeks while Connecticut lawmakers push Lowe and Home Depot to drop ALPR. LP is stuck in a fight it did not start."
+        "label": "Florida ORC",
+        "text": "The Martin County hardware case shows the state treating the smash crew and the Miami-Dade fence as one enterprise under RICO. Build your case files to support that charge, not just incident counts."
       },
       {
-        "label": "Who owns the risk",
-        "text": "The Albuquerque guard stabbing lands on the lowest-paid person in the store. With NRF PROTECT days away, worker-safety numbers (27% feel unsafe, 11% hit by violence) are worth carrying in."
+        "label": "Shrink data",
+        "text": "Dollar Tree credited fleet standardization for lower Q1 shrink and a 120-basis-point margin gain. A retailer calling shrink a tailwind is rare enough to note."
       },
       {
-        "label": "Policy clock",
-        "text": "CORCA cleared the House 348-60 and now sits in the Senate. Expect it to ride a larger package. The FBI IC3 also flagged carrier-impersonation cargo theft moving from the yard to the inbox."
+        "label": "Low-tech method",
+        "text": "The hardware crew used a sledgehammer and a clock, in and out before alarms tripped. Independents and trade-supply stores took the hits, not the big boxes."
       }
     ]
   },
   "incidents": [
+    {
+      "id": "2026-05-28-stuart-fl-hardware-orc",
+      "date": "June 2, 2026",
+      "method": "ORC",
+      "region": "Southeast",
+      "city": "Stuart, FL",
+      "retailer": "Sewell Hardware, Ferguson, Grainger",
+      "amount": 500000,
+      "dollar_display": "$500K stolen",
+      "headline": "Martin County names hardware-store smash crew in $500K, 40-store ring",
+      "summary": "Martin County investigators named Johnny Batista, 19, Roberto Hernandez-Castro, 39, and Roberto Aldana-Ferrera, 31, in a racketeering case tied to smash-and-grab burglaries at 40-plus hardware stores across 13 Florida counties since December, with about $500,000 in tools resold in Miami-Dade. A fourth suspect, Maikell Fleitas, is dead and Hernandez-Castro remains at large.",
+      "sources": [
+        {
+          "name": "WPTV",
+          "url": "https://www.wptv.com/news/treasure-coast/region-martin-county/operation-hammer-time-martin-county-sheriffs-office-to-hold-press-conference-on-hardware-store-arrests"
+        },
+        {
+          "name": "CBS12 / WPEC",
+          "url": "https://cbs12.com/news/local/three-charged-in-organized-retail-theft-scheme-targeting-hardware-stores-across-florida"
+        }
+      ]
+    },
     {
       "id": "2026-06-01-albuquerque-nm-smiths-coors-guard-stabbing",
       "date": "June 1, 2026",
@@ -108,24 +130,6 @@
         {
           "name": "Local 12 / WKRC",
           "url": "https://local12.com/news/local/cincinnati-theft-spree-breaking-entering-robbery-burglary-damages-thousands-damage-family-dollar-kroger-udf-target-money-expensive-steal-attempted-arrest-arrested-gibson"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-28-stuart-fl-hardware-orc",
-      "date": "May 28, 2026",
-      "method": "ORC",
-      "region": "Southeast",
-      "city": "Stuart, FL",
-      "retailer": "Sewell Hardware, Ferguson, Grainger",
-      "amount": 0,
-      "dollar_display": "Hundreds of thousands in losses",
-      "headline": "Florida charges three in 13-county hardware-store smash-and-grab ring",
-      "summary": "Florida AG James Uthmeier charged three men with racketeering for a smash-and-grab ring that hit hardware retailers across 13 counties and resold the tools in Miami-Dade. Martin County detectives linked the crews to more than 30 cases statewide; one suspect remains at large.",
-      "sources": [
-        {
-          "name": "CBS12 / WPEC",
-          "url": "https://cbs12.com/news/local/three-charged-in-organized-retail-theft-scheme-targeting-hardware-stores-across-florida"
         }
       ]
     },
@@ -1320,46 +1324,6 @@
         {
           "name": "Block Club Chicago",
           "url": "https://blockclubchicago.org/2026/05/04/with-another-south-side-walgreens-set-to-close-neighbors-protest-corporate-abandonment/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-03-waipahu-hi-town-center-security-assault",
-      "date": "May 3, 2026",
-      "method": "ORC",
-      "region": "West",
-      "city": "Waipahu, HI",
-      "retailer": "Unnamed retailer (Waipahu Town Center)",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Suspects walked merchandise out of Waipahu Town Center store, then assaulted security",
-      "summary": "A man and a woman selected merchandise inside a Waipahu Town Center store at 10:56 a.m. Sunday and walked out without paying. When a security guard confronted them in the parking lot, the male suspect assaulted him and the pair fled east on foot. Honolulu PD released suspect images Tuesday.",
-      "sources": [
-        {
-          "name": "Hawaii News Now",
-          "url": "https://www.hawaiinewsnow.com/2026/05/05/new-video-shows-suspects-waipahu-violent-morning-robbery/"
-        }
-      ]
-    },
-    {
-      "id": "2026-05-03-fiserv-everest-ransomware",
-      "date": "May 3, 2026",
-      "method": "Cyber",
-      "region": "Midwest",
-      "city": "Brookfield, WI",
-      "retailer": "Fiserv",
-      "amount": 0,
-      "dollar_display": "",
-      "headline": "Everest ransomware crew claims Fiserv, the payment plumbing for US retailers",
-      "summary": "Ransomware.live confirmed Fiserv on the Everest leak site May 3. Fiserv runs payment processing, merchant acquiring, and core banking software used by retailers and banks across the country, with no public timeline yet on data exfiltration or ransom demand.",
-      "sources": [
-        {
-          "name": "Ransomware.live",
-          "url": "https://www.ransomware.live/id/RmlzZXJ2QGV2ZXJlc3Q"
-        },
-        {
-          "name": "RedPacket Security",
-          "url": "https://www.redpacketsecurity.com/everest-ransomware-victim-fiserv/"
         }
       ]
     }
